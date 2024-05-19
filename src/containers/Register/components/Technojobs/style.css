@@ -1,0 +1,9 @@
+.Technojobs {
+  color: #fff;
+}
+
+.Technojobs img {
+  height: 55px;
+  display: inline-block;
+  border-radius: 100px;
+}

@@ -1,0 +1,93 @@
+.Activity {
+  margin-top: 35px;
+  word-wrap: break-word;
+}
+
+.Activity-title {
+  font-family: 'Graphik-Semibold';
+  font-size: 17px;
+  line-height: 25px;
+  margin-bottom: 25px;
+  padding: 0 0 0 25px;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  color: #44474c;
+  background-image: url(./assets/activity-ico.svg);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 14px 25px;
+}
+
+.Activity li strong {
+  font-family: 'Graphik-Semibold';
+  font-size: 11px;
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: left;
+  text-transform: uppercase;
+  color: #9498a1;
+}
+
+.Activity li strong em {
+  font-style: normal;
+  position: relative;
+  z-index: 10;
+  display: inline-block;
+  padding: 0 10px 0 0;
+  background-color: #edf4fc;
+}
+
+.Activity li strong:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 1px;
+  content: '';
+  background-color: #9498a1;
+}
+
+.Activity li p {
+  font-size: 14px;
+  margin: 10px 0 10px 50px;
+  color: #44474c;
+}
+
+.Activity li p span.activity-verified {
+  color: #72d471;
+}
+
+.Activity li p span.activity-unverified {
+  color: #7f8daa;
+}
+
+.Activity li p span.activity-pending {
+  color: #e1d65a;
+}
+
+.Activity li p span.activity-rejected {
+  color: #fb7c7c;
+}
+
+.Activity.edit-mode {
+  pointer-events: none;
+  opacity: .5;
+}
+
+.Activity .Activity-pending{
+  color: #DDD050;
+}
+
+.Activity .Activity-unverified {
+  color: #B6C3DF;
+}
+
+.Activity .Activity-rejected {
+  color: #FA7071;
+}
+
+.Activity .Activity-verified {
+  color: #67CD66;
+}

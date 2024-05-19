@@ -1,0 +1,677 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile/components/OverviewBlock when editMode is false renders correctly 1`] = `
+<div
+  className="col-xs-12 col-md-4"
+>
+  <div
+    className="hidden-sm hidden-xs"
+  />
+  <div
+    className="profile-overview "
+  >
+    <p
+      className="profile-block-title"
+    >
+      Overview
+    </p>
+    <ul
+      className="overview-info"
+    >
+      <li>
+        <div
+          className="progress-item progress-67"
+        >
+          <div
+            className="radial-inner-bg"
+          >
+            2/3
+          </div>
+        </div>
+        <span>
+          Education
+        </span>
+      </li>
+      <li>
+        <div
+          className="progress-item progress-33"
+        >
+          <div
+            className="radial-inner-bg"
+          >
+            1/3
+          </div>
+        </div>
+        <span>
+          Work Experience
+        </span>
+      </li>
+      <li>
+        <div
+          className="progress-item progress-50"
+        >
+          <div
+            className="radial-inner-bg"
+          >
+            1/2
+          </div>
+        </div>
+        <span>
+          Awards
+        </span>
+      </li>
+      <li>
+        <div
+          className="progress-item progress-100"
+        >
+          <div
+            className="radial-inner-bg"
+          >
+            3/3
+          </div>
+        </div>
+        <span>
+          CPD
+        </span>
+      </li>
+      <li>
+        <div
+          className="progress-item progress-100"
+        >
+          <div
+            className="radial-inner-bg"
+          >
+            3/3
+          </div>
+        </div>
+        <span>
+          Project
+        </span>
+      </li>
+      <li>
+        <div
+          className="progress-item progress-0"
+        >
+          <div
+            className="radial-inner-bg"
+          >
+            0/0
+          </div>
+        </div>
+        <span>
+          Certificate
+        </span>
+      </li>
+    </ul>
+    <div
+      className="profile-verified-block"
+    >
+      <p>
+        <span>
+          71% verified
+        </span>
+        <i
+          className="tooltip-position-top tooltip-movable tooltip-dark"
+          data-tooltip="10/14 claims verified"
+        />
+      </p>
+      <div
+        className="profile-verified-holder"
+      >
+        <div
+          className="profile-verified-bar"
+          style={
+            Object {
+              "width": "71%",
+            }
+          }
+        >
+           
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="Activity "
+  >
+    <p
+      className="Activity-title"
+    >
+      Activity
+    </p>
+    <ul>
+      <p>
+        No activities yet
+      </p>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`containers/Profile/components/OverviewBlock when editMode is true when name is invalid renders correctly 1`] = `
+<div
+  className="col-xs-12 col-md-4"
+>
+  <div
+    className="hidden-sm hidden-xs"
+  >
+    <div
+      className="profile-overview-edit"
+    >
+      <p
+        className="profile-block-title"
+      >
+        Details
+      </p>
+      <div
+        className="form-group"
+      >
+        <label
+          className="required-error"
+        >
+          First Name
+        </label>
+        <input
+          defaultValue=""
+          name="first_name"
+          onChange={[Function]}
+          type="text"
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className="required-error"
+        >
+          Last Name
+        </label>
+        <input
+          defaultValue=""
+          name="last_name"
+          onChange={[Function]}
+          type="text"
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label>
+          About
+        </label>
+        <textarea
+          name="tagline"
+          onChange={[Function]}
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label>
+          Location
+        </label>
+        <div>
+          <input
+            placeholder="Enter your address"
+          />
+        </div>
+      </div>
+      <div
+        className="form-group"
+      >
+        <label>
+          Twitter
+        </label>
+        <input
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label>
+          Public Email
+        </label>
+        <input
+          defaultValue={undefined}
+          name="public_email"
+          onChange={[Function]}
+          type="text"
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label>
+          Public Telephone
+        </label>
+        <input
+          defaultValue={undefined}
+          name="mobile"
+          onChange={[Function]}
+          type="text"
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label>
+          Date of Birth
+        </label>
+        <DateTimeMock
+          dateFormat="DD/MM/YYYY"
+          name="dob"
+          onChange={[Function]}
+          timeFormat={false}
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="profile-overview edit-mode"
+  >
+    <p
+      className="profile-block-title"
+    >
+      Overview
+    </p>
+    <ul
+      className="overview-info"
+    >
+      <li>
+        <div
+          className="progress-item progress-67"
+        >
+          <div
+            className="radial-inner-bg"
+          >
+            2/3
+          </div>
+        </div>
+        <span>
+          Education
+        </span>
+      </li>
+      <li>
+        <div
+          className="progress-item progress-33"
+        >
+          <div
+            className="radial-inner-bg"
+          >
+            1/3
+          </div>
+        </div>
+        <span>
+          Work Experience
+        </span>
+      </li>
+      <li>
+        <div
+          className="progress-item progress-50"
+        >
+          <div
+            className="radial-inner-bg"
+          >
+            1/2
+          </div>
+        </div>
+        <span>
+          Awards
+        </span>
+      </li>
+      <li>
+        <div
+          className="progress-item progress-100"
+        >
+          <div
+            className="radial-inner-bg"
+          >
+            3/3
+          </div>
+        </div>
+        <span>
+          CPD
+        </span>
+      </li>
+      <li>
+        <div
+          className="progress-item progress-100"
+        >
+          <div
+            className="radial-inner-bg"
+          >
+            3/3
+          </div>
+        </div>
+        <span>
+          Project
+        </span>
+      </li>
+      <li>
+        <div
+          className="progress-item progress-0"
+        >
+          <div
+            className="radial-inner-bg"
+          >
+            0/0
+          </div>
+        </div>
+        <span>
+          Certificate
+        </span>
+      </li>
+    </ul>
+    <div
+      className="profile-verified-block"
+    >
+      <p>
+        <span>
+          71% verified
+        </span>
+        <i
+          className="tooltip-position-top tooltip-movable tooltip-dark"
+          data-tooltip="10/14 claims verified"
+        />
+      </p>
+      <div
+        className="profile-verified-holder"
+      >
+        <div
+          className="profile-verified-bar"
+          style={
+            Object {
+              "width": "71%",
+            }
+          }
+        >
+           
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="Activity edit-mode"
+  >
+    <p
+      className="Activity-title"
+    >
+      Activity
+    </p>
+    <ul>
+      <p>
+        No activities yet
+      </p>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`containers/Profile/components/OverviewBlock when editMode is true when name is valid renders correctly 1`] = `
+<div
+  className="col-xs-12 col-md-4"
+>
+  <div
+    className="hidden-sm hidden-xs"
+  >
+    <div
+      className="profile-overview-edit"
+    >
+      <p
+        className="profile-block-title"
+      >
+        Details
+      </p>
+      <div
+        className="form-group"
+      >
+        <label
+          className=""
+        >
+          First Name
+        </label>
+        <input
+          defaultValue="John"
+          name="first_name"
+          onChange={[Function]}
+          type="text"
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className=""
+        >
+          Last Name
+        </label>
+        <input
+          defaultValue="Doe"
+          name="last_name"
+          onChange={[Function]}
+          type="text"
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label>
+          About
+        </label>
+        <textarea
+          name="tagline"
+          onChange={[Function]}
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label>
+          Location
+        </label>
+        <div>
+          <input
+            placeholder="Enter your address"
+          />
+        </div>
+      </div>
+      <div
+        className="form-group"
+      >
+        <label>
+          Twitter
+        </label>
+        <input
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label>
+          Public Email
+        </label>
+        <input
+          defaultValue="johndoe@appliedblockchain.com"
+          name="public_email"
+          onChange={[Function]}
+          type="text"
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label>
+          Public Telephone
+        </label>
+        <input
+          defaultValue={undefined}
+          name="mobile"
+          onChange={[Function]}
+          type="text"
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label>
+          Date of Birth
+        </label>
+        <DateTimeMock
+          dateFormat="DD/MM/YYYY"
+          name="dob"
+          onChange={[Function]}
+          timeFormat={false}
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="profile-overview edit-mode"
+  >
+    <p
+      className="profile-block-title"
+    >
+      Overview
+    </p>
+    <ul
+      className="overview-info"
+    >
+      <li>
+        <div
+          className="progress-item progress-67"
+        >
+          <div
+            className="radial-inner-bg"
+          >
+            2/3
+          </div>
+        </div>
+        <span>
+          Education
+        </span>
+      </li>
+      <li>
+        <div
+          className="progress-item progress-33"
+        >
+          <div
+            className="radial-inner-bg"
+          >
+            1/3
+          </div>
+        </div>
+        <span>
+          Work Experience
+        </span>
+      </li>
+      <li>
+        <div
+          className="progress-item progress-50"
+        >
+          <div
+            className="radial-inner-bg"
+          >
+            1/2
+          </div>
+        </div>
+        <span>
+          Awards
+        </span>
+      </li>
+      <li>
+        <div
+          className="progress-item progress-100"
+        >
+          <div
+            className="radial-inner-bg"
+          >
+            3/3
+          </div>
+        </div>
+        <span>
+          CPD
+        </span>
+      </li>
+      <li>
+        <div
+          className="progress-item progress-100"
+        >
+          <div
+            className="radial-inner-bg"
+          >
+            3/3
+          </div>
+        </div>
+        <span>
+          Project
+        </span>
+      </li>
+      <li>
+        <div
+          className="progress-item progress-0"
+        >
+          <div
+            className="radial-inner-bg"
+          >
+            0/0
+          </div>
+        </div>
+        <span>
+          Certificate
+        </span>
+      </li>
+    </ul>
+    <div
+      className="profile-verified-block"
+    >
+      <p>
+        <span>
+          71% verified
+        </span>
+        <i
+          className="tooltip-position-top tooltip-movable tooltip-dark"
+          data-tooltip="10/14 claims verified"
+        />
+      </p>
+      <div
+        className="profile-verified-holder"
+      >
+        <div
+          className="profile-verified-bar"
+          style={
+            Object {
+              "width": "71%",
+            }
+          }
+        >
+           
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="Activity edit-mode"
+  >
+    <p
+      className="Activity-title"
+    >
+      Activity
+    </p>
+    <ul>
+      <p>
+        No activities yet
+      </p>
+    </ul>
+  </div>
+</div>
+`;

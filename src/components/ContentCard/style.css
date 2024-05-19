@@ -1,0 +1,67 @@
+.ContentCard-marginTop {
+  margin-top: 40px;
+}
+
+.ContentCard-wrapper {
+  margin-bottom: 20px;
+}
+
+.ContentCard-wrapper {
+  margin: 0 0 30px;
+  padding: 30px;
+  word-wrap: break-word;
+  border: solid 1px #e7e5ee;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.ContentCard-title {
+  font-size: 21px;
+  font-weight: normal;
+  margin: 0 0 25px;
+  color: #202224;
+}
+
+.ContentCard .content-title {
+  font-size: 21px;
+  margin: 0 0 25px;
+  color: #202224;
+}
+
+.ContentCard .content-title-2 {
+  font-size: 16px;
+  margin: 0 0 20px;
+  color: #202224;
+}
+
+.ContentCard .content-title-3 {
+  font-size: 14px;
+  margin: 0 0 16px;
+  color: #202224;
+}
+
+.ContentCard.static-page p {
+  margin-bottom: 25px;
+}
+
+.ContentCard .list-disc {
+  margin-bottom: 25px;
+}
+
+.ContentCard .list-disc li {
+  margin: 0 0 15px 15px;
+  list-style-type: disc;
+}
+
+.ContentCard .list-disc li:last-child {
+  margin: 0 0 0 15px;
+}
+
+.ContentCard .list-disc li ul li {
+  margin: 0 0 15px 15px;
+  list-style-type: circle;
+}
+
+.ContentCard .list-disc li ul {
+  margin-top: 15px;
+}

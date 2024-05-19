@@ -1,0 +1,28 @@
+.RequestConfirmation {
+  box-sizing: border-box;
+  display: block;
+  padding: 30px;
+  font-family: 'Graphik-Regular', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  color: #212224;
+  background-color: #fff;
+
+}
+
+.RequestConfirmation__table {
+  padding-bottom: 3.125rem;
+  border-bottom: 1px solid #e7e5ee;
+ 
+}
+
+.RequestConfirmation__total {
+  color: #7f8daa;
+}
+.table__btn{
+  font-size: small;
+}
+
+.Button__header{
+  display: flex;
+}

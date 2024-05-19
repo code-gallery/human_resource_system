@@ -1,0 +1,42 @@
+.LabeledTextInput {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.LabeledTextInput__txt {
+  display: block;
+  margin-bottom: 6.35px;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Graphik-Regular", sans-serif;
+  color: #44484C;
+}
+
+.LabeledTextInput__input {
+  all: initial;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 13.45px 15px 10.25px 15px;
+  border: 1px solid #E7E5EE;
+  border-radius: 3px;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: "Graphik-Regular", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  color: #212224;
+}
+
+.LabeledTextInput__input:focus {
+  border-color: #7F8DAA;
+}
+
+.LabeledTextInput__input::placeholder {
+  font-size: 17px;
+  line-height: 24px;
+  font-family: "Graphik-Regular", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #7F8DAA;
+}

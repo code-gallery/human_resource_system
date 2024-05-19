@@ -1,0 +1,32 @@
+.PageTitle.container-fluid {
+  padding: 0;
+}
+
+.PageTitle-type1 {
+  font-size: 40px;
+  margin: 65px 0 50px;
+  text-align: center;
+  color: #202224;
+}
+
+.PageTitle-type2 {
+  font-size: 25px;
+  margin: 40px 0 30px;
+  color: #44474c;
+}
+
+.col-xs-12.PageTitle-background {
+  background-image: url(../Profile/HeroBlock/assets/banner-placeholder.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 26px;
+  min-height: 200px;
+  color: #fff;
+}
+
+p.PageTitle-background {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+}

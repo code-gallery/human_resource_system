@@ -1,0 +1,83 @@
+.flex-row {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-col {
+  flex: 1 0 21%; /* explanation below */
+  margin: 6px;
+  padding: 16px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  flex-direction: column;
+  color: black;
+  box-sizing:border-box;
+  flex-basis: calc(50% - 12px);
+}
+.flex-box {
+  float: left;
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 10px;
+}
+.flex-box .link {
+  color: #488df0;
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+.flex-box .CandidateRequestsTable__table {
+  margin-bottom: 0px;
+}
+.flex-box .TableData.assign {
+  overflow: inherit !important;
+}
+.flex-box .Select-value,
+.flex-box .Select-input,
+.flex-box .Select-input .Select-value-label,
+.flex-box .Select-input,
+.flex-box .Select-input > input,
+.flex-box .Select--single > .Select-control .Select-value,
+.flex-box .Select-placeholder {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.flex-box .Select-multi-value-wrapper {
+  width: 40px;
+}
+.flex-box .TableHeading.center-align, .flex-box .TableData.center-align {
+  text-align: center;
+}
+.flex-box .TableHeading.left-align, .flex-box .TableData.left-align {
+  text-align: left;
+}
+.flex-box .Select-menu-outer {
+  width: auto;
+  word-wrap: break-word;
+}
+.flex-box .no-padding {
+  padding: 0;
+}
+.view-all {
+  float: right;
+  margin-top: 10px;
+}
+.activity-header {
+  padding-bottom: 5px;
+  border-bottom: 1px solid lightgray;;
+}
+.red-icon {
+  color: #da1616;
+}
+
+@media (max-width:460px) {
+  .flex-col {
+    flex-basis: 100%;
+  }
+}

@@ -1,0 +1,45 @@
+.LinkedAvatar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.LinkedAvatar__avatar {
+  position: relative;
+  display: block;
+  width: 32.5%;
+  height: 32.5%;
+}
+
+.LinkedAvatar__line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #e7e5ee;
+}
+
+.LinkedAvatar__msg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  display: block;
+  padding: 7px;
+  font-family: 'Graphik-Semibold', sans-serif;
+  font-size: 0.625rem;
+  -webkit-font-smoothing: antialiased; 
+  letter-spacing: 0.0135em;
+  line-height: 1;
+  text-transform: uppercase;
+  border-radius: 3px;
+  user-select: none;
+  color: #fff;
+}

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile/components/.../BaseForm optionRenderer when logo exists renders correct element 1`] = `
+<div
+  className="institution-select"
+>
+  <img
+    alt="CPD1"
+    src="https://appii.s3.eu-west-2.amazonaws.com/organisations/logo_image/12_logo.jpg"
+  />
+  <p>
+    CPD1
+  </p>
+  <span>
+    UK
+  </span>
+</div>
+`;
+
+exports[`containers/Profile/components/.../BaseForm optionRenderer when logo is default renders correct element 1`] = `
+<div
+  className="institution-select"
+>
+  <img
+    alt="CPD1"
+    src="/images/appii-placeholder.png"
+  />
+  <p>
+    CPD1
+  </p>
+  <span>
+    UK
+  </span>
+</div>
+`;

@@ -1,0 +1,386 @@
+body, #root, #root > div, #root > div > div {
+  min-height: 100vh
+}
+
+body.login-page {
+  padding: 0;
+}
+
+body .no-border-bottom {
+  border-bottom: none;
+}
+
+body .relative {
+  position: relative;
+}
+
+/* hide safari auto-fill see APPIIS-70 */
+body input::-webkit-contacts-auto-fill-button {
+  visibility: hidden;
+}
+
+ol.lower-alpha {
+  list-style: lower-alpha;
+  list-style-position: inside;
+}
+
+ol.decimal {
+  list-style: decimal;
+  list-style-position: inside;
+}
+
+body button[disabled] {
+  opacity: 0.8;
+}
+
+body .has-error.message {
+  color: #a94442;
+}
+
+/* delete .has-error style after bootstrap custom is added */
+body .has-error label {
+  color: #a94442;
+}
+/* delete .has-error style after bootstrap custom is added */
+body .has-error input,
+body .has-error textarea {
+  border-color: #a94442;
+}
+
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
+.pagination > li {
+  display: inline;
+}
+
+.pagination > li > a {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  color: #337ab7;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-left: -1px;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active>span:hover {
+  z-index: 3;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+  cursor: default;
+}
+
+.UserContextMenu-avatar {
+  margin: 0 !important;
+}
+
+@media (max-width: 768px) {
+  /* make react-notify-toast responsive */
+  .toast-notification {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .toast-notification span {
+    display: block !important;
+  }
+}
+
+
+/* Override for React Select */
+.Select-placeholder,
+.Select--single > .Select-control .Select-value {
+  line-height: 45px;
+}
+
+.Select-input {
+  height: 45px;
+}
+
+.Select-input > input {
+  line-height: 45px;
+  padding: 0;
+  border: none;
+}
+
+.is-focused:not(.is-open) > .Select-control,
+.is-open > .Select-control {
+  box-shadow: none;
+  border-color: #e7e5ee;
+}
+
+.Select-control {
+  color: #44474c;
+  border: solid 1px #e7e5ee;
+  border-radius: 3px;
+}
+
+.Select-placeholder,
+.Select--single > .Select-control .Select-value {
+  color: #44474c;
+}
+
+.Select-arrow {
+  border-color: #44484c transparent transparent;
+}
+.is-open > .Select-control .Select-arrow {
+  border-color: transparent transparent #44484c;
+}
+
+.Select-clear {
+  color: #44484c;
+}
+
+.Select-menu-outer {
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #e7e5ee;
+  border-top-color: #e7e5ee;
+  box-shadow: 0 4px 4px 0 #e7e5ee;
+}
+.Select-option {
+  color: #44474c;
+  border-bottom: solid 1px #e7e5ee;
+}
+.Select-option.is-focused {
+  background-color: #edf4fc;
+  color: #44474c;
+}
+
+.Select-clear-zone {
+  display: none !important;
+}
+
+.mobile-profile-link {
+  cursor: pointer;
+}
+
+
+/* React-datetime */
+
+.rdt {
+  position: relative;
+}
+
+.rdt > input {
+  border: 1px solid #e7e5ee;
+}
+
+.rdtPicker {
+  display: none;
+  position: absolute;
+  width: 100%;
+  padding: 4px;
+  margin-top: 1px;
+  z-index: 99999 !important;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+  border: 1px solid #f9f9f9;
+}
+.rdtOpen .rdtPicker {
+  display: block;
+}
+.rdtStatic .rdtPicker {
+  box-shadow: none;
+  position: static;
+}
+
+.rdtPicker .rdtTimeToggle {
+  text-align: center;
+}
+
+.rdtPicker table {
+  width: 100%;
+  margin: 0;
+}
+.rdtPicker td,
+.rdtPicker th {
+  text-align: center;
+  height: 28px;
+}
+.rdtPicker td {
+  cursor: pointer;
+}
+.rdtPicker td.rdtToday:hover,
+.rdtPicker td.rdtHour:hover,
+.rdtPicker td.rdtMinute:hover,
+.rdtPicker td.rdtSecond:hover,
+.rdtPicker .rdtTimeToggle:hover {
+  background: #eeeeee;
+  cursor: pointer;
+}
+.rdtPicker td.rdtOld,
+.rdtPicker td.rdtNew {
+  color: #999999;
+}
+.rdtPicker td.rdtToday {
+  position: relative;
+}
+.rdtPicker td.rdtToday:before {
+  content: '';
+  display: inline-block;
+  border-left: 7px solid transparent;
+  border-bottom: 7px solid #428bca;
+  border-top-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+}
+.rdtPicker td.rdtActive,
+.rdtPicker td.rdtActive:hover {
+  background-color: #428bca;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.rdtPicker td.rdtActive.rdtToday:before {
+  border-bottom-color: #fff;
+}
+.rdtPicker td.rdtDisabled,
+.rdtPicker td.rdtDisabled:hover {
+  background: none;
+  color: #999999;
+  cursor: not-allowed;
+}
+
+.rdtPicker td span.rdtOld {
+  color: #999999;
+}
+.rdtPicker td span.rdtDisabled,
+.rdtPicker td span.rdtDisabled:hover {
+  background: none;
+  color: #999999;
+  cursor: not-allowed;
+}
+.rdtPicker th {
+  border-bottom: 1px solid #f9f9f9;
+}
+.rdtPicker .dow {
+  width: 14.2857%;
+  border-bottom: none;
+}
+.rdtPicker th.rdtSwitch {
+  width: 100px;
+}
+.rdtPicker th.rdtNext,
+.rdtPicker th.rdtPrev {
+  font-size: 21px;
+  vertical-align: top;
+}
+
+.rdtPrev span,
+.rdtNext span {
+  display: block;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.rdtPicker th.rdtDisabled,
+.rdtPicker th.rdtDisabled:hover {
+  background: none;
+  color: #999999;
+  cursor: not-allowed;
+}
+.rdtPicker thead tr:first-child th {
+  cursor: pointer;
+}
+.rdtPicker thead tr:first-child th:hover {
+  background: #eeeeee;
+}
+
+.rdtPicker tfoot {
+  border-top: 1px solid #f9f9f9;
+}
+
+.rdtPicker button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.rdtPicker button:hover {
+  background-color: #eee;
+}
+
+.rdtPicker thead button {
+  width: 100%;
+  height: 100%;
+}
+
+td.rdtMonth,
+td.rdtYear {
+  height: 50px;
+  width: 25%;
+  cursor: pointer;
+}
+td.rdtMonth:hover,
+td.rdtYear:hover {
+  background: #eee;
+}
+
+.rdtCounters {
+  display: inline-block;
+}
+
+.rdtCounters > div {
+  float: left;
+}
+
+.rdtCounter {
+  height: 100px;
+}
+
+.rdtCounter {
+  width: 40px;
+}
+
+.rdtCounterSeparator {
+  line-height: 100px;
+}
+
+.rdtCounter .rdtBtn {
+  height: 40%;
+  line-height: 40px;
+  cursor: pointer;
+  display: block;
+  user-select: none;
+}
+.rdtCounter .rdtBtn:hover {
+  background: #eee;
+}
+.rdtCounter .rdtCount {
+  height: 20%;
+  font-size: 1.2em;
+}
+
+.rdtMilli {
+  vertical-align: middle;
+  padding-left: 8px;
+  width: 48px;
+}
+
+.rdtMilli input {
+  width: 100%;
+  font-size: 1.2em;
+  margin-top: 37px;
+}
+
+.rdtDayPart {
+  margin-top: 43px;
+}

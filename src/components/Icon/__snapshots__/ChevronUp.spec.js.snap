@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChevronUp Icon renders correctly 1`] = `
+<svg
+  className=""
+  viewBox="0 0 18 12"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g
+    fill="none"
+    fillRule="evenodd"
+  >
+    <g
+      stroke="#000"
+      strokeWidth="3"
+      transform="translate(-1326 -576)"
+    >
+      <polyline
+        id="Path-3"
+        points="1328 579 1335.7685 586.99 1342.97118 579"
+        transform="rotate(-180 1335.486 582.995)"
+      />
+    </g>
+  </g>
+</svg>
+`;

@@ -1,0 +1,323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Profile/.../ContentProfile when all fields exists when user is not verified renders correctly 1`] = `
+<div>
+  <p
+    className="user-info"
+  >
+    <em
+      className="tooltip-position-bottom tooltip-movable user-not-verified tooltip-error"
+      data-tooltip="Identity not verified"
+    >
+       
+    </em>
+    John
+     
+    Doe
+    <i
+      className="hidden-xs hidden-sm"
+    >
+      London
+      , 
+      UK
+    </i>
+    <span>
+      lorem ipsum
+    </span>
+    <i
+      className="hidden-md hidden-lg"
+    >
+      London
+      , 
+      UK
+    </i>
+  </p>
+  <div
+    className="profile-verified-block hidden-lg hidden-md"
+  >
+    <p>
+      <span>
+        0% verified
+      </span>
+       
+      0/0
+    </p>
+    <div
+      className="profile-verified-holder"
+    >
+      <div
+        className="profile-verified-bar"
+        style={
+          Object {
+            "width": "0%",
+          }
+        }
+      >
+         
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/Profile/.../ContentProfile when all fields exists when user is verified renders correctly 1`] = `
+<div>
+  <p
+    className="user-info"
+  >
+    <em
+      className="tooltip-position-bottom tooltip-movable user-verified tooltip-success"
+      data-tooltip="Identity verified"
+    >
+       
+    </em>
+    John
+     
+    Doe
+    <span
+      className="real-name"
+    >
+      <span
+        className="real-name-label"
+      >
+        Biometric name: 
+      </span>
+      <span>
+        john evan smith
+      </span>
+    </span>
+    <i
+      className="hidden-xs hidden-sm"
+    >
+      London
+      , 
+      UK
+    </i>
+    <span>
+      lorem ipsum
+    </span>
+    <i
+      className="hidden-md hidden-lg"
+    >
+      London
+      , 
+      UK
+    </i>
+  </p>
+  <div
+    className="profile-verified-block hidden-lg hidden-md"
+  >
+    <p>
+      <span>
+        0% verified
+      </span>
+       
+      0/0
+    </p>
+    <div
+      className="profile-verified-holder"
+    >
+      <div
+        className="profile-verified-bar"
+        style={
+          Object {
+            "width": "0%",
+          }
+        }
+      >
+         
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/Profile/.../ContentProfile when biometrics_first_name is null when user is verified renders correctly 1`] = `
+<div>
+  <p
+    className="user-info"
+  >
+    <em
+      className="tooltip-position-bottom tooltip-movable user-verified tooltip-success"
+      data-tooltip="Identity verified"
+    >
+       
+    </em>
+    John
+     
+    Doe
+    <span
+      className="real-name"
+    >
+      <span
+        className="real-name-label"
+      >
+        Biometric name: 
+      </span>
+      <span>
+        john evan smith
+      </span>
+    </span>
+    <i
+      className="hidden-xs hidden-sm"
+    >
+      London
+      , 
+      UK
+    </i>
+    <span>
+      lorem ipsum
+    </span>
+    <i
+      className="hidden-md hidden-lg"
+    >
+      London
+      , 
+      UK
+    </i>
+  </p>
+  <div
+    className="profile-verified-block hidden-lg hidden-md"
+  >
+    <p>
+      <span>
+        0% verified
+      </span>
+       
+      0/0
+    </p>
+    <div
+      className="profile-verified-holder"
+    >
+      <div
+        className="profile-verified-bar"
+        style={
+          Object {
+            "width": "0%",
+          }
+        }
+      >
+         
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/Profile/.../ContentProfile when biometrics_last_name is null when user is verified renders correctly 1`] = `
+<div>
+  <p
+    className="user-info"
+  >
+    <em
+      className="tooltip-position-bottom tooltip-movable user-verified tooltip-success"
+      data-tooltip="Identity verified"
+    >
+       
+    </em>
+    John
+     
+    Doe
+    <span
+      className="real-name"
+    >
+      <span
+        className="real-name-label"
+      >
+        Biometric name: 
+      </span>
+      <span>
+        john evan smith
+      </span>
+    </span>
+    <i
+      className="hidden-xs hidden-sm"
+    >
+      London
+      , 
+      UK
+    </i>
+    <span>
+      lorem ipsum
+    </span>
+    <i
+      className="hidden-md hidden-lg"
+    >
+      London
+      , 
+      UK
+    </i>
+  </p>
+  <div
+    className="profile-verified-block hidden-lg hidden-md"
+  >
+    <p>
+      <span>
+        0% verified
+      </span>
+       
+      0/0
+    </p>
+    <div
+      className="profile-verified-holder"
+    >
+      <div
+        className="profile-verified-bar"
+        style={
+          Object {
+            "width": "0%",
+          }
+        }
+      >
+         
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/Profile/.../ContentProfile when location is empty when user is verified renders correctly 1`] = `
+<div>
+  <p
+    className="user-info"
+  >
+    <em
+      className="tooltip-position-bottom tooltip-movable user-not-verified tooltip-error"
+      data-tooltip="Identity not verified"
+    >
+       
+    </em>
+    John
+     
+    Doe
+    <span>
+      lorem ipsum
+    </span>
+  </p>
+  <div
+    className="profile-verified-block hidden-lg hidden-md"
+  >
+    <p>
+      <span>
+        0% verified
+      </span>
+       
+      0/0
+    </p>
+    <div
+      className="profile-verified-holder"
+    >
+      <div
+        className="profile-verified-bar"
+        style={
+          Object {
+            "width": "0%",
+          }
+        }
+      >
+         
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,58 @@
+.Avatar:before,
+.Avatar:after {
+  display: table;
+  content: ' ';
+}
+
+.Avatar:after {
+  clear: both;
+}
+
+.Avatar img {
+  display: inline;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+}
+
+.Avatar-withLabel img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+.Avatar span {
+  font-size: 14px;
+  display: inline;
+  overflow: hidden;
+  position: relative;
+  top: 5px;
+  color: #44474c;
+}
+
+.Avatar-blue img {
+  border: 2px solid #bfcae3;
+}
+
+.Avatar-size-45 img {
+  width: 45px;
+  height: 45px;
+}
+
+.Avatar-size-109 img {
+  width: 109px;
+  height: 109px;
+}
+
+.Avatar .Avatar-icon-danger {
+  background-image: url(../Profile/ProfileInfo/assets/icon-danger.png);
+  background-repeat: no-repeat;
+  background-size: 22px;
+  width: 22px;
+  height: 22px;
+  top: 21px;
+  right: 16px;
+  display: inline-block;
+  margin: 0;
+  margin-right: -22px;
+}

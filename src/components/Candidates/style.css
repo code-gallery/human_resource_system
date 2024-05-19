@@ -1,0 +1,17 @@
+.Candidates__search-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 34px;
+}
+
+.Candidates__search {
+  position: relative;
+  width: 420px;
+}
+
+.Candidates__loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 57px - 34px);
+}

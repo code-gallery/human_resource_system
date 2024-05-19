@@ -1,0 +1,162 @@
+.CandidatesTable {
+  box-sizing: border-box;
+  display: block;
+  padding: 1.875rem;
+  font-family: 'Graphik-Regular', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  border: 1px solid #e8e5ee;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.CandidatesTable__header {
+  font-size: 1.3125rem;
+  line-height: 1;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 1.875rem;
+}
+
+.CandidatesTable__table {
+  margin-bottom: 3.75rem;
+}
+
+.CandidatesTable__avatar {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.CandidatesTable__table-data {
+  border-bottom: 1px solid #edf4fc;
+  /* padding-bottom: 0.45rem; */
+}
+
+.CandidatesTable__table-data--status {
+  font-family: 'Graphik-Semibold', sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.0325em;
+  text-transform: uppercase;
+  color: #212224;
+}
+
+.CandidatesTable__table-data--view,
+.CandidateRequestsTable__table-data--view-data,
+.UserData__expand {
+  font-family: 'Graphik-Semibold', sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.0325em;
+  text-transform: uppercase;
+  color: #498df0;
+  transition: color 0.2s ease-out;
+}
+
+.CandidatesTable__table-row {
+  cursor: pointer;
+}
+
+.CandidatesTable__table-row:hover .CandidatesTable__table-data--view,
+.CandidateRequestsTable__table-data--view-data:hover {
+  color: #1a51a5;
+}
+.status-amber {
+  color: #FFBF00 !important;
+}
+.status-green {
+  color: #72d371 !important;
+}
+.mobile_font_awesome_div{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.mobile_font_awesome{
+  position: relative;
+  font-size: 16px;
+  padding-right: 5px;
+  top: 1px;
+  color: rgba(90, 90, 90,0.6);
+}
+
+
+
+
+.candidate-heading-container{
+  position: relative;
+  padding-left: 14px;
+}
+
+.candidate-heading-container > img{
+  display: inline;
+  position: absolute;
+  height: 13px;
+  bottom: 2px;
+  margin: auto;
+  left:0;
+}
+
+.candidate-heading-container > span{
+  position: relative;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 13px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.candidaite-dashboard-row .TableData { padding: 0.25rem 0; }
+
+.candidate-heading-app > img{
+  left: 30px;
+}
+.candidate_row_heading .TableHeading{ vertical-align: bottom; }
+.candidate-heading-role{ padding-left: 19px;}
+.candidate-heading-last{ padding-left: 15px;}
+.candidate-heading-name{ padding-left:20px; }
+
+
+.candidate-heading-name{ padding-left:25px; }
+.candidate-heading-name > img{ left: 10px;}
+.candidate-heading-nudge{ padding-left:20px; }
+.candidate-request img, .candidate-officer-name img, .candidate-heading-role img, .candidate-status img, .candidate-heading-app img, .candidate-heading-nudge img, .candidate-name img{ bottom: 0px;}
+.candidate-heading-app{ padding-left: 0; }
+.cand_search{ width: 340px !important;}
+
+/* .candidate_table_layout th {
+  position: sticky;
+  top: -50px;
+  background-color: #fff;
+}
+.candidate-search{
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  background-color: #fff;
+}
+.candidatesTable_search th{
+  position: sticky;
+  top: 200px;
+  width: 100%;
+  background-color: #fff;
+}  */
+
+.delete_can_btn{ font-size: 15px !important; width: 155px !important;}
+
+.CandidatesTable__header_container{
+  display: flex;
+  justify-content: space-between;
+}
+.pagination{ margin-top: 0; margin-bottom: 0;}
+
+
+.css-11unzgr{ max-height: auto !important; overflow: inherit !important; padding-bottom: 0!important;}
+.dropdownBtn{ padding: 6px 15px 8px 0; }
+.dropdownBtn button { 
+   margin-left: 5px;
+}
+.dropdownBtn + div {
+  overflow-y: scroll;
+  max-height: 150px !important;
+}

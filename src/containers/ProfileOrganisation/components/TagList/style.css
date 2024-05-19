@@ -1,0 +1,32 @@
+.TagList {
+  word-wrap: break-word;
+}
+
+.TagList:before,
+.TagList:after {
+  display: table;
+  content: ' ';
+}
+
+.TagList:after {
+  clear: both;
+}
+
+.TagList li {
+  font-size: 15px;
+  line-height: 40px;
+  float: left;
+  height: 40px;
+  margin: 0 5px 10px 0;
+  padding: 0 20px;
+  word-wrap: break-word;
+  color: #44474c;
+  border-radius: 100px;
+  background-color: #e7e5ee;
+  text-transform: capitalize;
+}
+
+.TagList-remove {
+  padding-left: 5px;
+  cursor: pointer;
+}

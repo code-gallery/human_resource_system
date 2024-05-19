@@ -1,0 +1,39 @@
+.AvatarBig {
+  margin: 0 0 40px 0;
+  height: 235px;
+  word-wrap: break-word;
+}
+
+.AvatarBig img {
+  width: 100%;
+  border: solid 2px #edf4fc;
+  border-radius: 100%;
+}
+
+.AvatarBig p {
+  font-size: 15px;
+  margin: 10px 0 0;
+  text-align: center;
+  color: #7f8daa;
+}
+
+.AvatarBig p a {
+  font-size: 16px;
+  text-align: center;
+}
+
+.AvatarBig p span {
+  display: block;
+}
+
+@media (min-width: 767px) {
+  .AvatarBig {
+    height: 280px;
+  }
+}
+
+@media (min-width: 991px) {
+  .AvatarBig {
+    height: 235px;
+  }
+}

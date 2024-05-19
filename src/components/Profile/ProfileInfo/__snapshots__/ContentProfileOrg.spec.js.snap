@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Profile/.../ContentProfileOrg when all fields exists (no admins) renders correctly 1`] = `
+<p>
+  <em
+    className=""
+  >
+     
+  </em>
+  Applied Blockchain
+  <i
+    className="hidden-xs hidden-sm"
+  >
+    London
+    , 
+    UK
+  </i>
+  <span>
+    IT, 11-50 employees, 2015
+  </span>
+  <i
+    className="hidden-md hidden-lg"
+  >
+    London
+    , 
+    UK
+  </i>
+</p>
+`;
+
+exports[`components/Profile/.../ContentProfileOrg when industries is empty (no admins) renders correctly 1`] = `
+<p>
+  <em
+    className=""
+  >
+     
+  </em>
+  Applied Blockchain
+  <i
+    className="hidden-xs hidden-sm"
+  >
+    London
+    , 
+    UK
+  </i>
+  <span>
+    11-50 employees, 2015
+  </span>
+  <i
+    className="hidden-md hidden-lg"
+  >
+    London
+    , 
+    UK
+  </i>
+</p>
+`;
+
+exports[`components/Profile/.../ContentProfileOrg when industries|company_size|year_founded are empty (no admins) renders correctly 1`] = `
+<p>
+  <em
+    className=""
+  >
+     
+  </em>
+  Applied Blockchain
+  <i
+    className="hidden-xs hidden-sm"
+  >
+    London
+    , 
+    UK
+  </i>
+  <i
+    className="hidden-md hidden-lg"
+  >
+    London
+    , 
+    UK
+  </i>
+</p>
+`;
+
+exports[`components/Profile/.../ContentProfileOrg when location is empty (with admins) renders correctly 1`] = `
+<p>
+  <em
+    className="organisations-verified"
+  >
+     
+  </em>
+  Applied Blockchain
+  <span>
+    IT, 11-50 employees, 2015
+  </span>
+</p>
+`;
+
+exports[`components/Profile/.../ContentProfileOrg when year_founded is empty (with admins) renders correctly 1`] = `
+<p>
+  <em
+    className="organisations-verified"
+  >
+     
+  </em>
+  Applied Blockchain
+  <i
+    className="hidden-xs hidden-sm"
+  >
+    London
+    , 
+    UK
+  </i>
+  <span>
+    IT, 11-50 employees
+  </span>
+  <i
+    className="hidden-md hidden-lg"
+  >
+    London
+    , 
+    UK
+  </i>
+</p>
+`;

@@ -1,0 +1,105 @@
+.CheckCard {
+  box-sizing: border-box;
+  position: relative;
+  padding: 22px 29px 29px 29px;
+  -webkit-font-smoothing: antialiased;
+  border: 1px solid #E7E5EE;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.CheckCard__basics {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CheckCard__header {
+  margin: 0;
+  margin-bottom: 6.85px;
+  font-family: "Graphik-Medium", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #212224;
+}
+
+.CheckCard__sub-heading {
+  margin: 0;
+  font-family: "Graphik-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  user-select: none;
+  color: #7F8DAA;
+}
+
+.CheckCard__right-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CheckCard__btn {
+  width: 80px;
+  margin-left: 1rem;
+}
+
+.CheckCard__price {
+  font-size: 13px;
+  line-height: 16px;
+  font-family: "Graphik-Medium", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.055em;
+  color: #7F8DAA;
+}
+
+.CheckCard__radios,
+.CheckCard__options {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.CheckCard__selects {
+  margin-top: 10px;
+  /*display: flex; */
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.CheckCard__opt {
+  margin-bottom:5px;
+}
+
+.CheckCard__options1{
+  margin-top: 10px;
+}
+
+.CheckCard__width {
+  width: 500px;
+}
+
+.CheckCard__select {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.CheckCard__select .LabeledSelectInput__txt {
+  color: #7F8DAA;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+/* .CheckCard__opt.is-last {
+  margin-bottom: 0;
+} */
+
+.LabeledText__option{
+  padding-right:  50px;
+}
+.LabeledText__div{
+  display: inline-flex;
+  margin-top: 10px;
+}

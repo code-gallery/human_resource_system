@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/OrgAdmins/components/AdminItem/AdminItem when props.item and props.deleteAdmin are empty   renders correctly 1`] = `
+<tr
+  className="VerificationItem"
+>
+  <td
+    className="col-xs-12 col-md-4"
+  >
+    <div
+      className="Avatar Avatar-blue Avatar-size-45 Avatar-withLabel"
+    >
+      <img
+        alt="undefined undefined"
+        src="appii-placeholder.png"
+      />
+      <span>
+        undefined undefined
+      </span>
+    </div>
+  </td>
+  <td
+    className="col-xs-12 col-md-4"
+  >
+    <p>
+      No
+    </p>
+  </td>
+  <td
+    className="col-xs-12 col-md-4"
+  >
+    <button
+      className="btn red-btn"
+      data-reject="true"
+      onClick={[Function]}
+    >
+      Remove
+    </button>
+  </td>
+</tr>
+`;
+
+exports[`containers/OrgAdmins/components/AdminItem/AdminItem when props.item and props.deleteAdmin are valid   renders correctly 1`] = `
+<tr
+  className="VerificationItem"
+>
+  <td
+    className="col-xs-12 col-md-4"
+  >
+    <div
+      className="Avatar Avatar-blue Avatar-size-45 Avatar-withLabel"
+    >
+      <img
+        alt="undefined undefined"
+        src="appii-placeholder.png"
+      />
+      <span>
+        undefined undefined
+      </span>
+    </div>
+  </td>
+  <td
+    className="col-xs-12 col-md-4"
+  >
+    <p>
+      Yes
+    </p>
+  </td>
+  <td
+    className="col-xs-12 col-md-4"
+  >
+    <button
+      className="btn red-btn"
+      data-reject="true"
+      onClick={[Function]}
+    >
+      Remove
+    </button>
+  </td>
+</tr>
+`;

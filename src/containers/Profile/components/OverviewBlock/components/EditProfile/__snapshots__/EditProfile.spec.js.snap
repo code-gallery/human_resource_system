@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile/components/.../EditProfile with no validation errors renders correctly 1`] = `
+<div
+  className="profile-overview-edit"
+>
+  <p
+    className="profile-block-title"
+  >
+    Details
+  </p>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+    >
+      First Name
+    </label>
+    <input
+      defaultValue="Jane"
+      name="first_name"
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+    >
+      Last Name
+    </label>
+    <input
+      defaultValue="Doe"
+      name="last_name"
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      About
+    </label>
+    <textarea
+      name="tagline"
+      onChange={[Function]}
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Location
+    </label>
+    <div>
+      <input
+        placeholder="Enter your address"
+      />
+    </div>
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Twitter
+    </label>
+    <input
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Public Email
+    </label>
+    <input
+      defaultValue={undefined}
+      name="public_email"
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Public Telephone
+    </label>
+    <input
+      defaultValue={undefined}
+      name="mobile"
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Date of Birth
+    </label>
+    <DateTimeMock
+      dateFormat="DD/MM/YYYY"
+      name="dob"
+      onChange={[Function]}
+      timeFormat={false}
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`containers/Profile/components/.../EditProfile with validation errors renders correctly 1`] = `
+<div
+  className="profile-overview-edit"
+>
+  <p
+    className="profile-block-title"
+  >
+    Details
+  </p>
+  <div
+    className="form-group"
+  >
+    <label
+      className="required-error"
+    >
+      First Name
+    </label>
+    <input
+      defaultValue=""
+      name="first_name"
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className="required-error"
+    >
+      Last Name
+    </label>
+    <input
+      defaultValue=""
+      name="last_name"
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      About
+    </label>
+    <textarea
+      name="tagline"
+      onChange={[Function]}
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Location
+    </label>
+    <div>
+      <input
+        placeholder="Enter your address"
+      />
+    </div>
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Twitter
+    </label>
+    <input
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Public Email
+    </label>
+    <input
+      defaultValue={undefined}
+      name="public_email"
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Public Telephone
+    </label>
+    <input
+      defaultValue={undefined}
+      name="mobile"
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Date of Birth
+    </label>
+    <DateTimeMock
+      dateFormat="DD/MM/YYYY"
+      name="dob"
+      onChange={[Function]}
+      timeFormat={false}
+      value=""
+    />
+  </div>
+</div>
+`;

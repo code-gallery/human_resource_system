@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContentCard /> when there is a title renders correctly 1`] = `
+<div
+  className="ContentCard col-xs-12 "
+>
+  <div
+    className="ContentCard-wrapper"
+  >
+    <h3
+      className="ContentCard-title"
+    >
+      My page title
+    </h3>
+    <div>
+      Hello World
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ContentCard /> when there is no title renders correctly 1`] = `
+<div
+  className="ContentCard col-xs-12 "
+>
+  <div
+    className="ContentCard-wrapper"
+  >
+    <div>
+      Hello World
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ContentCard /> with props.className renders correctly 1`] = `
+<div
+  className="ContentCard col-xs-12 custom-class"
+>
+  <div
+    className="ContentCard-wrapper"
+  >
+    <div>
+      Hello World
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserAddCard /> Rendering renders correctly 1`] = `
+<section
+  className="UserAddCard"
+>
+  <div
+    className="UserAddCard__avatar"
+  >
+    <img
+      alt="James Carter"
+      className="$Avatar"
+      src="https://collaborativecbt.com/wp-content/uploads/2016/12/default-avatar-768x768.png"
+    />
+  </div>
+  <div
+    className="UserAddCard__text"
+  >
+    <div
+      className="UserAddCard__name"
+    >
+      James Carter
+    </div>
+    <div
+      className="UserAddCard__location"
+    >
+      
+    </div>
+  </div>
+  <button
+    className="UserAddCard__btn is-disabled"
+    disabled={true}
+  >
+    ADDED
+  </button>
+</section>
+`;

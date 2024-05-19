@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NoUserAddCard /> Rendering renders without crashing 1`] = `
+<section
+  className="NoUserAddCard "
+>
+  <div
+    className="NoUserAddCard__txt-area"
+  >
+    <p
+      className="NoUserAddCard__msg"
+    >
+      No results
+    </p>
+    <p
+      className="NoUserAddCard__txt"
+    >
+      Add candidate's email to create a request
+    </p>
+  </div>
+  <form
+    className="NoUserAddCard__right"
+    onSubmit={[Function]}
+  >
+    <input
+      className="NoUserAddCard__input"
+      placeholder="example@domain.com"
+      required={true}
+      type="email"
+    />
+    <button
+      className="NoUserAddCard__btn"
+      type="submit"
+    >
+      ADD
+    </button>
+  </form>
+</section>
+`;

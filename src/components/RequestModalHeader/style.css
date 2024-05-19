@@ -1,0 +1,53 @@
+.RequestModalHeader {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  font-family: 'Graphik-Regular', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  color: #212224;
+  background-color: transparent;
+}
+
+.RequestModalHeader::before, .RequestModalHeader::after {
+  display: none;
+}
+
+.RequestModalHeader__header {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.3125rem;
+  line-height: 1;
+  text-align: center;
+}
+
+.RequestModalHeader__header--1 {
+  font-family: 'Graphik-Regular', sans-serif;
+  font-weight: 400;
+  margin-bottom: 2.125rem;
+}
+
+.RequestModalHeader__header--2 {
+  font-family: 'Graphik-Medium', sans-serif;
+  font-weight: 500;
+}
+
+.RequestModalHeader__avatars {
+  width: 42.5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.125rem;
+}
+
+.RequestModalHeader__info {
+  margin-top: 0;
+  font-size: 1rem;
+  line-height: 1;
+  text-align: center;
+  color: #7f8daa;
+}
+
+.RequestModalHeader__info-separator {
+  display: inline-block;
+  margin: 0 7px;
+}

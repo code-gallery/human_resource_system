@@ -1,0 +1,13 @@
+.Candidate.is-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Candidate__breadcrumb {
+  margin-bottom: 42px;
+}
+
+.Candidate__header {
+  margin-bottom: 24px;
+}

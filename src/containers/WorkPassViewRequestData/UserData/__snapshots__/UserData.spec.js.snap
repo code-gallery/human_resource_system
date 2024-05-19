@@ -1,0 +1,2612 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserData /> Rendering renders correctly 1`] = `
+<section
+  className="UserData "
+>
+  <h2
+    className="UserData__main-header"
+  >
+    DBS
+    <button
+      className="UserData__expand"
+      onClick={[Function]}
+    >
+      Close
+    </button>
+  </h2>
+  <div>
+    
+    <article
+      className="UserData__article"
+    >
+      <h3
+        className="UserData__article-header"
+      >
+        Passport
+      </h3>
+      <a
+        href="http://example.com/img.jpg"
+        target="_blank"
+        title="Passport"
+      >
+        <img
+          alt="Passport"
+          className="UserData__article-img"
+          src="http://example.com/img.jpg"
+        />
+      </a>
+    </article>
+  </div>
+  <article
+    className="UserData__article isLast"
+  >
+    <h3
+      className="UserData__article-header"
+    >
+      Passport
+    </h3>
+    <div>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Country
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          United Kingdom
+           
+        </span>
+      </p>
+    </div>
+  </article>
+</section>
+`;
+
+exports[`<UserData /> Rendering renders correctly 2`] = `
+<section
+  className="UserData "
+>
+  <h2
+    className="UserData__main-header"
+  >
+    GDPR Declaration
+    <button
+      className="UserData__expand"
+      onClick={[Function]}
+    >
+      Close
+    </button>
+  </h2>
+  <article
+    className="UserData__article"
+  >
+    <h3
+      className="UserData__article-header"
+    >
+      Future Contact Consent
+    </h3>
+    <div>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            By Email
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          True
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            By SMS
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          False
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Phone
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          True
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Post
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          False
+           
+        </span>
+      </p>
+    </div>
+  </article>
+  <article
+    className="UserData__article isLast"
+  >
+    <h3
+      className="UserData__article-header"
+    >
+      Sensitive Personal Data Collection Consent
+    </h3>
+    <div>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Any other relevant health related-data
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          False
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Data relating to DBS check results or criminal convictions
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          True
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Data relating to equal opportunities
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          False
+           
+        </span>
+      </p>
+    </div>
+  </article>
+</section>
+`;
+
+exports[`<UserData /> Rendering renders correctly 3`] = `
+<section
+  className="UserData "
+>
+  <h2
+    className="UserData__main-header"
+  >
+    Sanctions & PEPs
+    <button
+      className="UserData__expand"
+      onClick={[Function]}
+    >
+      Close
+    </button>
+  </h2>
+  <article
+    className="UserData__article isLast"
+  >
+    <h3
+      className="UserData__article-header"
+    >
+      Sanctions & PEPs
+    </h3>
+    <div>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Date of Birth
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          09/06/2007
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Email
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Forename
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Forename
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Gender
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Female
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Middle Name
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Phone No.
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          9988998899
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            NI
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          ssn
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Surname
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Surname
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Title
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Miss
+           
+        </span>
+      </p>
+    </div>
+  </article>
+</section>
+`;
+
+exports[`<UserData /> Rendering renders correctly 4`] = `
+<section
+  className="UserData "
+>
+  <h2
+    className="UserData__main-header"
+  >
+    Employment Gaps
+    <button
+      className="UserData__expand"
+      onClick={[Function]}
+    >
+      Close
+    </button>
+  </h2>
+  <article
+    className="UserData__article isLast"
+  >
+    <h3
+      className="UserData__article-header"
+    >
+      Work Gaps Submit 2020-01-01
+    </h3>
+    <div>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Detail
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Details
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            From
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Invalid date
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Reason
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Reason
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            To
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Invalid date
+           
+        </span>
+      </p>
+    </div>
+  </article>
+</section>
+`;
+
+exports[`<UserData /> Rendering renders correctly 5`] = `
+<section
+  className="UserData "
+>
+  <h2
+    className="UserData__main-header"
+  >
+    Address History
+    <button
+      className="UserData__expand"
+      onClick={[Function]}
+    >
+      Close
+    </button>
+  </h2>
+  <div>
+    
+    <article
+      className="UserData__article isLast"
+    >
+      <h3
+        className="UserData__article-header"
+      >
+        Address History
+      </h3>
+      <div>
+        <p
+          className="UserData__article-txt"
+        >
+          <span
+            className="UserData__attr-name"
+          >
+            <span
+              className="wrapContent"
+            >
+              Line 1
+            </span>
+          </span>
+          <span
+            className="UserData__attr-value"
+          >
+            line1
+             
+          </span>
+        </p>
+        <p
+          className="UserData__article-txt"
+        >
+          <span
+            className="UserData__attr-name"
+          >
+            <span
+              className="wrapContent"
+            >
+              Line 2
+            </span>
+          </span>
+          <span
+            className="UserData__attr-value"
+          >
+            line2
+             
+          </span>
+        </p>
+        <p
+          className="UserData__article-txt"
+        >
+          <span
+            className="UserData__attr-name"
+          >
+            <span
+              className="wrapContent"
+            >
+              Postcode
+            </span>
+          </span>
+          <span
+            className="UserData__attr-value"
+          >
+            postcode
+             
+          </span>
+        </p>
+        <p
+          className="UserData__article-txt"
+        >
+          <span
+            className="UserData__attr-name"
+          >
+            <span
+              className="wrapContent"
+            >
+              Town
+            </span>
+          </span>
+          <span
+            className="UserData__attr-value"
+          >
+            town
+             
+          </span>
+        </p>
+        <p
+          className="UserData__article-txt"
+        >
+          <span
+            className="UserData__attr-name"
+          >
+            <span
+              className="wrapContent"
+            >
+              From
+            </span>
+          </span>
+          <span
+            className="UserData__attr-value"
+          >
+            01/05/2020
+             
+          </span>
+        </p>
+        <p
+          className="UserData__article-txt"
+        >
+          <span
+            className="UserData__attr-name"
+          >
+            <span
+              className="wrapContent"
+            >
+              To
+            </span>
+          </span>
+          <span
+            className="UserData__attr-value"
+          >
+            01/05/2020
+             
+          </span>
+        </p>
+      </div>
+    </article>
+  </div>
+</section>
+`;
+
+exports[`<UserData /> Rendering renders correctly 6`] = `
+<section
+  className="UserData "
+>
+  <h2
+    className="UserData__main-header"
+  >
+    National Insurance
+    <button
+      className="UserData__expand"
+      onClick={[Function]}
+    >
+      Close
+    </button>
+  </h2>
+  <div>
+    <article
+      className="UserData__article isLast"
+    >
+      <h3
+        className="UserData__article-header"
+      >
+        Proof of National Insurance
+      </h3>
+      <a
+        href="https://d29axdg1c6z73e.cloudfront.net/2020/06/14/284b5292f86907b99638ece43de25e79961c592c/1592143671334.jpeg"
+        target="_blank"
+        title="Proof of National Insurance"
+      >
+        <img
+          alt="Proof of National Insurance"
+          className="UserData__article-img"
+          src="https://d29axdg1c6z73e.cloudfront.net/2020/06/14/284b5292f86907b99638ece43de25e79961c592c/1592143671334.jpeg"
+        />
+      </a>
+    </article>
+    <article
+      className="UserData__article isLast"
+    >
+      <h3
+        className="UserData__article-header"
+      >
+        National Insurance
+      </h3>
+      <div>
+        <p
+          className="UserData__article-txt"
+        >
+          <span
+            className="UserData__attr-name"
+          >
+            <span
+              className="wrapContent"
+            >
+              National Insurance Number
+            </span>
+          </span>
+          <span
+            className="UserData__attr-value"
+          >
+            
+             
+          </span>
+        </p>
+      </div>
+    </article>
+  </div>
+</section>
+`;
+
+exports[`<UserData /> Rendering renders correctly 7`] = `
+<section
+  className="UserData "
+>
+  <h2
+    className="UserData__main-header"
+  >
+    Driver License
+    <button
+      className="UserData__expand"
+      onClick={[Function]}
+    >
+      Close
+    </button>
+  </h2>
+  <article
+    className="UserData__article isLast"
+  >
+    <h3
+      className="UserData__article-header"
+    >
+      Driver's Licence
+    </h3>
+    <div>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Number
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          MCKAY705244GS9RE
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Valid From
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          02/06/2020
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Type
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Photo
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Issue Country
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          United Kingdom
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Endorsements
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <span>
+             
+            <span
+              className="UserData__article-txt-obj"
+            >
+              <span
+                className="UserData__attr-name-obj"
+              >
+                Date of Birth
+                 :
+              </span>
+              <span
+                className="UserData__attr-value-obj"
+              >
+                2020-06-17
+              </span>
+            </span>
+            <span
+              className="UserData__article-txt-obj"
+            >
+              <span
+                className="UserData__attr-name-obj"
+              >
+                Offence
+                 :
+              </span>
+              <span
+                className="UserData__attr-value-obj"
+              >
+                Undefined accident offences
+              </span>
+            </span>
+            <span
+              className="UserData__article-txt-obj"
+            >
+              <span
+                className="UserData__attr-name-obj"
+              >
+                Type
+                 :
+              </span>
+              <span
+                className="UserData__attr-value-obj"
+              >
+                Accident Offences
+              </span>
+            </span>
+            <span
+              className="UserData__article-txt-obj"
+            >
+              <span
+                className="UserData__attr-name-obj"
+              >
+                Type Code
+                 :
+              </span>
+              <span
+                className="UserData__attr-value-obj"
+              >
+                AC30
+              </span>
+            </span>
+            <span
+              className="UserData__article-txt-obj"
+            >
+              <span
+                className="UserData__attr-name-obj"
+              >
+                Valid To
+                 :
+              </span>
+              <span
+                className="UserData__attr-value-obj"
+              >
+                2020-06-18
+              </span>
+            </span>
+             
+            <br />
+            <br />
+          </span>
+           
+        </span>
+      </p>
+    </div>
+  </article>
+</section>
+`;
+
+exports[`<UserData /> Rendering renders correctly 8`] = `
+<section
+  className="UserData "
+>
+  <h2
+    className="UserData__main-header"
+  >
+    CIFAS
+    <button
+      className="UserData__expand"
+      onClick={[Function]}
+    >
+      Close
+    </button>
+  </h2>
+  <article
+    className="UserData__article isLast"
+  >
+    <h3
+      className="UserData__article-header"
+    >
+      CIFAS Check
+    </h3>
+    <div>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Addresses
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <span
+            className="UserData__article-txt-obj"
+          >
+            <span
+              className="UserData__attr-name-obj"
+            >
+              Line 1
+               :
+            </span>
+            <span
+              className="UserData__attr-value-obj"
+            >
+              Sector 39
+            </span>
+          </span>
+           
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <span
+            className="UserData__article-txt-obj"
+          >
+            <span
+              className="UserData__attr-name-obj"
+            >
+              Line 2
+               :
+            </span>
+            <span
+              className="UserData__attr-value-obj"
+            >
+              Block C
+            </span>
+          </span>
+           
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <span
+            className="UserData__article-txt-obj"
+          >
+            <span
+              className="UserData__attr-name-obj"
+            >
+              Town
+               :
+            </span>
+            <span
+              className="UserData__attr-value-obj"
+            >
+              Noida
+            </span>
+          </span>
+           
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <span
+            className="UserData__article-txt-obj"
+          >
+            <span
+              className="UserData__attr-name-obj"
+            >
+              County
+               :
+            </span>
+            <span
+              className="UserData__attr-value-obj"
+            >
+              Noida
+            </span>
+          </span>
+           
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <span
+            className="UserData__article-txt-obj"
+          >
+            <span
+              className="UserData__attr-name-obj"
+            >
+              Postcode
+               :
+            </span>
+            <span
+              className="UserData__attr-value-obj"
+            >
+              Postcode
+            </span>
+          </span>
+           
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <span
+            className="UserData__article-txt-obj"
+          >
+            <span
+              className="UserData__attr-name-obj"
+            >
+              Country
+               :
+            </span>
+            <span
+              className="UserData__attr-value-obj"
+            >
+              US
+            </span>
+          </span>
+           
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <span
+            className="UserData__article-txt-obj"
+          >
+            <span
+              className="UserData__attr-name-obj"
+            >
+              From
+               :
+            </span>
+            <span
+              className="UserData__attr-value-obj"
+            >
+              2015-05-01
+            </span>
+          </span>
+           
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <span
+            className="UserData__article-txt-obj"
+          >
+            <span
+              className="UserData__attr-name-obj"
+            >
+              To
+               :
+            </span>
+            <span
+              className="UserData__attr-value-obj"
+            />
+          </span>
+           
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <span
+            className="UserData__article-txt-obj"
+          >
+            <span
+              className="UserData__attr-name-obj"
+            >
+              Created At
+               :
+            </span>
+            <span
+              className="UserData__attr-value-obj"
+            >
+              2020-05-29 09:47:58
+            </span>
+          </span>
+           
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <span
+            className="UserData__article-txt-obj"
+          >
+            <span
+              className="UserData__attr-name-obj"
+            >
+              Updated At
+               :
+            </span>
+            <span
+              className="UserData__attr-value-obj"
+            >
+              2020-06-11 09:31:54
+            </span>
+          </span>
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Date of Birth
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          03/06/2007
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Email
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          abc@gml.com
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Forename
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          forename
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Gender
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Female
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Phone No.
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          9988889988
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            NI
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          ssn
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Surname
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          surname
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Title
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          captain
+           
+        </span>
+      </p>
+    </div>
+  </article>
+</section>
+`;
+
+exports[`<UserData /> Rendering renders correctly 9`] = `
+<section
+  className="UserData "
+>
+  <h2
+    className="UserData__main-header"
+  >
+    Education Verification
+    <button
+      className="UserData__expand"
+      onClick={[Function]}
+    >
+      Close
+    </button>
+  </h2>
+  <article
+    className="UserData__article isLast"
+  >
+    <h3
+      className="UserData__article-header"
+    >
+      Education Verification
+    </h3>
+    <div>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Degree
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          DEGREE
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Reference To
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          22/06/2013
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Grade
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Pass
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Institution
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          NIIT
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Reference From
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          22/06/2013
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Student Number
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          899
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Studied
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          noida
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Transcript
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <div>
+            <a
+              href="https://appiiweb.s3.eu-west-1.amazonaws.com/transcripts/954_743"
+              target="_blank"
+            >
+              Uploaded Document
+            </a>
+          </div>
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Type
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Higher
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Course
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <span>
+             
+            <span
+              className="UserData__article-txt-obj"
+            >
+              <span
+                className="UserData__attr-name-obj"
+              >
+                Qualification
+                 :
+              </span>
+              <span
+                className="UserData__attr-value-obj"
+              >
+                abc
+              </span>
+            </span>
+            <span
+              className="UserData__article-txt-obj"
+            >
+              <span
+                className="UserData__attr-name-obj"
+              >
+                Subject
+                 :
+              </span>
+              <span
+                className="UserData__attr-value-obj"
+              >
+                sub
+              </span>
+            </span>
+            <span
+              className="UserData__article-txt-obj"
+            >
+              <span
+                className="UserData__attr-name-obj"
+              >
+                Grade
+                 :
+              </span>
+              <span
+                className="UserData__attr-value-obj"
+              >
+                A
+              </span>
+            </span>
+             
+            <br />
+            <br />
+          </span>
+           
+        </span>
+      </p>
+    </div>
+  </article>
+</section>
+`;
+
+exports[`<UserData /> Rendering renders correctly 10`] = `
+<section
+  className="UserData "
+>
+  <h2
+    className="UserData__main-header"
+  >
+    Employment References
+    <button
+      className="UserData__expand"
+      onClick={[Function]}
+    >
+      Close
+    </button>
+  </h2>
+  <article
+    className="UserData__article isLast"
+  >
+    <h3
+      className="UserData__article-header"
+    >
+      Employment Reference
+    </h3>
+    <div>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Contact Number
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          9988998899
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Date From
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          2020-06-17
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Date To
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          2020-06-26
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Organisation Name
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Niit
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Applicant Position
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Se
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Referee Position
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Manager
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Fisrt Name
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Firstname
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Last Name
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          lastname
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Referee Email
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          abc@gmail.com
+           
+        </span>
+      </p>
+    </div>
+  </article>
+</section>
+`;
+
+exports[`<UserData /> Rendering renders correctly 11`] = `
+<section
+  className="UserData "
+>
+  <h2
+    className="UserData__main-header"
+  >
+    Adverse Finance
+    <button
+      className="UserData__expand"
+      onClick={[Function]}
+    >
+      Close
+    </button>
+  </h2>
+  <article
+    className="UserData__article isLast"
+  >
+    <h3
+      className="UserData__article-header"
+    >
+      Adverse Finance Check
+    </h3>
+    <div>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Address
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <span
+            className="UserData__article-txt-obj"
+          >
+            <span
+              className="UserData__attr-name-obj"
+            >
+              Line1
+               : 
+            </span>
+            <span
+              className="UserData__attr-value-obj"
+            >
+               
+              1 Bridge Street
+            </span>
+          </span>
+           
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <span
+            className="UserData__article-txt-obj"
+          >
+            <span
+              className="UserData__attr-name-obj"
+            >
+              Line2
+               : 
+            </span>
+            <span
+              className="UserData__attr-value-obj"
+            >
+               
+              
+            </span>
+          </span>
+           
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <span
+            className="UserData__article-txt-obj"
+          >
+            <span
+              className="UserData__attr-name-obj"
+            >
+              Town/City
+               : 
+            </span>
+            <span
+              className="UserData__attr-value-obj"
+            >
+               
+              Banff
+            </span>
+          </span>
+           
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <span
+            className="UserData__article-txt-obj"
+          >
+            <span
+              className="UserData__attr-name-obj"
+            >
+              County
+               : 
+            </span>
+            <span
+              className="UserData__attr-value-obj"
+            >
+               
+              Banffshire
+            </span>
+          </span>
+           
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <span
+            className="UserData__article-txt-obj"
+          >
+            <span
+              className="UserData__attr-name-obj"
+            >
+              District
+               : 
+            </span>
+            <span
+              className="UserData__attr-value-obj"
+            >
+               
+              Aberdeenshire
+            </span>
+          </span>
+           
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <span
+            className="UserData__article-txt-obj"
+          >
+            <span
+              className="UserData__attr-name-obj"
+            >
+              Country
+               : 
+            </span>
+            <span
+              className="UserData__attr-value-obj"
+            >
+               
+              Scotland
+            </span>
+          </span>
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Have you, or have you been, the subject of any voluntary arrangements, Country Court Judgements, Bankruptcy or any other formal credit relation proceedings which are NOT satisfied.
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          adversFinanceMultiLineInputBox1
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Have you, or have you been, the subject of any voluntary arrangements, Country Court Judgements, Bankruptcy or any other formal credit relation proceedings which have been satisfied.
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          adversFinanceMultiLineInputBox2
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Date of Birth
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          08/06/2007
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Fisrt Name
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          firstname
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Gender
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Female
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Middle Name
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          middlename
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Postcode
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          E6 2sg
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Surname
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          surname
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Title
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Miss
+           
+        </span>
+      </p>
+    </div>
+  </article>
+</section>
+`;
+
+exports[`<UserData /> Rendering renders correctly 12`] = `
+<section
+  className="UserData "
+>
+  <h2
+    className="UserData__main-header"
+  >
+    Employment Verification
+    <button
+      className="UserData__expand"
+      onClick={[Function]}
+    >
+      Close
+    </button>
+  </h2>
+  <article
+    className="UserData__article isLast"
+  >
+    <h3
+      className="UserData__article-header"
+    >
+      Employment Verfication
+    </h3>
+    <div>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Organisation Name
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          NIIT
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Reference To
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          NaN/NaN/NaN
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Position Held By Applicant
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          SE
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Reference From
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          NaN/NaN/NaN
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Visibility
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Registered
+           
+        </span>
+      </p>
+    </div>
+  </article>
+</section>
+`;
+
+exports[`<UserData /> Rendering renders correctly 13`] = `
+<section
+  className="UserData "
+>
+  <h2
+    className="UserData__main-header"
+  >
+    DBS
+    <button
+      className="UserData__expand"
+      onClick={[Function]}
+    >
+      Close
+    </button>
+  </h2>
+  <article
+    className="UserData__article isLast"
+  >
+    <h3
+      className="UserData__article-header"
+    >
+      Personal Details
+    </h3>
+    <div>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Birth Surname
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Smith
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Date of Birth
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          15/02/1988
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Forename
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Laura
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Gender
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Female
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Middle Names
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            National Insurance Number
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          x234567bun
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Other Names
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <span>
+            <strong>
+               
+            </strong>
+             
+            from April 2018 to present
+          </span>
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Phone
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          9988998899
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Surname
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Musky
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Title
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Miss
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Officers
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          <span>
+            <strong
+              className=""
+            />
+            
+             
+            from Apr 21st 2018
+          </span>
+           
+        </span>
+      </p>
+      <p
+        className="UserData__article-txt"
+      >
+        <span
+          className="UserData__attr-name"
+        >
+          <span
+            className="wrapContent"
+          >
+            Addresses
+          </span>
+        </span>
+        <span
+          className="UserData__attr-value"
+        >
+          Addresses
+           
+        </span>
+      </p>
+    </div>
+  </article>
+</section>
+`;
+
+exports[`<UserData /> Rendering renders correctly 14`] = `
+<section
+  className="UserData "
+>
+  <h2
+    className="UserData__main-header"
+  >
+    Employment References
+    <button
+      className="UserData__expand noData"
+      onClick={[Function]}
+    >
+      No Data Submitted
+    </button>
+  </h2>
+</section>
+`;
+
+exports[`<UserData /> Rendering renders correctly 15`] = `
+<section
+  className="UserData "
+>
+  <h2
+    className="UserData__main-header"
+  >
+    Employment Gaps
+    <button
+      className="UserData__expand"
+      onClick={[Function]}
+    >
+      Close
+    </button>
+  </h2>
+  <p
+    className="UserData__article-txt-obj mt-3"
+  >
+    No employment Gaps.
+  </p>
+</section>
+`;

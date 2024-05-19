@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/NewOrganisation/components/LinkedInSearch when no linkedIn token renders correctly 1`] = `
+<div
+  className="LinkedInSearch"
+>
+  <p
+    className="form-group"
+  >
+    To use LinkedIn search, you first need to sign in and authorize APPII application.
+    <br />
+    The sign in form will open in a popup window. Please make sure your browser does not block it.
+  </p>
+  <p
+    className="form-group"
+  >
+    <img
+      alt="Sign in with LinkedIn"
+      className="LinkedInSearch-signin"
+      onClick={[Function]}
+      src="linkedin-signin.png"
+    />
+  </p>
+</div>
+`;
+
+exports[`containers/NewOrganisation/components/LinkedInSearch when there is linkedIn token renders correctly 1`] = `
+<div>
+  <form>
+    <h2
+      className="form-group"
+    >
+      Search for an organisation
+    </h2>
+    <div
+      className="form-group"
+    >
+      <input
+        name="keywords"
+        onChange={[Function]}
+        placeholder="Enter a name"
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <button
+        className="form-btn save"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Search
+      </button>
+    </div>
+  </form>
+</div>
+`;

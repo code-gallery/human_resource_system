@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckboxOption /> Rendering renders 1`] = `
+<div
+  className="CheckboxOption "
+>
+  <div
+    className="Checkbox CheckboxOption__input"
+  >
+    <label
+      className="Checkbox__label"
+    >
+      <input
+        checked={false}
+        className="Checkbox__input"
+        onChange={[Function]}
+        type="checkbox"
+      />
+    </label>
+  </div>
+  <p
+    className="CheckboxOption__text"
+  >
+    Do want to win?
+  </p>
+</div>
+`;

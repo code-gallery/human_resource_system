@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CaretDown Icon renders correctly 1`] = `
+<svg
+  className=""
+  viewBox="0 0 8 8"
+>
+  <path
+    d="M0 2l4 4 4-4h-8z"
+    fill="#000"
+  />
+</svg>
+`;

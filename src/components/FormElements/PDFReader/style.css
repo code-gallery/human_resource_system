@@ -1,0 +1,9 @@
+.custom-document-view {
+  width: 100%
+}
+.custom-document-view .ReactPDF__Page canvas {
+  width: 100% !important;
+}
+.pager {
+  text-align: center
+}

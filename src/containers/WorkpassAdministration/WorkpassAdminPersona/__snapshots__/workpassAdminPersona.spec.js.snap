@@ -1,0 +1,471 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WorkpassAdminPersona /> Rendering renders correctly 1`] = `
+<div>
+  <div
+    className="Layout"
+  >
+    <header
+      className="Header"
+    >
+      <a
+        className="Header__appii"
+        href="/https://appii.io"
+        onClick={[Function]}
+      >
+        <svg
+          className=""
+          viewBox="0 0 56 56"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M44,156 C28.536027,156 16,143.463973 16,128 C16,112.536027 28.536027,100 44,100 C59.463973,100 72,112.536027 72,128 L72,156 L44,156 Z M44,150.105263 L66.1052632,150.105263 L66.1052632,128 C66.1052632,115.7916 56.2083997,105.894737 44,105.894737 C31.7916003,105.894737 21.8947368,115.7916 21.8947368,128 C21.8947368,140.2084 31.7916003,150.105263 44,150.105263 Z M26.3665673,127.071057 L32.1597485,125.981574 C33.7125958,134.238633 37.761277,138.092554 44.8273599,138.309665 C49.2897633,138.446777 52.4883032,136.287156 54.8218027,132.382701 C55.6587806,130.982254 56.3133349,129.459714 56.7981447,127.935549 C57.0857817,127.031264 57.2482618,126.349163 57.3089183,126.008965 L63.1121343,127.043666 C63.0085691,127.624521 62.7870996,128.554263 62.4155532,129.722346 C61.8017242,131.652128 60.9713937,133.583535 59.8817351,135.406772 C56.5383203,141.001036 51.4867554,144.4118 44.6463244,144.201622 C34.6757726,143.895268 28.4086643,137.929637 26.3665673,127.071057 Z"
+            fill="#fff"
+            transform="translate(-16 -100)"
+          />
+        </svg>
+      </a>
+    </header>
+    <div
+      id="notification-wrapper"
+    />
+    <aside
+      className="SideMenu"
+    >
+      <div
+        className="SideMenu__button"
+      >
+        <a
+          className="Button Button--green"
+          href="/organisations/1/candidates/new"
+          onClick={[Function]}
+        >
+          <span
+            className="Button__icon"
+          >
+            <svg
+              className=""
+              viewBox="0 0 17 17"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                fill="none"
+                fillRule="evenodd"
+                id="Work-Pass-for-Orgs"
+              >
+                <g
+                  fill="#fff"
+                  fillRule="nonzero"
+                  id="Candidates-/-Candidate-/-Reassign"
+                  transform="translate(-48 -112)"
+                >
+                  <g
+                    id="Group-2"
+                    transform="translate(26 95)"
+                  >
+                    <path
+                      d="M38.8647083,32.3325833 L34.4695,27.937375 C35.296125,26.8005 35.784875,25.40225 35.784875,23.8920833 C35.784875,20.091875 32.693,17 28.8920833,17 C25.091875,17 22,20.091875 22,23.8920833 C22,27.693 25.091875,30.7841667 28.8920833,30.7841667 C30.3328333,30.7841667 31.670875,30.3400417 32.7787083,29.5814167 L37.1972917,34 L38.8647083,32.3325833 Z M24.0215833,23.8920833 C24.0215833,21.2060833 26.2067917,19.020875 28.8927917,19.020875 C31.5787917,19.020875 33.764,21.2060833 33.764,23.8920833 C33.764,26.5780833 31.5787917,28.7632917 28.8927917,28.7632917 C26.2060833,28.7632917 24.0215833,26.5780833 24.0215833,23.8920833 Z"
+                      id="Shape"
+                    />
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </span>
+          Add Candidate
+        </a>
+      </div>
+      <ul
+        className="SideMenu__link-list-wrap"
+      >
+        <li>
+          <a
+            aria-current={null}
+            className="SideMenu__link"
+            href="/organisations/1/candidates"
+            onClick={[Function]}
+          >
+            Candidates
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="SideMenu__link"
+            href="/organisations/1/workpassAdmin/persona"
+            onClick={[Function]}
+          >
+            Work Pass Administration
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="nestedMenu"
+            href="/organisations/1/workpassAdmin"
+            onClick={[Function]}
+          >
+            Organisations
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="nestedMenu"
+            href="/organisations/1/workpassAdmin/persona"
+            onClick={[Function]}
+          >
+            Persona
+          </a>
+        </li>
+      </ul>
+      <div
+        className="SideMenu__balance"
+      >
+        <span>
+          Balance
+        </span>
+        <span
+          className="SideMenu__balance-amount"
+        >
+          
+        </span>
+      </div>
+    </aside>
+    <main
+      className="WorkPassMain"
+    >
+      <ul
+        className="Breadcrumb workpass__breadcrumb"
+      >
+        <li
+          className="Breadcrumb__list"
+        >
+          <a
+            className="Breadcrumb__item"
+            href="/organisations/1/workpassAdmin"
+          >
+            Work Pass Administration
+          </a>
+        </li>
+        <li
+          className="Breadcrumb__list"
+        >
+          <a
+            className="Breadcrumb__item is-active"
+            href="/organisations/1/workpassAdmin/persona"
+          />
+        </li>
+      </ul>
+      <main>
+        <div
+          className="container-fluid"
+        >
+          <div
+            className="row personaHeader"
+          >
+            <div
+              className="col-sm-12 col-lg-4 col-md-4 "
+            >
+              <div
+                className="row tableContainer"
+              >
+                <span>
+                  Company
+                </span>
+                <div
+                  className="linkedButton"
+                >
+                  <button
+                    className="Button Button--green CandidateHeader__button"
+                    disabled={false}
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    
+                    New
+                  </button>
+                  <button
+                    className="Button Button--red CandidateHeader__button"
+                    disabled={false}
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Remove
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-sm-12 col-lg-4 col-md-4"
+            >
+              <div
+                className="row tableContainer"
+              >
+                <span>
+                  Persona
+                </span>
+                <div
+                  className="linkedButton"
+                >
+                  <button
+                    className="Button Button--green CandidateHeader__button"
+                    disabled={false}
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    
+                    Add
+                  </button>
+                  <button
+                    className="Button Button--red CandidateHeader__button"
+                    disabled={false}
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Remove
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-sm-12 col-lg-4 col-md-4"
+            >
+              <div
+                className="row tableContainer"
+              >
+                <span>
+                  Checks
+                </span>
+                <div
+                  className="linkedButton"
+                >
+                  <button
+                    className="Button Button--green CandidateHeader__button"
+                    disabled={false}
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    
+                    Add
+                  </button>
+                  <button
+                    className="Button Button--red CandidateHeader__button"
+                    disabled={false}
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Remove
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            
+            
+          </div>
+          <div
+            className="row tables_wrapper"
+          >
+            <div
+              className="col-sm-12 col-md-4 col-lg-4 child_wrap"
+            >
+              <div>
+                <table
+                  className="Table CandidatesTable__table"
+                >
+                  <tbody>
+                    <tr
+                      className="CandidatesTable__table-row"
+                    >
+                      <td
+                        className="TableData CandidatesTable__table-data"
+                      >
+                        <form
+                          className="SearchBox"
+                        >
+                          <label>
+                            <span
+                              className="SearchBox__icon"
+                            >
+                              <svg
+                                className=""
+                                viewBox="0 0 17 17"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g
+                                  fill="none"
+                                  fillRule="evenodd"
+                                  id="Work-Pass-for-Orgs"
+                                >
+                                  <g
+                                    fill="#7F8DAA"
+                                    fillRule="nonzero"
+                                    id="Candidates-/-Candidate-/-Reassign"
+                                    transform="translate(-48 -112)"
+                                  >
+                                    <g
+                                      id="Group-2"
+                                      transform="translate(26 95)"
+                                    >
+                                      <path
+                                        d="M38.8647083,32.3325833 L34.4695,27.937375 C35.296125,26.8005 35.784875,25.40225 35.784875,23.8920833 C35.784875,20.091875 32.693,17 28.8920833,17 C25.091875,17 22,20.091875 22,23.8920833 C22,27.693 25.091875,30.7841667 28.8920833,30.7841667 C30.3328333,30.7841667 31.670875,30.3400417 32.7787083,29.5814167 L37.1972917,34 L38.8647083,32.3325833 Z M24.0215833,23.8920833 C24.0215833,21.2060833 26.2067917,19.020875 28.8927917,19.020875 C31.5787917,19.020875 33.764,21.2060833 33.764,23.8920833 C33.764,26.5780833 31.5787917,28.7632917 28.8927917,28.7632917 C26.2060833,28.7632917 24.0215833,26.5780833 24.0215833,23.8920833 Z"
+                                        id="Shape"
+                                      />
+                                    </g>
+                                  </g>
+                                </g>
+                              </svg>
+                            </span>
+                            <input
+                              className="SearchBox__input"
+                              onChange={[Function]}
+                              placeholder="Search"
+                              type="text"
+                              value=""
+                            />
+                          </label>
+                        </form>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div
+              className="col-sm-12 col-md-4 col-lg-4 child_wrap"
+            >
+              <div>
+                <table
+                  className="Table CandidatesTable__table"
+                >
+                  <tbody>
+                    <tr
+                      className="CandidatesTable__table-row"
+                    >
+                      <td
+                        className="TableData CandidatesTable__table-data"
+                      >
+                        <form
+                          className="SearchBox"
+                        >
+                          <label>
+                            <span
+                              className="SearchBox__icon"
+                            >
+                              <svg
+                                className=""
+                                viewBox="0 0 17 17"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g
+                                  fill="none"
+                                  fillRule="evenodd"
+                                  id="Work-Pass-for-Orgs"
+                                >
+                                  <g
+                                    fill="#7F8DAA"
+                                    fillRule="nonzero"
+                                    id="Candidates-/-Candidate-/-Reassign"
+                                    transform="translate(-48 -112)"
+                                  >
+                                    <g
+                                      id="Group-2"
+                                      transform="translate(26 95)"
+                                    >
+                                      <path
+                                        d="M38.8647083,32.3325833 L34.4695,27.937375 C35.296125,26.8005 35.784875,25.40225 35.784875,23.8920833 C35.784875,20.091875 32.693,17 28.8920833,17 C25.091875,17 22,20.091875 22,23.8920833 C22,27.693 25.091875,30.7841667 28.8920833,30.7841667 C30.3328333,30.7841667 31.670875,30.3400417 32.7787083,29.5814167 L37.1972917,34 L38.8647083,32.3325833 Z M24.0215833,23.8920833 C24.0215833,21.2060833 26.2067917,19.020875 28.8927917,19.020875 C31.5787917,19.020875 33.764,21.2060833 33.764,23.8920833 C33.764,26.5780833 31.5787917,28.7632917 28.8927917,28.7632917 C26.2060833,28.7632917 24.0215833,26.5780833 24.0215833,23.8920833 Z"
+                                        id="Shape"
+                                      />
+                                    </g>
+                                  </g>
+                                </g>
+                              </svg>
+                            </span>
+                            <input
+                              className="SearchBox__input"
+                              onChange={[Function]}
+                              placeholder="Search"
+                              type="text"
+                              value=""
+                            />
+                          </label>
+                        </form>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div
+              className="col-sm-12 col-md-4 col-lg-4 child_wrap"
+            >
+              <div>
+                <table
+                  className="Table CandidatesTable__table"
+                >
+                  <tbody>
+                    <tr
+                      className="CandidatesTable__table-row"
+                    >
+                      <td
+                        className="TableData CandidatesTable__table-data"
+                      >
+                        <form
+                          className="SearchBox"
+                        >
+                          <label>
+                            <span
+                              className="SearchBox__icon"
+                            >
+                              <svg
+                                className=""
+                                viewBox="0 0 17 17"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g
+                                  fill="none"
+                                  fillRule="evenodd"
+                                  id="Work-Pass-for-Orgs"
+                                >
+                                  <g
+                                    fill="#7F8DAA"
+                                    fillRule="nonzero"
+                                    id="Candidates-/-Candidate-/-Reassign"
+                                    transform="translate(-48 -112)"
+                                  >
+                                    <g
+                                      id="Group-2"
+                                      transform="translate(26 95)"
+                                    >
+                                      <path
+                                        d="M38.8647083,32.3325833 L34.4695,27.937375 C35.296125,26.8005 35.784875,25.40225 35.784875,23.8920833 C35.784875,20.091875 32.693,17 28.8920833,17 C25.091875,17 22,20.091875 22,23.8920833 C22,27.693 25.091875,30.7841667 28.8920833,30.7841667 C30.3328333,30.7841667 31.670875,30.3400417 32.7787083,29.5814167 L37.1972917,34 L38.8647083,32.3325833 Z M24.0215833,23.8920833 C24.0215833,21.2060833 26.2067917,19.020875 28.8927917,19.020875 C31.5787917,19.020875 33.764,21.2060833 33.764,23.8920833 C33.764,26.5780833 31.5787917,28.7632917 28.8927917,28.7632917 C26.2060833,28.7632917 24.0215833,26.5780833 24.0215833,23.8920833 Z"
+                                        id="Shape"
+                                      />
+                                    </g>
+                                  </g>
+                                </g>
+                              </svg>
+                            </span>
+                            <input
+                              className="SearchBox__input"
+                              onChange={[Function]}
+                              placeholder="Search"
+                              type="text"
+                              value=""
+                            />
+                          </label>
+                        </form>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </main>
+  </div>
+</div>
+`;

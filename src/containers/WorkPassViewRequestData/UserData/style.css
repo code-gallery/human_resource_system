@@ -1,0 +1,204 @@
+.UserData {
+  box-sizing: border-box;
+  display: block;
+  padding: 1.875rem;
+  margin-bottom: 35px;
+ 
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  border: 1px solid #e8e5ee;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.UserData__main-header {
+  display: block;
+  margin-top: 0;
+  font-family: "Graphik-Regular";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #212224;
+}
+
+.UserData__article {
+  position: relative;
+  display: block;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #E7E5EE;
+}
+
+.UserData__article.isLast {
+  margin-bottom: 0px;
+  border-bottom: none;
+}
+
+.UserData__article-header {
+  display: block;
+  margin-top: 35px;
+  margin-bottom: 23px;
+  font-family: "Graphik-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #212224;
+}
+
+.UserData__article-img {
+  display: inline-block;
+  width: auto;
+  max-height: 250px;
+  margin-right: 10px;
+}
+
+.UserData__article-txt {
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: center; */
+  
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 20px;
+ 
+}
+
+.UserData__attr-name {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+
+.UserData__attr-value {
+  display: inline-block;
+  width: 60%;
+}
+
+.wrapContent {
+  display: inline-block;
+  max-width: 400px;
+}
+
+.UserData__attr-value + .UserData__attr-value {
+  margin-left: 40%;
+}
+
+.UserData__attribute-item-id {
+  /* TODO: STYLE LIKE https://projects.invisionapp.com/share/6KFXXNG3EQ9#/screens/284927506 ADDRESS 1 */
+  text-transform: uppercase;
+  
+  font-weight: bold;
+  margin: 2em 0 1em;
+}
+
+.UserData__expand {
+  background: none;
+  border: none;
+  float: right;
+}
+
+.UserData__expand.noData {
+  color: #777;
+}
+
+.UserData__noDataMsg {
+  margin-top: 35px;
+}
+
+.UserData__officer-resigned {
+  text-decoration: line-through;
+}
+
+.UserData__article-txt-obj{
+  
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 20px;
+  
+  width: 70%;
+}
+
+.UserData__attr-name-obj{
+  display: inline-block;
+  width: 22%;
+  vertical-align: top;
+}
+
+.UserData__attr-value-obj{
+  display: inline-block;
+  width: 78%;
+}
+
+.UserData__attr-personalName-obj{
+  display: inline-block;
+  width: 43%;
+  vertical-align: top;
+}
+
+.UserData__attr-personalValue-obj{
+  display: inline-block;
+  width: 57%;
+}
+
+.float-right {
+  float: right;
+  margin-right: 20%;
+}
+
+.padding{
+  padding-bottom: 10px;
+}
+
+.Userdata__loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 57px - 34px);
+}
+
+.booleanValue{
+  margin-left:60px;
+  font-weight: bold;
+  padding-top:20px
+}
+
+.response{
+  margin-left: 90px;
+}
+.criminalResponse{
+  display: inline-flex;
+}
+
+.criminalResponse .booleanValue{ padding-top: 0; }
+
+.multiImage{
+  max-width: 350px;
+}
+
+.check-attr{
+  margin-top: 20px;
+}
+.tuber{
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+
+.tuber-name{
+  margin-right: 10px;
+}
+
+.check-children{
+  margin-bottom: 5px;
+}
+
+.wpmt-10{ margin-top: 10px !important; }
+.WorkPassMain > section > article > div .wpmt-10 {
+   margin-top:  0 !important;
+}
+.such_older{ 
+  margin-top: -5px;
+  display: block;
+  margin-bottom: 7px;
+}

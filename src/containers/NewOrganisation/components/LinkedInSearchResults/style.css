@@ -1,0 +1,14 @@
+.LinkedInSearchResults .VerificationList thead tr:first-child,
+.LinkedInSearchResults .VerificationList tr {
+  border-bottom: none
+}
+
+.LinkedInSearchResults th,
+.LinkedInSearchResults td {
+  border-bottom: solid 1px #e7e5ee;
+}
+
+.LinkedInSearchResults .selected {
+  display: inline-block;
+  height: 45px;
+}

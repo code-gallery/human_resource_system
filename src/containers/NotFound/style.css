@@ -1,0 +1,14 @@
+.NotFound h1 {
+  font-size: 70px;
+  margin-bottom: 0;
+}
+
+.NotFound a {
+  font-size: 18px;
+}
+
+.NotFound-info {
+  font-size: 25px;
+  color: #7F8DAA;
+  margin-bottom: 30px;
+}

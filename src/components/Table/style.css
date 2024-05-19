@@ -1,0 +1,29 @@
+.Table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #212224;
+  font-family: 'Graphik-Regular', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.TableHeading {
+  padding: 0.85rem 0;
+  /* font-size: 0.825rem; */
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  /* color: #9498a1; */
+  color:#4a4a4a;
+  border-bottom: 1px solid #e7e5ee;
+}
+
+.TableData {
+  padding: 0.55rem 0;
+  vertical-align: text-top;
+  font-size: 0.9375rem;
+  line-height: 1rem;
+}
+
+/* .TableData--top {
+  padding-top: 1.5rem;
+} */

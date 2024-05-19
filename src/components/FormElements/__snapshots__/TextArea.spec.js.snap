@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextArea /> when props.defaultValue is undefined renders correctly 1`] = `
+<div
+  className="form-group"
+>
+  <label>
+    About
+  </label>
+  <textarea
+    className="form-textarea"
+    defaultValue=""
+    name="about"
+    onChange={[Function]}
+  />
+</div>
+`;
+
+exports[`<TextArea /> when props.defaultValue is valid renders correctly 1`] = `
+<div
+  className="form-group"
+>
+  <label>
+    About
+  </label>
+  <textarea
+    className="form-textarea"
+    defaultValue="lorem ipsum"
+    name="about"
+    onChange={[Function]}
+  />
+</div>
+`;

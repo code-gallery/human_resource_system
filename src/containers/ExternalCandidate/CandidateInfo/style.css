@@ -1,0 +1,61 @@
+.CandidateInfo {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  font-family: 'Graphik-Regular', sans-serif;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1;
+}
+
+.CandidateInfo__avatar {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  margin-right: 26px;
+}
+
+.CandidateInfo__name {
+  margin-top: 9px;
+  margin-bottom: 6px;
+	font-family: "Graphik-Medium", sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 36px;
+	color: #212224;
+}
+
+.CandidateInfo__role {
+  margin: 0;
+  margin-bottom: 9px;
+	font-family: "Graphik-Regular", sans-serif;
+	font-size: 17px;
+	line-height: 24px;
+	color: #7F8DAA;
+}
+
+.CandidateInfo__link {
+  display: inline-block;
+  font-family: "Graphik-Medium", sans-serif;
+  font-size: 16px;
+	font-weight: 500;
+  line-height: 24px;
+  text-decoration: underline;
+  color: #498DF0;
+}
+
+.CandidateInfo__link-separator {
+  display: inline-block;
+  margin: 0 8px;
+	font-family: "Graphik-Medium", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+  color: #498DF0;
+}
+
+.CandidateInfo__info-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

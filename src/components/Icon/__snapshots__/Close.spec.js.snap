@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Close Icon renders correctly 1`] = `
+<svg
+  className=""
+  viewBox="0 0 17 17"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g
+    fill="none"
+    fillRule="evenodd"
+  >
+    <g
+      stroke="#000"
+      strokeWidth="3"
+      transform="translate(-958 -160)"
+    >
+      <g
+        transform="rotate(-45 678.966 -1065.095)"
+      >
+        <path
+          d="M10,0 L10,20"
+          id="Path-4"
+        />
+        <path
+          d="M0,10 L20,10"
+          id="Path-4"
+        />
+      </g>
+    </g>
+  </g>
+</svg>
+`;

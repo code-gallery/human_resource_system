@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CandidatesTable /> renders correctly 1`] = `
+<section
+  className="CandidatesTable"
+>
+  <h1
+    className="CandidatesTable__header"
+  >
+    Candidates
+  </h1>
+  <table
+    className="Table CandidatesTable__table"
+  >
+    <thead>
+      <tr>
+        <th
+          className="TableHeading"
+        />
+        <th
+          className="TableHeading"
+        >
+          Name
+        </th>
+        <th
+          className="TableHeading"
+        >
+          Latest Role
+        </th>
+        <th
+          className="TableHeading"
+        >
+          Latest Request
+        </th>
+        <th
+          className="TableHeading"
+        >
+          Status
+        </th>
+        <th
+          className="TableHeading"
+        />
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        className="CandidatesTable__table-row"
+        onClick={[Function]}
+      >
+        <td
+          className="TableData TableData--top CandidatesTable__table-data"
+        >
+          <span
+            className="CandidatesTable__avatar"
+          >
+            <img
+              alt="James Carter"
+              className="$Avatar"
+              src="/assets/img/profile.jpg"
+            />
+          </span>
+        </td>
+        <td
+          className="TableData TableData--top CandidatesTable__table-data"
+        >
+          James Carter
+        </td>
+        <td
+          className="TableData TableData--top CandidatesTable__table-data"
+        >
+          ––
+        </td>
+        <td
+          className="TableData TableData--top CandidatesTable__table-data"
+        >
+          ––
+        </td>
+        <td
+          className="TableData TableData--top CandidatesTable__table-data CandidatesTable__table-data--status"
+        >
+          No Requests
+        </td>
+        <td
+          className="TableData TableData--top CandidatesTable__table-data CandidatesTable__table-data--view"
+        >
+          View
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+`;

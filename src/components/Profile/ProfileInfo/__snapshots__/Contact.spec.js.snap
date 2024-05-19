@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Profile/.../Contact when all user info are not defined renders correctly 1`] = `null`;
+
+exports[`components/Profile/.../Contact when editMode = false and active = false renders correctly 1`] = `
+<div
+  className="contact-drop-holder pull-right active"
+>
+  <button
+    className="btn blue-btn drop-btn"
+    onClick={[Function]}
+  >
+    Contact
+  </button>
+</div>
+`;
+
+exports[`components/Profile/.../Contact when editMode = false and active = true renders correctly 1`] = `
+<div
+  className="contact-drop-holder pull-right active dropdown-active"
+>
+  <button
+    className="btn blue-btn drop-btn"
+    onClick={[Function]}
+  >
+    Contact
+  </button>
+  <ul
+    className="nav-dropdown nav-dropdown-border contact-drop-nav"
+  >
+    <li>
+      <a
+        className="c-email"
+        href="mailto:ab@appliedblockchain.com"
+      >
+        ab@appliedblockchain.com
+      </a>
+    </li>
+    <li>
+      <a
+        className="c-tw"
+        href="https://twitter.com/@applied"
+      >
+        @applied
+      </a>
+    </li>
+    <li>
+      <a
+        className="c-phone"
+        href="tel:+44"
+      >
+        +44
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`components/Profile/.../Contact when editMode = true and active = true renders correctly 1`] = `
+<div
+  className="contact-drop-holder pull-right active dropdown-active edit-mode"
+>
+  <button
+    className="btn blue-btn drop-btn"
+    onClick={[Function]}
+  >
+    Contact
+  </button>
+  <ul
+    className="nav-dropdown nav-dropdown-border contact-drop-nav"
+  >
+    <li>
+      <a
+        className="c-email"
+        href="mailto:ab@appliedblockchain.com"
+      >
+        ab@appliedblockchain.com
+      </a>
+    </li>
+    <li>
+      <a
+        className="c-tw"
+        href="https://twitter.com/@applied"
+      >
+        @applied
+      </a>
+    </li>
+    <li>
+      <a
+        className="c-phone"
+        href="tel:+44"
+      >
+        +44
+      </a>
+    </li>
+  </ul>
+</div>
+`;

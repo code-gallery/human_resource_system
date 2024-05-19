@@ -1,0 +1,445 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile/components/EducationList when props.editMode = true and props.addNew = true when sorting by end_date renders correctly 1`] = `
+<section
+  className="profile-experience-wrapper"
+>
+  <div
+    className="profile-experience-block-btns"
+  >
+    <button
+      className="reorder-btn"
+      onClick={[Function]}
+    >
+       
+    </button>
+    <button
+      className="add-btn"
+      onClick={[Function]}
+    >
+       
+    </button>
+  </div>
+  <p
+    className="profile-block-title"
+  >
+    Education
+  </p>
+  <div>
+    <div>
+      <div
+        className="profile-experience-block profile-verified-status"
+      >
+        <div
+          className="profile-experience-btns"
+        >
+          <button
+            className="edit-btn"
+            onClick={[Function]}
+          >
+             
+          </button>
+        </div>
+        <div
+          className="relative"
+        >
+          <div
+            className="Avatar Avatar-white Avatar-size-109"
+          >
+            <img
+              alt="logo"
+              src="appii-placeholder.png"
+            />
+          </div>
+          <p
+            className="visible-xs visible-sm"
+          >
+            <i
+              className="profile-status-ico tooltip-position-top tooltip-movable tooltip-success"
+              data-tooltip="Verified"
+            >
+               
+            </i>
+          </p>
+        </div>
+        <div
+          className="profile-experience-info"
+        >
+          <i
+            className="profile-status-ico tooltip-position-top tooltip-movable tooltip-success hidden-xs hidden-sm"
+            data-tooltip="Verified"
+          >
+             
+          </i>
+          <p>
+            <a
+              href="/organisations/140"
+              onClick={[Function]}
+              title="Birmingham City University"
+            >
+              Birmingham City University
+            </a>
+          </p>
+          <span>
+            
+          </span>
+          <em>
+            2013
+             - 
+            2014
+          </em>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className="profile-experience-block profile-pending-status"
+      >
+        <div
+          className="profile-experience-btns"
+        >
+          <button
+            className="edit-btn"
+            onClick={[Function]}
+          >
+             
+          </button>
+        </div>
+        <div
+          className="relative"
+        >
+          <div
+            className="Avatar Avatar-white Avatar-size-109"
+          >
+            <img
+              alt="logo"
+              src="appii-placeholder.png"
+            />
+          </div>
+          <p
+            className="visible-xs visible-sm"
+          >
+            <i
+              className="profile-status-ico tooltip-position-top tooltip-movable tooltip-warning"
+              data-tooltip="Pending verification"
+            >
+               
+            </i>
+          </p>
+        </div>
+        <div
+          className="profile-experience-info"
+        >
+          <i
+            className="profile-status-ico tooltip-position-top tooltip-movable tooltip-warning hidden-xs hidden-sm"
+            data-tooltip="Pending verification"
+          >
+             
+          </i>
+          <p>
+            <a
+              href="/organisations/953"
+              onClick={[Function]}
+              title="Oxford Brookes University"
+            >
+              Oxford Brookes University
+            </a>
+          </p>
+          <span>
+            
+          </span>
+          <em>
+            2011
+             - 
+            2012
+          </em>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`containers/Profile/components/EducationList when props.editMode is false when sorting by end_date renders correctly 1`] = `
+<section
+  className="profile-experience-wrapper"
+>
+  <p
+    className="profile-block-title"
+  >
+    Education
+  </p>
+  <div>
+    <div>
+      <div
+        className="profile-experience-block profile-verified-status"
+      >
+        <div
+          className="relative"
+        >
+          <div
+            className="Avatar Avatar-white Avatar-size-109"
+          >
+            <img
+              alt="logo"
+              src="appii-placeholder.png"
+            />
+          </div>
+          <p
+            className="visible-xs visible-sm"
+          >
+            <i
+              className="profile-status-ico tooltip-position-top tooltip-movable tooltip-success"
+              data-tooltip="Verified"
+            >
+               
+            </i>
+          </p>
+        </div>
+        <div
+          className="profile-experience-info"
+        >
+          <i
+            className="profile-status-ico tooltip-position-top tooltip-movable tooltip-success hidden-xs hidden-sm"
+            data-tooltip="Verified"
+          >
+             
+          </i>
+          <p>
+            <a
+              href="/organisations/140"
+              onClick={[Function]}
+              title="Birmingham City University"
+            >
+              Birmingham City University
+            </a>
+          </p>
+          <span>
+            
+          </span>
+          <em>
+            2013
+             - 
+            2014
+          </em>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className="profile-experience-block profile-pending-status"
+      >
+        <div
+          className="relative"
+        >
+          <div
+            className="Avatar Avatar-white Avatar-size-109"
+          >
+            <img
+              alt="logo"
+              src="appii-placeholder.png"
+            />
+          </div>
+          <p
+            className="visible-xs visible-sm"
+          >
+            <i
+              className="profile-status-ico tooltip-position-top tooltip-movable tooltip-warning"
+              data-tooltip="Pending verification"
+            >
+               
+            </i>
+          </p>
+        </div>
+        <div
+          className="profile-experience-info"
+        >
+          <i
+            className="profile-status-ico tooltip-position-top tooltip-movable tooltip-warning hidden-xs hidden-sm"
+            data-tooltip="Pending verification"
+          >
+             
+          </i>
+          <p>
+            <a
+              href="/organisations/953"
+              onClick={[Function]}
+              title="Oxford Brookes University"
+            >
+              Oxford Brookes University
+            </a>
+          </p>
+          <span>
+            
+          </span>
+          <em>
+            2011
+             - 
+            2012
+          </em>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`containers/Profile/components/EducationList when props.editMode is true when sorting by end_date renders correctly 1`] = `
+<section
+  className="profile-experience-wrapper"
+>
+  <div
+    className="profile-experience-block-btns"
+  >
+    <button
+      className="reorder-btn"
+      onClick={[Function]}
+    >
+       
+    </button>
+    <button
+      className="add-btn"
+      onClick={[Function]}
+    >
+       
+    </button>
+  </div>
+  <p
+    className="profile-block-title"
+  >
+    Education
+  </p>
+  <div>
+    <div>
+      <div
+        className="profile-experience-block profile-verified-status"
+      >
+        <div
+          className="profile-experience-btns"
+        >
+          <button
+            className="edit-btn"
+            onClick={[Function]}
+          >
+             
+          </button>
+        </div>
+        <div
+          className="relative"
+        >
+          <div
+            className="Avatar Avatar-white Avatar-size-109"
+          >
+            <img
+              alt="logo"
+              src="appii-placeholder.png"
+            />
+          </div>
+          <p
+            className="visible-xs visible-sm"
+          >
+            <i
+              className="profile-status-ico tooltip-position-top tooltip-movable tooltip-success"
+              data-tooltip="Verified"
+            >
+               
+            </i>
+          </p>
+        </div>
+        <div
+          className="profile-experience-info"
+        >
+          <i
+            className="profile-status-ico tooltip-position-top tooltip-movable tooltip-success hidden-xs hidden-sm"
+            data-tooltip="Verified"
+          >
+             
+          </i>
+          <p>
+            <a
+              href="/organisations/140"
+              onClick={[Function]}
+              title="Birmingham City University"
+            >
+              Birmingham City University
+            </a>
+          </p>
+          <span>
+            
+          </span>
+          <em>
+            2013
+             - 
+            2014
+          </em>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className="profile-experience-block profile-pending-status"
+      >
+        <div
+          className="profile-experience-btns"
+        >
+          <button
+            className="edit-btn"
+            onClick={[Function]}
+          >
+             
+          </button>
+        </div>
+        <div
+          className="relative"
+        >
+          <div
+            className="Avatar Avatar-white Avatar-size-109"
+          >
+            <img
+              alt="logo"
+              src="appii-placeholder.png"
+            />
+          </div>
+          <p
+            className="visible-xs visible-sm"
+          >
+            <i
+              className="profile-status-ico tooltip-position-top tooltip-movable tooltip-warning"
+              data-tooltip="Pending verification"
+            >
+               
+            </i>
+          </p>
+        </div>
+        <div
+          className="profile-experience-info"
+        >
+          <i
+            className="profile-status-ico tooltip-position-top tooltip-movable tooltip-warning hidden-xs hidden-sm"
+            data-tooltip="Pending verification"
+          >
+             
+          </i>
+          <p>
+            <a
+              href="/organisations/953"
+              onClick={[Function]}
+              title="Oxford Brookes University"
+            >
+              Oxford Brookes University
+            </a>
+          </p>
+          <span>
+            
+          </span>
+          <em>
+            2011
+             - 
+            2012
+          </em>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

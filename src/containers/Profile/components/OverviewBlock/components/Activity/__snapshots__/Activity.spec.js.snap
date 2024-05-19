@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile/components/OverviewBlock/.../Activity when activities is empty renders correctly 1`] = `
+<div
+  className="Activity "
+>
+  <p
+    className="Activity-title"
+  >
+    Activity
+  </p>
+  <ul>
+    <p>
+      No activities yet
+    </p>
+  </ul>
+</div>
+`;
+
+exports[`containers/Profile/components/OverviewBlock/.../Activity when activities is not empty when editMode is false renders correctly 1`] = `
+<div
+  className="Activity "
+>
+  <p
+    className="Activity-title"
+  >
+    Activity
+  </p>
+  <ul>
+    <li>
+      <strong>
+        <em>
+          17th November 17
+        </em>
+      </strong>
+      <p>
+        developer
+         at 
+        Applied Blockchain
+         
+        is
+         
+        <span
+          className="Activity-pending"
+        >
+          pending verification
+        </span>
+        .
+      </p>
+    </li>
+    <li>
+      <strong>
+        <em>
+          17th November 17
+        </em>
+      </strong>
+      <p>
+        MSc
+         at 
+        Westminster
+         
+        was
+         
+        <span
+          className="Activity-verified"
+        >
+          verified
+        </span>
+        .
+      </p>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`containers/Profile/components/OverviewBlock/.../Activity when activities is not empty when editMode is true renders correctly 1`] = `
+<div
+  className="Activity edit-mode"
+>
+  <p
+    className="Activity-title"
+  >
+    Activity
+  </p>
+  <ul>
+    <li>
+      <strong>
+        <em>
+          17th November 17
+        </em>
+      </strong>
+      <p>
+        developer
+         at 
+        Applied Blockchain
+         
+        is
+         
+        <span
+          className="Activity-pending"
+        >
+          pending verification
+        </span>
+        .
+      </p>
+    </li>
+    <li>
+      <strong>
+        <em>
+          17th November 17
+        </em>
+      </strong>
+      <p>
+        MSc
+         at 
+        Westminster
+         
+        was
+         
+        <span
+          className="Activity-verified"
+        >
+          verified
+        </span>
+        .
+      </p>
+    </li>
+  </ul>
+</div>
+`;

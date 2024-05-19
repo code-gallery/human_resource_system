@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/NewOrganisation/components/LinkedInSearchResults when there are no results renders correctly 1`] = `
+<p>
+  There are no results.
+</p>
+`;
+
+exports[`containers/NewOrganisation/components/LinkedInSearchResults when there are results renders correctly 1`] = `
+<div
+  className="LinkedInSearchResults"
+>
+  <h3
+    className="ContentCard-title"
+  >
+    Search results
+  </h3>
+  <table
+    className="VerificationList"
+  >
+    <thead
+      className="hidden-sm hidden-xs"
+    >
+      <tr>
+        <th
+          className="col-xs-12 col-md-3"
+        >
+          Organisation
+        </th>
+        <th
+          className="col-xs-12 col-md-3 text-center"
+        >
+          Action
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        className="VerificationItem"
+      >
+        <td
+          className="col-xs-12 col-md-3"
+        >
+          <div
+            className="Avatar Avatar-blue Avatar-size-45 Avatar-withLabel"
+          >
+            <img
+              alt="Apple"
+              src="https://logo-apple"
+            />
+            <span>
+              Apple
+            </span>
+          </div>
+        </td>
+        <td
+          className="col-xs-12 col-md-3 text-center"
+        >
+          <span
+            className="selected"
+          >
+            Organisation registered
+          </span>
+        </td>
+      </tr>
+      <tr
+        className="VerificationItem"
+      >
+        <td
+          className="col-xs-12 col-md-3"
+        >
+          <div
+            className="Avatar Avatar-blue Avatar-size-45 Avatar-withLabel"
+          >
+            <img
+              alt="Apple 2"
+              src="appii-placeholder.png"
+            />
+            <span>
+              Apple 2
+            </span>
+          </div>
+        </td>
+        <td
+          className="col-xs-12 col-md-3 text-center"
+        >
+          <button
+            className="btn green-btn"
+            onClick={[Function]}
+          >
+            Select
+          </button>
+        </td>
+      </tr>
+      <tr
+        className="VerificationItem"
+      >
+        <td
+          className="col-xs-12 col-md-3"
+        >
+          <div
+            className="Avatar Avatar-blue Avatar-size-45 Avatar-withLabel"
+          >
+            <img
+              alt="Apple 3"
+              src="appii-placeholder.png"
+            />
+            <span>
+              Apple 3
+            </span>
+          </div>
+        </td>
+        <td
+          className="col-xs-12 col-md-3 text-center"
+        >
+          <button
+            className="btn green-btn"
+            onClick={[Function]}
+          >
+            Select
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

@@ -1,0 +1,154 @@
+.react-tabs__tab {
+  font-size: 16px;
+  font-family: 'Graphik-Regular', sans-serif;
+  font-weight: normal;
+}
+.react-tabs__tab-panel {
+  margin-top: 15px;
+}
+.address-list {
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+.address-list label {
+  display: block;
+  margin-bottom: 5px;
+}
+.address {
+  margin-left: 10px;
+}
+.add-address {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 0;
+  text-decoration: underline;
+}
+.employment-list .fa-icon {
+  margin: 0 10px 0 0;
+}
+.fa-icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.PI__loader {
+  justify-content: center;
+  min-height: 500px;
+  align-items: center;
+  display: flex;
+}
+.othername-heading {
+  text-transform: capitalize;
+  background-color: rgb(212 208 208);
+  padding: 10px;
+}
+.othername-list {
+  border-bottom: 1px solid rgb(212 208 208);
+  padding: 5px 0;
+  float: left;
+  width: 100%;
+}
+.othername-list input[type=radio] {
+  margin-right: 5px;
+}
+.othername-action {
+  float:right;
+}
+.address-gap {
+  color: red;
+  font-size: 13px;
+  font-weight: bold;
+}
+.add-personal-form .switch-container {
+  width: 60px;
+}
+.employment-list p {
+  margin-bottom: 5px;
+}
+.emp-list-right {
+  text-align: justify;
+}
+.add-missing {
+  cursor: pointer;
+}
+.ref-required {
+  font-size: 13px;
+  color: red;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(212 208 208);
+  padding: 5px 0 10px 15px;
+  width: 100%;
+  float:left;
+}
+.add-reference-form .form-group input {
+  height: 34px;
+  font-size: 14px;
+}
+.add-reference-form .Select-placeholder,
+.add-reference-form .Select-value,
+.add-reference-form .Select-input,
+.add-reference-form .Select-input .Select-value-label,
+.add-reference-form .Select-placeholder,
+.add-reference-form .Select--single > .Select-control .Select-value,
+.add-personal-form .form-group input,
+.add-personal-form .Select-placeholder,
+.add-personal-form .Select--single > .Select-control .Select-value,
+.add-personal-form .Select-input {
+  height: 34px;
+  line-height: 34px;
+  font-size: 14px;
+}
+.add-reference-form .Select-option {
+  font-size: 14px;
+}
+.find-address-btn {
+  width: auto;
+  min-width: 80px;
+  float: right;
+  padding: 10px;
+  font-size: small;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+.rightToWorkTitle{
+  font-weight: bold;
+  font-size: 15px !important;
+}
+.rightToWorkDesc{
+  font-size: 13px;
+  cursor: pointer;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 0;
+  padding-bottom: 16px;
+}
+.criminal-header{
+  background-color: #efefef;
+  margin-top: -15px !important;
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+  padding: 15px;
+  margin-bottom: 25px !important;
+}
+.criminal-desc{
+  margin: 0px;
+  font-size: 13px;
+}
+.back-btn {
+  width: 80px;
+  padding: 10px;
+  font-size: small;
+  margin: 0 5px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+.add-personal-form input.form-control::placeholder {
+  color: lightgray
+}
+.selectFormat .Select-input {
+  height: 35px;
+}
+.selectFormat .Select-placeholder, .selectFormat .Select--single > .Select-control .Select-value {
+  line-height: 35px;
+}
+.immigrationWork label span{ display: inline-block; padding-top: 8px; }
+.immigrationWork .form-group input[type="text"]{ height: 40px;}

@@ -1,0 +1,104 @@
+.document-table {
+  table-layout: fixed;
+  width: 100%;
+}
+.document-table .TableHeading {
+  word-wrap: break-word;
+}
+.persona input {
+  height: 20px !important;
+}
+.persona input[type=checkbox] {
+  height: auto !important;
+  width: auto !important;
+  left: 0;
+  position: relative;
+}
+.persona > div > button {
+  width: 100%;
+}
+.persona > div > button + div {
+  width: 100%;
+  margin-top: 2px !important;
+  border: 2px solid #eee;
+}
+/* .css-11unzgr {
+  max-height: 150px !important;
+} */
+.css-1qprcsu-option {
+  background-color: #DEEBFF !important;
+  color: #44474c !important;
+}
+.CandidatesTable__table-data.persona {
+  color: #498df0;
+  font-weight: bold;
+}
+.persona-list li {
+  padding: 5px 0 5px 10px;
+}
+.candidate-search .persona > div > button + div {
+  width: auto;
+}
+.candidate-search .persona > div > button {
+  border-top: 1px solid #e7e5ee;
+}
+
+.candidate-search .officer-name.persona > div > button {
+  max-width: 92%;
+  border-top: 1px solid #e7e5ee;
+}
+
+
+
+/* .candidate-view{ min-width: 55px; } */
+.candidate-view{ width: 75px; }
+.candidate-search td {border-bottom: 1px solid #e7e5ee; padding-top: 8px; padding-bottom: 8px;}
+
+/* .candidate-image{ width: 60px; }
+.candidate-name{ width: 115px; }
+.candidate-org{ width: 159px; }
+.candidate-role{ width: 110px; }
+.candidate-request{ width: 120px; }
+.candidate-status{ width: 108px; }
+.candidate-officer-name{ width: 108px; }
+.candidate-last-nudge{ width: 108px; } */
+
+.candidate-image{ width: 45px; }
+.candidate-name{ width: auto; }
+.candidate-org{ width: 13%; }
+.candidate-role{ width: 11.51%; }
+.candidate-request{ width: 12%; }
+.candidate-status{ width: 13%; }
+.candidate-officer-name{ width: 13%; }
+.candidate-last-nudge{ width: 13%; }
+.candidate-ratio{ width:35px; }
+
+.calender_sec .react-datepicker-wrapper{ width: 90%;}
+.calender_sec .react-datepicker-wrapper input{ width: 100%; height: 39px;box-shadow: 0 1px 1px 1px rgb(0 0 0 / 8%); border:0; border-top: 1px solid #e7e5ee; }
+.calender_sec{ position: relative; }
+.calender_sec .react-datepicker__close-icon{ padding: 0px 2px 0px 0px }
+.nudge_calender_sec .react-datepicker-wrapper{ width: 82%;}
+.react-datepicker-popper{ z-index: 9999999999999999; }
+.candidate-search .org-name.persona > div > button{ width: 92%; }
+.candidate_row_vt{ vertical-align: top; }
+.candidate_table_layout{ table-layout: fixed; }
+
+.text-right2{text-align: right;}
+.CandidatesTable__person img{ width: 35px; height: 35px; margin-top: 7px; }
+.add-document-form .form-group input,
+.add-document-form .Select-placeholder,
+.add-document-form .Select--single > .Select-control .Select-value,
+.add-document-form .Select-input {
+  height: 34px;
+  line-height: 34px;
+  font-size: 14px;
+}
+.add-document-form .form-group .form-control {
+  padding: 0 10px;
+}
+.add-document-form .btn-custom-file-upload label {
+  font-size: 14px;
+}
+.add-document-form .form-group label.col-form-label {
+  margin-top: 5px;
+}

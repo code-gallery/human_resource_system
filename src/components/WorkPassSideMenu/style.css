@@ -1,0 +1,84 @@
+.SideMenu {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 50;
+  top: 65px;
+  left: 0;
+  display: block;
+  width:  265px;
+  height: calc(100vh - 65px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 1.875rem;
+  font-family: 'Graphik-Medium', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1;
+  background-color: #fff;
+}
+
+.SideMenu.hasNotification {
+  top: 110px;
+  height: calc(100vh - 110px);
+}
+
+.SideMenu__button {
+  padding-left: 1.625rem;
+  padding-right: 1.625rem;
+  margin-bottom: 1.875rem;
+}
+
+.SideMenu__link-list-wrap {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin:  0;
+  margin-bottom: 3.125rem;
+}
+
+.SideMenu__link {
+  display: block;
+  padding-left:  1.625rem;
+  padding-right: 1.625rem;
+  font-size: 1.0625rem;
+  line-height: 3.125rem;
+  text-decoration: none;
+  color: #212224;
+}
+
+.SideMenu__link:hover,
+.SideMenu__link.is-active {
+  background-color: #edf4fc;
+  color: #498df0;
+  border-right: 5px solid #498df0;
+}
+
+.SideMenu__balance {
+  padding-left:  1.625rem;
+  padding-right: 1.625rem;
+  font-size: 1.0625rem;
+}
+
+.SideMenu__balance-amount {
+  float: right;
+  color: #7e8dab;
+}
+
+
+.nestedMenu {
+  display: block;
+  padding-left:  1rem;
+  padding-right: 1rem;
+
+  font-weight: 100;
+  line-height: 2.5rem;
+  color: #6b6d71;
+  text-align: right;
+  text-decoration-line: none;
+}
+
+.nestedMenu:hover,
+.nestedMenu.is-active {
+  text-decoration-line: underline;
+  color: #498df0;
+}

@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile/components/.../AchievementForm when "name" and "description" are invalid renders correctly 1`] = `
+<div>
+  <div
+    className="form-group"
+  >
+    <label
+      className="required-error"
+    >
+      Name
+    </label>
+    <input
+      defaultValue=""
+      name="name"
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className="required-error"
+    >
+      Description
+    </label>
+    <input
+      defaultValue=""
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-12 col-sm-12 col-md-6 col-lg-6"
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          className=""
+        >
+          Date
+        </label>
+        <div
+          className="select double-select active"
+          onClick={[Function]}
+        >
+          <span>
+            February 2016
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`containers/Profile/components/.../AchievementForm when all inputs have no values renders correctly 1`] = `
+<div>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+    >
+      Name
+    </label>
+    <input
+      defaultValue={undefined}
+      name="name"
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+    >
+      Description
+    </label>
+    <input
+      defaultValue={undefined}
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-12 col-sm-12 col-md-6 col-lg-6"
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          className=""
+        >
+          Date
+        </label>
+        <div
+          className="select double-select active"
+          onClick={[Function]}
+        >
+          <span>
+            April 2018
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`containers/Profile/components/.../AchievementForm when all inputs have values renders correctly 1`] = `
+<div>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+    >
+      Name
+    </label>
+    <input
+      defaultValue="Awesomeness"
+      name="name"
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+    >
+      Description
+    </label>
+    <input
+      defaultValue="Lorem ipsum"
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-12 col-sm-12 col-md-6 col-lg-6"
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          className=""
+        >
+          Date
+        </label>
+        <div
+          className="select double-select active"
+          onClick={[Function]}
+        >
+          <span>
+            February 2016
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

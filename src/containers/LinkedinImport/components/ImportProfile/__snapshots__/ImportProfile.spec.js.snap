@@ -1,0 +1,595 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/LinkedinImport/ImportProfile renders correctly 1`] = `
+<div>
+  <div
+    className="form-group"
+  >
+    <input
+      name="first_name"
+      onChange={[Function]}
+      placeholder="First Name"
+      type="text"
+      value="Testy"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <input
+      name="last_name"
+      onChange={[Function]}
+      placeholder="Last Name"
+      type="text"
+      value="tester"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <input
+      name="tagline"
+      onChange={[Function]}
+      placeholder="Tagline"
+      type="text"
+      value="The tester"
+    />
+  </div>
+  <div
+    className="form-group assertion-group"
+  >
+    <h2
+      className="assertion-header"
+    >
+      Work Experience
+    </h2>
+    <div
+      className="container-fluid"
+    >
+      <div
+        className="row assertion-preview"
+      >
+        <div
+          className="col-xs-12"
+        >
+          <div
+            className="form-group active"
+          >
+            <label>
+              Company 
+            </label>
+            <div
+              className="Select workitemOrganisation has-value is-clearable is-loading is-searchable Select--single"
+              style={undefined}
+            >
+              <div
+                className="Select-control"
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                style={undefined}
+              >
+                <span
+                  className="Select-multi-value-wrapper"
+                  id="react-select-2--value"
+                >
+                  <div
+                    className="Select-value"
+                    style={undefined}
+                    title={undefined}
+                  >
+                    <span
+                      aria-selected="true"
+                      className="Select-value-label"
+                      id="react-select-2--value-item"
+                      role="option"
+                    >
+                      APPII
+                    </span>
+                  </div>
+                  <div
+                    className="Select-input"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                      }
+                    }
+                  >
+                    <input
+                      aria-activedescendant="react-select-2--value"
+                      aria-describedby={undefined}
+                      aria-expanded="false"
+                      aria-haspopup="false"
+                      aria-label={undefined}
+                      aria-labelledby={undefined}
+                      aria-owns=""
+                      className="Select-input"
+                      id={undefined}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      required={false}
+                      role="combobox"
+                      tabIndex={undefined}
+                      value=""
+                    />
+                  </div>
+                </span>
+                <span
+                  aria-hidden="true"
+                  className="Select-loading-zone"
+                >
+                  <span
+                    className="Select-loading"
+                  />
+                </span>
+                <span
+                  className="Select-arrow-zone"
+                  onMouseDown={[Function]}
+                >
+                  <span
+                    className="Select-arrow"
+                    onMouseDown={[Function]}
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="form-group active"
+          >
+            <label>
+              Position
+            </label>
+            <input
+              className="workitemPosition"
+              onChange={[Function]}
+              type="text"
+              value="Testiest Tester"
+            />
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="col-xs-12 col-md-6"
+            >
+              <div
+                className="form-group active"
+              >
+                <div
+                  className="form-group"
+                >
+                  <label
+                    className=""
+                  >
+                    Start Date
+                  </label>
+                  <div
+                    className="select double-select active"
+                    onClick={[Function]}
+                  >
+                    <span>
+                      October 2016
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xs-12 col-md-6"
+            >
+              <div
+                className="form-group active"
+              >
+                <div
+                  className="form-group"
+                >
+                  <label
+                    className=""
+                  >
+                    End Date
+                  </label>
+                  <div
+                    className="select double-select active"
+                    onClick={[Function]}
+                  >
+                    <span>
+                      April 2018
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <button
+              className="btn red-btn"
+              onClick={[Function]}
+            >
+              Remove
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="row assertion-preview"
+      >
+        <div
+          className="col-xs-12"
+        >
+          <div
+            className="form-group active"
+          >
+            <label>
+              Company 
+            </label>
+            <div
+              className="Select workitemOrganisation has-value is-clearable is-loading is-searchable Select--single"
+              style={undefined}
+            >
+              <div
+                className="Select-control"
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                style={undefined}
+              >
+                <span
+                  className="Select-multi-value-wrapper"
+                  id="react-select-3--value"
+                >
+                  <div
+                    className="Select-value"
+                    style={undefined}
+                    title={undefined}
+                  >
+                    <span
+                      aria-selected="true"
+                      className="Select-value-label"
+                      id="react-select-3--value-item"
+                      role="option"
+                    >
+                      APPII
+                    </span>
+                  </div>
+                  <div
+                    className="Select-input"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                      }
+                    }
+                  >
+                    <input
+                      aria-activedescendant="react-select-3--value"
+                      aria-describedby={undefined}
+                      aria-expanded="false"
+                      aria-haspopup="false"
+                      aria-label={undefined}
+                      aria-labelledby={undefined}
+                      aria-owns=""
+                      className="Select-input"
+                      id={undefined}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      required={false}
+                      role="combobox"
+                      tabIndex={undefined}
+                      value=""
+                    />
+                  </div>
+                </span>
+                <span
+                  aria-hidden="true"
+                  className="Select-loading-zone"
+                >
+                  <span
+                    className="Select-loading"
+                  />
+                </span>
+                <span
+                  className="Select-arrow-zone"
+                  onMouseDown={[Function]}
+                >
+                  <span
+                    className="Select-arrow"
+                    onMouseDown={[Function]}
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="form-group active"
+          >
+            <label>
+              Position
+            </label>
+            <input
+              className="workitemPosition"
+              onChange={[Function]}
+              type="text"
+              value="Less testy tester"
+            />
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="col-xs-12 col-md-6"
+            >
+              <div
+                className="form-group active"
+              >
+                <div
+                  className="form-group"
+                >
+                  <label
+                    className=""
+                  >
+                    Start Date
+                  </label>
+                  <div
+                    className="select double-select active"
+                    onClick={[Function]}
+                  >
+                    <span>
+                      June 2014
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xs-12 col-md-6"
+            >
+              <div
+                className="form-group active"
+              >
+                <div
+                  className="form-group"
+                >
+                  <label
+                    className=""
+                  >
+                    End Date
+                  </label>
+                  <div
+                    className="select double-select active"
+                    onClick={[Function]}
+                  >
+                    <span>
+                      July 2016
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <button
+              className="btn red-btn"
+              onClick={[Function]}
+            >
+              Remove
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="form-group assertion-group"
+  >
+    <h2
+      className="assertion-header"
+    >
+      Education
+    </h2>
+    <div
+      className="container-fluid"
+    >
+      <div
+        className="row assertion-preview"
+      >
+        <div
+          className="col-xs-12"
+        >
+          <div
+            className="form-group active"
+          >
+            <label>
+              Institution 
+            </label>
+            <div
+              className="Select has-value is-clearable is-loading is-searchable Select--single"
+              style={undefined}
+            >
+              <div
+                className="Select-control"
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                style={undefined}
+              >
+                <span
+                  className="Select-multi-value-wrapper"
+                  id="react-select-4--value"
+                >
+                  <div
+                    className="Select-value"
+                    style={undefined}
+                    title={undefined}
+                  >
+                    <span
+                      aria-selected="true"
+                      className="Select-value-label"
+                      id="react-select-4--value-item"
+                      role="option"
+                    >
+                      Testford University
+                    </span>
+                  </div>
+                  <div
+                    className="Select-input"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                      }
+                    }
+                  >
+                    <input
+                      aria-activedescendant="react-select-4--value"
+                      aria-describedby={undefined}
+                      aria-expanded="false"
+                      aria-haspopup="false"
+                      aria-label={undefined}
+                      aria-labelledby={undefined}
+                      aria-owns=""
+                      className="Select-input"
+                      id={undefined}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      required={false}
+                      role="combobox"
+                      tabIndex={undefined}
+                      value=""
+                    />
+                  </div>
+                </span>
+                <span
+                  aria-hidden="true"
+                  className="Select-loading-zone"
+                >
+                  <span
+                    className="Select-loading"
+                  />
+                </span>
+                <span
+                  className="Select-arrow-zone"
+                  onMouseDown={[Function]}
+                >
+                  <span
+                    className="Select-arrow"
+                    onMouseDown={[Function]}
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="form-group active"
+          >
+            <label>
+              Degree
+            </label>
+            <input
+              className="educationitemDegree"
+              onChange={[Function]}
+              type="text"
+              value="Masters"
+            />
+          </div>
+          <div
+            className="form-group active"
+          >
+            <label>
+              Studied
+            </label>
+            <input
+              onChange={[Function]}
+              type="text"
+              value="Testing"
+            />
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="col-xs-12 col-md-6"
+            >
+              <div
+                className="form-group active"
+              >
+                <div
+                  className="form-group"
+                >
+                  <label
+                    className=""
+                  >
+                    Start Date
+                  </label>
+                  <div
+                    className="select double-select active"
+                    onClick={[Function]}
+                  >
+                    <span>
+                      January 2003
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xs-12 col-md-6"
+            >
+              <div
+                className="form-group active"
+              >
+                <div
+                  className="form-group"
+                >
+                  <label
+                    className=""
+                  >
+                    End Date
+                  </label>
+                  <div
+                    className="select double-select active"
+                    onClick={[Function]}
+                  >
+                    <span>
+                      January 2006
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <button
+              className="btn red-btn"
+              onClick={[Function]}
+            >
+              Remove
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <button
+      className="btn green-btn"
+      onClick={[Function]}
+    >
+      Import
+    </button>
+    <button
+      className="btn red-btn"
+      onClick={undefined}
+    >
+      Cancel
+    </button>
+  </div>
+</div>
+`;

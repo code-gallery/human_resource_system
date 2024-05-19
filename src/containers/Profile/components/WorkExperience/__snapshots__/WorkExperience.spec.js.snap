@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile/components/WorkExperience when props.editMode is false when sorting by end_date renders correctly 1`] = `
+<section
+  className="profile-experience-wrapper"
+>
+  <p
+    className="profile-block-title"
+  >
+    Work Experience
+  </p>
+  <div>
+    <div>
+      <div
+        className="profile-experience-block profile-verified-status"
+      >
+        <div
+          className="relative"
+        >
+          <div
+            className="Avatar Avatar-white Avatar-size-109"
+          >
+            <img
+              alt="logo"
+              src="appii-placeholder.png"
+            />
+          </div>
+          <p
+            className="visible-xs visible-sm"
+          >
+            <i
+              className="profile-status-ico tooltip-position-top tooltip-movable tooltip-success"
+              data-tooltip="Verified"
+            >
+               
+            </i>
+          </p>
+        </div>
+        <div
+          className="profile-experience-info"
+        >
+          <i
+            className="profile-status-ico tooltip-position-top tooltip-movable tooltip-success hidden-xs hidden-sm"
+            data-tooltip="Verified"
+          >
+             
+          </i>
+          <p>
+            Applied Blockchain
+          </p>
+          <span />
+          <em>
+            2017
+             - 
+            Present
+          </em>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className="profile-experience-block profile-unverified-status"
+      >
+        <div
+          className="relative"
+        >
+          <div
+            className="Avatar Avatar-white Avatar-size-109"
+          >
+            <img
+              alt="logo"
+              src="appii-placeholder.png"
+            />
+          </div>
+          <p
+            className="visible-xs visible-sm"
+          >
+            <i
+              className="profile-status-ico tooltip-position-top tooltip-movable tooltip-dark"
+              data-tooltip="Not verified"
+            >
+               
+            </i>
+          </p>
+        </div>
+        <div
+          className="profile-experience-info"
+        >
+          <i
+            className="profile-status-ico tooltip-position-top tooltip-movable tooltip-dark hidden-xs hidden-sm"
+            data-tooltip="Not verified"
+          >
+             
+          </i>
+          <p>
+            Apple Inc
+          </p>
+          <span />
+          <em>
+            2015
+             - 
+            2016
+          </em>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`containers/Profile/components/WorkExperience when props.editMode is true renders correctly 1`] = `
+<section
+  className="profile-experience-wrapper"
+>
+  <div
+    className="profile-experience-block-btns"
+  >
+    <button
+      className="reorder-btn"
+      onClick={[Function]}
+    >
+       
+    </button>
+    <button
+      className="add-btn"
+      onClick={[Function]}
+    >
+       
+    </button>
+  </div>
+  <p
+    className="profile-block-title"
+  >
+    Work Experience
+  </p>
+  <div>
+    <div>
+      <div
+        className="profile-experience-block profile-verified-status"
+      >
+        <div
+          className="profile-experience-btns"
+        >
+          <button
+            className="edit-btn"
+            onClick={[Function]}
+          >
+             
+          </button>
+        </div>
+        <div
+          className="relative"
+        >
+          <div
+            className="Avatar Avatar-white Avatar-size-109"
+          >
+            <img
+              alt="logo"
+              src="appii-placeholder.png"
+            />
+          </div>
+          <p
+            className="visible-xs visible-sm"
+          >
+            <i
+              className="profile-status-ico tooltip-position-top tooltip-movable tooltip-success"
+              data-tooltip="Verified"
+            >
+               
+            </i>
+          </p>
+        </div>
+        <div
+          className="profile-experience-info"
+        >
+          <i
+            className="profile-status-ico tooltip-position-top tooltip-movable tooltip-success hidden-xs hidden-sm"
+            data-tooltip="Verified"
+          >
+             
+          </i>
+          <p>
+            Applied Blockchain
+          </p>
+          <span />
+          <em>
+            2017
+             - 
+            Present
+          </em>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className="profile-experience-block profile-unverified-status"
+      >
+        <div
+          className="profile-experience-btns"
+        >
+          <button
+            className="edit-btn"
+            onClick={[Function]}
+          >
+             
+          </button>
+        </div>
+        <div
+          className="relative"
+        >
+          <div
+            className="Avatar Avatar-white Avatar-size-109"
+          >
+            <img
+              alt="logo"
+              src="appii-placeholder.png"
+            />
+          </div>
+          <p
+            className="visible-xs visible-sm"
+          >
+            <i
+              className="profile-status-ico tooltip-position-top tooltip-movable tooltip-dark"
+              data-tooltip="Not verified"
+            >
+               
+            </i>
+          </p>
+        </div>
+        <div
+          className="profile-experience-info"
+        >
+          <i
+            className="profile-status-ico tooltip-position-top tooltip-movable tooltip-dark hidden-xs hidden-sm"
+            data-tooltip="Not verified"
+          >
+             
+          </i>
+          <p>
+            Apple Inc
+          </p>
+          <span />
+          <em>
+            2015
+             - 
+            2016
+          </em>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

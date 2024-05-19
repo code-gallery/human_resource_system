@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Profile/.../VerifiedEmployees when props.employees is empty renders correctly 1`] = `null`;
+
+exports[`components/Profile/.../VerifiedEmployees when there are many verified employees renders correctly 1`] = `
+<div
+  className="col-xs-12 col-md-3 hidden-sm hidden-xs organisations-verified-employees"
+>
+  <ul
+    className="verified-employees"
+  >
+    <li>
+      <div
+        className="Avatar Avatar-white Avatar-size-40"
+      >
+        <img
+          alt="logo"
+          src="appii-placeholder.png"
+        />
+      </div>
+    </li>
+    <li>
+      <div
+        className="Avatar Avatar-white Avatar-size-40"
+      >
+        <img
+          alt="logo"
+          src="appii-placeholder.png"
+        />
+      </div>
+    </li>
+    <li>
+      <div
+        className="Avatar Avatar-white Avatar-size-40"
+      >
+        <img
+          alt="logo"
+          src="appii-placeholder.png"
+        />
+      </div>
+    </li>
+    <li>
+      <div
+        className="Avatar Avatar-white Avatar-size-40"
+      >
+        <img
+          alt="logo"
+          src="appii-placeholder.png"
+        />
+      </div>
+    </li>
+  </ul>
+  <p>
+    6
+     Verified Employees
+  </p>
+</div>
+`;
+
+exports[`components/Profile/.../VerifiedEmployees when there is 1 verified employee renders correctly 1`] = `
+<div
+  className="col-xs-12 col-md-3 hidden-sm hidden-xs organisations-verified-employees"
+>
+  <ul
+    className="verified-employees"
+  >
+    <li>
+      <div
+        className="Avatar Avatar-white Avatar-size-40"
+      >
+        <img
+          alt="logo"
+          src="appii-placeholder.png"
+        />
+      </div>
+    </li>
+  </ul>
+  <p>
+    1 Verified Employee
+  </p>
+</div>
+`;

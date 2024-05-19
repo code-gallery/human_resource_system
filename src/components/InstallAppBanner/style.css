@@ -1,0 +1,72 @@
+.InstallAppBanner {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #efefef;
+  color: #4f5655;
+  z-index: 70;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.InstallAppBanner img {
+  width: 76px;
+  border-radius: 12px;
+}
+
+.InstallAppBanner-img-container {
+  width: 76px;
+  margin-right: 10px;
+}
+
+.InstallAppBanner-content {
+  padding-top: 15px;
+  line-height: 16px;
+}
+
+.InstallAppBanner .green-btn {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .InstallAppBanner-content {
+    width: 60%;
+  }
+}
+
+@media (max-width: 425px) {
+  .InstallAppBanner {
+    padding: 10px;
+  }
+
+  .InstallAppBanner-content {
+    padding-top: 5px;
+    width: 45%;
+  }
+
+  .InstallAppBanner .green-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .InstallAppBanner-content {
+    padding-top: 2px;
+    width: 50%;
+  }
+
+  .InstallAppBanner .green-btn {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+
+@media (max-width: 320px) {
+  .InstallAppBanner-content {
+    font-size: 12px;
+    width: 40%;
+  }
+}

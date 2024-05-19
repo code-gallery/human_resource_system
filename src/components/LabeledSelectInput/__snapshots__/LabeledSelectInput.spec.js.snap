@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LabeledSelectInput Rendering renders 1`] = `
+<label
+  className="LabeledSelectInput "
+>
+  <span
+    className="LabeledSelectInput__txt"
+  >
+    Country
+  </span>
+  <svg
+    className="LabeledSelectInput__icon"
+    viewBox="0 0 8 8"
+  >
+    <path
+      d="M0 2l4 4 4-4h-8z"
+      fill="44484c"
+    />
+  </svg>
+  <select
+    className="LabeledSelectInput__select"
+    onChange={[Function]}
+    value="test"
+  >
+    <option
+      value="test"
+    >
+      Value
+    </option>
+  </select>
+</label>
+`;

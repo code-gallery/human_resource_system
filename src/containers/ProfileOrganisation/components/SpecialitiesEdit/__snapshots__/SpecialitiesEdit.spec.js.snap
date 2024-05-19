@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/ProfileOrganisation/components/SpecialitiesEdit when there are 3 specialities and no errors renders correctly 1`] = `
+<div
+  className="ContentCard col-xs-12 SpecialitiesEdit"
+>
+  <div
+    className="ContentCard-wrapper"
+  >
+    <h3
+      className="ContentCard-title"
+    >
+      Specialities
+    </h3>
+    <ul
+      className="TagList"
+    >
+      <li
+        onClick={[Function]}
+      >
+        ux
+        <span
+          className="TagList-remove"
+        >
+          x
+        </span>
+      </li>
+      <li
+        onClick={[Function]}
+      >
+        js
+        <span
+          className="TagList-remove"
+        >
+          x
+        </span>
+      </li>
+      <li
+        onClick={[Function]}
+      >
+        ui
+        <span
+          className="TagList-remove"
+        >
+          x
+        </span>
+      </li>
+    </ul>
+    <form>
+      <div
+        className="form-group"
+      >
+        <input
+          onChange={[Function]}
+          placeholder="Type to add specialities"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn blue-btn action-btn"
+          onClick={[Function]}
+        >
+          Add
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`containers/ProfileOrganisation/components/SpecialitiesEdit when there are no specialities and no errors renders correctly 1`] = `
+<div
+  className="ContentCard col-xs-12 SpecialitiesEdit"
+>
+  <div
+    className="ContentCard-wrapper"
+  >
+    <h3
+      className="ContentCard-title"
+    >
+      Specialities
+    </h3>
+    <form>
+      <div
+        className="form-group"
+      >
+        <input
+          onChange={[Function]}
+          placeholder="Type to add specialities"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn blue-btn action-btn"
+          onClick={[Function]}
+        >
+          Add
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`containers/ProfileOrganisation/components/SpecialitiesEdit when there is an error renders correctly 1`] = `
+<div
+  className="ContentCard col-xs-12 SpecialitiesEdit"
+>
+  <div
+    className="ContentCard-wrapper"
+  >
+    <h3
+      className="ContentCard-title"
+    >
+      Specialities
+    </h3>
+    <form>
+      <div
+        className="form-group has-error"
+      >
+        <input
+          onChange={[Function]}
+          placeholder="Type to add specialities"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn blue-btn action-btn"
+          onClick={[Function]}
+        >
+          Add
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

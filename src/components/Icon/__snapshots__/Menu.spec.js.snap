@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu renders correctly 1`] = `
+<svg
+  className=""
+  viewBox="0 0 8 8"
+>
+  <path
+    d="M0 1v1h8v-1h-8zm0 2.969v1h8v-1h-8zm0 3v1h8v-1h-8z"
+    fill="#000"
+  />
+</svg>
+`;

@@ -1,0 +1,73 @@
+.SettingsAccount .settings-tablist {
+  margin-bottom: 30px;
+  border-bottom: solid 1px #BECAE3;
+}
+
+.SettingsAccount .settings-tab {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  vertical-align: top;
+  text-transform: uppercase;
+  margin-right: 30px;
+  padding-bottom: 15px;
+  color: #9498A1;
+  cursor: pointer;
+}
+
+.SettingsAccount .react-tabs__tab--selected {
+  color: #44484C;
+  border-bottom: solid 1px #212224;
+}
+
+.SettingsAccount .form-btn {
+  min-width: 150px;
+  height: 40px;
+  padding: 0 20px;
+  text-align: center;
+  color: #fff;
+  border-radius: 100px;
+  border: 0;
+  outline: none;
+}
+
+.SettingsAccount .form-btn.save {
+  background: #44484C;
+}
+
+.SettingsAccount .form-btn.delete {
+  background: #FB7C7C;
+}
+
+.delete-account-title {
+  margin-top: 20px;
+}
+
+.delete-account-subtitle {
+  margin-bottom: 30px;
+}
+
+.delete-account-form {
+  color: #7F8CAB;
+}
+
+.delete-account-list li {
+  margin-bottom: 20px;
+}
+
+.settings-item-text {
+  max-width: 550px;
+  text-align: left;
+}
+
+.SettingsAccount .form-group {
+  padding-bottom: 30px;
+}
+
+.SettingsAccount .form-group .pull-right {
+  padding-right: 0;
+}
+
+.SettingsAccount .FormerNamesList td {
+  line-height: 30px;
+}

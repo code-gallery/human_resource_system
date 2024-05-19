@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RequestChecks /> Rendering renders correctly 1`] = `
+<section
+  className="RequestChecks undefined"
+>
+  <h3
+    className="RequestChecks__header"
+  >
+    Candidate Checks
+  </h3>
+  <ul
+    className="RequestChecks__list RequestChecks__list--top"
+  >
+    <li
+      className="RequestChecks__list-item"
+    >
+      <span
+        className="RequestChecks__check"
+      >
+        Right To Work
+      </span>
+      <span
+        className="RequestStatus RequestStatus--pending"
+      >
+        Incomplete
+      </span>
+    </li>
+  </ul>
+  <h3
+    className="RequestChecks__header"
+  >
+    Organisation Checks
+  </h3>
+  <ul
+    className="RequestChecks__list"
+  >
+    <li
+      className="RequestChecks__list-item"
+    >
+      <span
+        className="RequestChecks__check"
+      >
+        Right To Work
+      </span>
+      <span
+        className="RequestStatus RequestStatus--complete"
+      >
+        Complete
+      </span>
+    </li>
+  </ul>
+</section>
+`;

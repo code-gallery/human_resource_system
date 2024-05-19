@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WorkPassInviteDetails /> when loading=false renders correctly 1`] = `
+<div
+  className="WorkPassInviteDetails__wrap"
+>
+  <header
+    className="RequestModalHeader WorkPassInviteDetails"
+  >
+    <h1
+      className="RequestModalHeader__header RequestModalHeader__header--1"
+    >
+      Work Pass Request from Test Org
+    </h1>
+    <section
+      className="LinkedAvatar RequestModalHeader__avatars"
+    >
+      <div
+        className="LinkedAvatar__line"
+      />
+      <span
+        className="LinkedAvatar__msg"
+        style={
+          Object {
+            "backgroundColor": "#72d371",
+          }
+        }
+      >
+        sent
+      </span>
+      <div
+        className="LinkedAvatar__avatar"
+      >
+        <img
+          alt="Sender avatar"
+          className="$Avatar has-shadow"
+          src="logo.png"
+        />
+      </div>
+      <div
+        className="LinkedAvatar__avatar"
+      >
+        <img
+          alt="User avatar"
+          className="$Avatar has-shadow"
+          src="https://collaborativecbt.com/wp-content/uploads/2016/12/default-avatar-768x768.png"
+        />
+      </div>
+    </section>
+    <h2
+      className="RequestModalHeader__header RequestModalHeader__header--2"
+    >
+      Test
+    </h2>
+    <p
+      className="RequestModalHeader__info"
+    >
+      04/07/18
+      <span
+        className="RequestModalHeader__info-separator"
+      >
+        |
+      </span>
+      United Kingdom – England
+      <span
+        className="RequestModalHeader__info-separator"
+      >
+        |
+      </span>
+      #1
+    </p>
+  </header>
+</div>
+`;
+
+exports[`<WorkPassInviteDetails /> when loading=true renders correctly 1`] = `
+<div
+  className="WorkPassInviteDetails__wrap"
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <svg
+    className=""
+    height="65px"
+    version="1.1"
+    viewBox="0 0 50 50"
+    width="65px"
+    x="0px"
+    xmlSpace="preserve"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    y="0px"
+  >
+    <path
+      d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z"
+      fill="#72d371"
+    >
+      <animateTransform
+        attributeName="transform"
+        attributeType="xml"
+        dur="0.6s"
+        from="0 25 25"
+        repeatCount="indefinite"
+        to="360 25 25"
+        type="rotate"
+      />
+    </path>
+  </svg>
+</div>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChevronDown Icon renders correctly 1`] = `
+<svg
+  className=""
+  viewBox="0 0 19 12"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g
+    fill="none"
+    fillRule="evenodd"
+  >
+    <g
+      stroke="#000"
+      strokeWidth="3"
+      transform="translate(-1197 -286)"
+    >
+      <g
+        transform="translate(1056 271)"
+      >
+        <polyline
+          id="Path-3"
+          points="143 16 150.768503 23.9899998 157.971182 16"
+        />
+      </g>
+    </g>
+  </g>
+</svg>
+`;

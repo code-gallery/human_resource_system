@@ -1,0 +1,258 @@
+.Login-page {
+  padding: 50px 0;
+  background-image: url(./assets/background.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.Login-page #notification-wrapper span {
+  display: inline-block !important;
+}
+
+.Login-title {
+  font-size: 25px;
+  margin: 15px 0 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.Login-title-error {
+  margin: 40px 0;
+  font-size: 20px;
+}
+
+.Login-logo {
+  display: block;
+  width: 66px;
+  height: 66px;
+  margin: 0 auto;
+  background-image: url(./assets/logo.svg);
+  background-repeat: no-repeat;
+  background-size: 66px 66px;
+}
+
+.Login-logo a {
+  display: block;
+  height: 66px;
+}
+
+.Login-logo span {
+  display: block;
+  text-indent: -9999px;
+}
+
+.Login-block {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.Login-block .form-group {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.Login-block .form-group .label-dob {
+  color: #fff;
+}
+
+.Login-block .form-group input {
+  height: 55px;
+  border-radius: 5px;
+}
+
+.Login-block .form-group .inValid {
+  border: solid 1px red;
+}
+
+.Login-block .form-group input::-webkit-input-placeholder {
+  text-align: center;
+  color: #9498a1;
+}
+
+.Login-block .form-group input:-ms-input-placeholder {
+  text-align: center;
+  color: #9498a1;
+}
+
+.Login-block .form-group input::placeholder {
+  text-align: center;
+  color: #9498a1;
+}
+
+.Login-block .border-btn {
+  font-family: 'Graphik-Medium';
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  height: 55px;
+  line-height: 50px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  border: solid 2px #bfcae3;
+  border-radius: 100px;
+}
+
+.Login-block a {
+  font-size: 14px;
+  text-align: center;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.Login-block a:hover {
+  text-decoration: none;
+}
+
+.Login-block .Login-block-span {
+  font-size: 17px;
+  display: block;
+  text-align: left;
+  color: #fff;
+}
+
+.Login-block span a {
+  font-size: 17px;
+}
+
+.Login-block .term-link {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.Login-block .term-check {
+  padding: 10px 0 30px;
+}
+
+.Login-block .term-check .Login-block-span {
+  margin-right: 30px;
+}
+
+.Login-block .term-check .form-checkbox {
+  margin-top: -36px;
+}
+
+
+.Register-confirm .center {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Register-confirm p {
+  width: 60%;
+  font-size: 25px;
+  line-height: 38px;
+  text-align: center;
+  color: #fff;
+}
+
+.Register-confirm .border-btn {
+  display: inline-block;
+  height: auto;
+  border-radius: 100px;
+  border: solid 2px #bfcae3;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 7px 130px;
+  margin: 30px 0 25px;
+  float: none;
+}
+
+.Register-confirm .block-link {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Register-confirm .block-link:hover {
+  text-decoration: none;
+}
+
+.Register-confirm .info-text {
+  font-size: 14px;
+  margin-top: 30px;
+  line-height: 1.5em;
+}
+
+.Register-datepicker-section label {
+  margin-top: 10px;
+  color: #fff;
+}
+
+.Register-datepicker-section .Select-menu-outer {
+  font-size: 12px;
+}
+
+.Register-datepicker-section .has-value.is-clearable.Select--single > .Select-control .Select-value {
+  padding-right: 10px;
+}
+
+.col-md-3.Register-datepicker-section {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.col-md-4.Register-datepicker-section {
+  padding-right: 0;
+  padding-left: 10px;
+}
+
+.col-md-5.Register-datepicker-section {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media (min-width: 992px) {
+  .col-md-4.Register-datepicker-section:first-child {
+    padding-left: 0
+  }
+}
+
+@media (max-width: 991px) {
+  .Login-page {
+    padding: 50px 0;
+  }
+
+  .Login-block .form-group {
+    width: 100%;
+  }
+
+  .Login-page {
+    padding: 50px 35px;
+    overflow: hidden;
+  }
+
+  .col-md-3.Register-datepicker-section,
+  .col-md-4.Register-datepicker-section,
+  .col-md-5.Register-datepicker-section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .login-info-btn {
+    width: 30px;
+    height: 30px;
+    background-size: 23px 23px;
+    right: -35px;
+    top: 15px;
+  }
+
+  .Register-confirm .border-btn {
+    padding: 7px 20px;
+    display: block;
+  }
+
+  .Register-confirm p {
+    width: 100%;
+  }
+}

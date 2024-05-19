@@ -1,0 +1,16 @@
+.profile-nav-bioID {
+  position: relative;
+}
+
+.profile-nav-bioID img {
+  position: absolute;
+  top: 12px;
+  width: 20px;
+  height: 20px;
+  right: 32px;
+}
+
+.nav-dropdown-wrapper {
+  overflow-y: auto;
+  max-height: calc(100vh - 20vh);
+}

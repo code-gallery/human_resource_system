@@ -1,0 +1,27 @@
+.LoadingIndicator {
+  margin: 0 0 2em;
+  height: 100px;
+  width: 20%;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto 1em;
+  vertical-align: top;
+}
+
+.LoadingIndicator-block {
+  display: block;
+  padding-top: 130px;
+}
+
+.LoadingIndicator-inline-block {
+  display: inline-block;
+}
+
+.LoadingIndicator svg {
+  enable-background: 0 0 50 50;
+}
+
+.LoadingIndicator svg path,
+.LoadingIndicator svg rect {
+  fill: #FF6700;
+}

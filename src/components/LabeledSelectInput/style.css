@@ -1,0 +1,52 @@
+.LabeledSelectInput {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+.LabeledSelectInput__txt {
+  display: block;
+  margin-bottom: 6.35px;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Graphik-Regular", sans-serif;
+  color: #44484C;
+}
+
+.LabeledSelectInput__icon {
+  position: absolute;
+  bottom: 20px;
+  right: 18px;
+  z-index: 10;
+  display: block;
+  padding: 0;
+  width: 9px;
+}
+
+.LabeledSelectInput__select {
+  all: initial;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 10;
+  display: block;
+  width: 100%;
+  padding: 13.45px 15px 10.25px 15px;
+  border: 1px solid #E7E5EE;
+  border-radius: 3px;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: "Graphik-Regular", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  color: #212224;
+  overflow: hidden;
+  white-space: pre;
+  text-overflow: ellipsis;
+  -webkit-appearance: none;					   
+}
+
+.LabeledSelectInput__select:focus {
+  border-color: #7F8DAA;
+}

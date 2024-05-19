@@ -1,0 +1,567 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/SettingsAccount/components/SettingsSection when type = communications renders correctly 1`] = `
+<div>
+  <form>
+    <div
+      className="form-group"
+    >
+      <h2
+        className="form-group"
+      >
+        Email Frequency
+      </h2>
+      <ul>
+        <li>
+          <div
+            className="form-group text-center"
+          >
+            <span
+              className="pull-left settings-item-text"
+            >
+              Receive personal invitations to verify users details
+            </span>
+            <div
+              className="form-checkbox no-label pull-right"
+            >
+              <input
+                checked={0}
+                id="email_invite_verify"
+                name="email_invite_verify"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <label
+                htmlFor="email_invite_verify"
+              >
+                 
+              </label>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            className="form-group text-center"
+          >
+            <span
+              className="pull-left settings-item-text"
+            >
+              Receive messages from other APPII users
+            </span>
+            <div
+              className="form-checkbox no-label pull-right"
+            >
+              <input
+                checked={1}
+                id="email_messages"
+                name="email_messages"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <label
+                htmlFor="email_messages"
+              >
+                 
+              </label>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            className="form-group text-center"
+          >
+            <span
+              className="pull-left settings-item-text"
+            >
+              Receive emails about potential jobs and opportunities
+            </span>
+            <div
+              className="form-checkbox no-label pull-right"
+            >
+              <input
+                checked={1}
+                id="email_opportunities"
+                name="email_opportunities"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <label
+                htmlFor="email_opportunities"
+              >
+                 
+              </label>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </form>
+  <button
+    className="form-btn save"
+    onClick={[Function]}
+  >
+    Save
+  </button>
+</div>
+`;
+
+exports[`containers/SettingsAccount/components/SettingsSection when type = privacy renders correctly 1`] = `
+<div>
+  <form>
+    <div
+      className="form-group"
+    >
+      <h2
+        className="form-group"
+      >
+        Advertising preferences
+      </h2>
+      <ul>
+        <li>
+          <div
+            className="form-group text-center"
+          >
+            <span
+              className="pull-left settings-item-text"
+            >
+              APPII may use cookies and similar technologies on third party sites...
+            </span>
+            <div
+              className="form-checkbox no-label pull-right"
+            >
+              <input
+                checked={1}
+                id="cookies_ads"
+                name="cookies_ads"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <label
+                htmlFor="cookies_ads"
+              >
+                 
+              </label>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="form-group"
+    >
+      <h2
+        className="form-group"
+      >
+        Contact Details
+      </h2>
+      <ul>
+        <li>
+          <div
+            className="form-group text-center"
+          >
+            <span
+              className="pull-left settings-item-text"
+            >
+              Who can see your Email Address
+            </span>
+            <div
+              className="pull-right col-xs-12 col-md-3"
+            >
+              <div
+                className="Select has-value is-clearable is-searchable Select--single"
+                style={undefined}
+              >
+                <input
+                  disabled={false}
+                  name="select-visibility_email"
+                  type="hidden"
+                  value="public"
+                />
+                <div
+                  className="Select-control"
+                  onKeyDown={[Function]}
+                  onMouseDown={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  style={undefined}
+                >
+                  <span
+                    className="Select-multi-value-wrapper"
+                    id="react-select-2--value"
+                  >
+                    <div
+                      className="Select-value"
+                      style={undefined}
+                      title={undefined}
+                    >
+                      <span
+                        aria-selected="true"
+                        className="Select-value-label"
+                        id="react-select-2--value-item"
+                        role="option"
+                      >
+                        Everyone
+                      </span>
+                    </div>
+                    <div
+                      className="Select-input"
+                      style={
+                        Object {
+                          "display": "inline-block",
+                        }
+                      }
+                    >
+                      <input
+                        aria-activedescendant="react-select-2--value"
+                        aria-describedby={undefined}
+                        aria-expanded="false"
+                        aria-haspopup="false"
+                        aria-label={undefined}
+                        aria-labelledby={undefined}
+                        aria-owns=""
+                        className={undefined}
+                        id={undefined}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        required={false}
+                        role="combobox"
+                        style={
+                          Object {
+                            "boxSizing": "content-box",
+                            "width": "5px",
+                          }
+                        }
+                        tabIndex={undefined}
+                        value=""
+                      />
+                      <div
+                        style={
+                          Object {
+                            "height": 0,
+                            "left": 0,
+                            "overflow": "scroll",
+                            "position": "absolute",
+                            "top": 0,
+                            "visibility": "hidden",
+                            "whiteSpace": "pre",
+                          }
+                        }
+                      >
+                        
+                      </div>
+                    </div>
+                  </span>
+                  <span
+                    aria-label="Clear value"
+                    className="Select-clear-zone"
+                    onMouseDown={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    title="Clear value"
+                  >
+                    <span
+                      className="Select-clear"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "&times;",
+                        }
+                      }
+                    />
+                  </span>
+                  <span
+                    className="Select-arrow-zone"
+                    onMouseDown={[Function]}
+                  >
+                    <span
+                      className="Select-arrow"
+                      onMouseDown={[Function]}
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            className="form-group text-center"
+          >
+            <span
+              className="pull-left settings-item-text"
+            >
+              Who can see your your Twitter username
+            </span>
+            <div
+              className="pull-right col-xs-12 col-md-3"
+            >
+              <div
+                className="Select has-value is-clearable is-searchable Select--single"
+                style={undefined}
+              >
+                <input
+                  disabled={false}
+                  name="select-visibility_twitter"
+                  type="hidden"
+                  value="private"
+                />
+                <div
+                  className="Select-control"
+                  onKeyDown={[Function]}
+                  onMouseDown={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  style={undefined}
+                >
+                  <span
+                    className="Select-multi-value-wrapper"
+                    id="react-select-3--value"
+                  >
+                    <div
+                      className="Select-value"
+                      style={undefined}
+                      title={undefined}
+                    >
+                      <span
+                        aria-selected="true"
+                        className="Select-value-label"
+                        id="react-select-3--value-item"
+                        role="option"
+                      >
+                        Only Me
+                      </span>
+                    </div>
+                    <div
+                      className="Select-input"
+                      style={
+                        Object {
+                          "display": "inline-block",
+                        }
+                      }
+                    >
+                      <input
+                        aria-activedescendant="react-select-3--value"
+                        aria-describedby={undefined}
+                        aria-expanded="false"
+                        aria-haspopup="false"
+                        aria-label={undefined}
+                        aria-labelledby={undefined}
+                        aria-owns=""
+                        className={undefined}
+                        id={undefined}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        required={false}
+                        role="combobox"
+                        style={
+                          Object {
+                            "boxSizing": "content-box",
+                            "width": "5px",
+                          }
+                        }
+                        tabIndex={undefined}
+                        value=""
+                      />
+                      <div
+                        style={
+                          Object {
+                            "height": 0,
+                            "left": 0,
+                            "overflow": "scroll",
+                            "position": "absolute",
+                            "top": 0,
+                            "visibility": "hidden",
+                            "whiteSpace": "pre",
+                          }
+                        }
+                      >
+                        
+                      </div>
+                    </div>
+                  </span>
+                  <span
+                    aria-label="Clear value"
+                    className="Select-clear-zone"
+                    onMouseDown={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    title="Clear value"
+                  >
+                    <span
+                      className="Select-clear"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "&times;",
+                        }
+                      }
+                    />
+                  </span>
+                  <span
+                    className="Select-arrow-zone"
+                    onMouseDown={[Function]}
+                  >
+                    <span
+                      className="Select-arrow"
+                      onMouseDown={[Function]}
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="form-group"
+    >
+      <h2
+        className="form-group"
+      >
+        Profile visibility
+      </h2>
+      <ul>
+        <div
+          className="form-group text-center"
+        >
+          <span
+            className="pull-left settings-item-text"
+          >
+            Who can see your profile
+          </span>
+          <div
+            className="pull-right col-xs-12 col-md-3"
+          >
+            <div
+              className="Select has-value is-clearable is-searchable Select--single"
+              style={undefined}
+            >
+              <input
+                disabled={false}
+                name="select-profile-visibility"
+                type="hidden"
+                value="registered"
+              />
+              <div
+                className="Select-control"
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                style={undefined}
+              >
+                <span
+                  className="Select-multi-value-wrapper"
+                  id="react-select-4--value"
+                >
+                  <div
+                    className="Select-value"
+                    style={undefined}
+                    title={undefined}
+                  >
+                    <span
+                      aria-selected="true"
+                      className="Select-value-label"
+                      id="react-select-4--value-item"
+                      role="option"
+                    >
+                      Registered Users
+                    </span>
+                  </div>
+                  <div
+                    className="Select-input"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                      }
+                    }
+                  >
+                    <input
+                      aria-activedescendant="react-select-4--value"
+                      aria-describedby={undefined}
+                      aria-expanded="false"
+                      aria-haspopup="false"
+                      aria-label={undefined}
+                      aria-labelledby={undefined}
+                      aria-owns=""
+                      className={undefined}
+                      id={undefined}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      required={false}
+                      role="combobox"
+                      style={
+                        Object {
+                          "boxSizing": "content-box",
+                          "width": "5px",
+                        }
+                      }
+                      tabIndex={undefined}
+                      value=""
+                    />
+                    <div
+                      style={
+                        Object {
+                          "height": 0,
+                          "left": 0,
+                          "overflow": "scroll",
+                          "position": "absolute",
+                          "top": 0,
+                          "visibility": "hidden",
+                          "whiteSpace": "pre",
+                        }
+                      }
+                    >
+                      
+                    </div>
+                  </div>
+                </span>
+                <span
+                  aria-label="Clear value"
+                  className="Select-clear-zone"
+                  onMouseDown={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  title="Clear value"
+                >
+                  <span
+                    className="Select-clear"
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "&times;",
+                      }
+                    }
+                  />
+                </span>
+                <span
+                  className="Select-arrow-zone"
+                  onMouseDown={[Function]}
+                >
+                  <span
+                    className="Select-arrow"
+                    onMouseDown={[Function]}
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ul>
+    </div>
+  </form>
+  <button
+    className="form-btn save"
+    onClick={[Function]}
+  >
+    Save
+  </button>
+</div>
+`;

@@ -1,0 +1,100 @@
+.CandidateNewRequests {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  padding: 29px 35px 35px 35px;
+  font-family: 'Graphik-Regular', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  border: 1px solid #E7E5EE;
+  border-radius: 4px;
+  color: #212224;
+  background-color: #fff;
+}
+
+.CandidateNewRequests__header {
+  margin: 0;
+  margin-bottom: 13px;
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.CandidateNewRequests__sub-heading {
+  margin: 0;
+  margin-bottom: 28px;
+  font-size: 17px;
+  line-height: 24px;
+  color: #7F8DAA;
+}
+.sendRequest_btn{
+  margin-right: 7px;
+  width: 180px;
+}
+
+
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.CandidateNewRequests__input-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 52px;
+}
+
+.CandidateNewRequests__input {
+  flex: 1;
+}
+
+/* .CandidateNewRequests__input:nth-child(1) {
+  margin-right: 24px;
+} */
+
+.CandidateNewRequests__request-list {
+  display: block;
+  list-style: none;
+  margin: 0;
+  margin-bottom: 47px;
+  padding: 0;
+}
+
+.CandidateNewRequests__request-item {
+  margin-bottom: 15px;
+}
+
+.CandidateNewRequests__btn-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.CandidateNewRequests__btn {
+  width: 265px;
+}
+
+.NewRequests__input-area_margin {
+  all: initial;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 10;
+  display: block;
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #E7E5EE;
+  border-radius: 3px;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: "Graphik-Regular", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  color: #212224;
+  margin-right: 4px;
+}
+.nomargin{
+  margin: 0;
+}
+
+.nopadding{
+  padding-right: 0;
+}

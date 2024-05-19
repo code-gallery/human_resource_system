@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/OrgAdmins/components/AdminForm/AdminForm <AdminForm optionRenderer renders correct element 1`] = `
+<div
+  className="institution-select"
+>
+  <img
+    alt="Jane"
+    src="profile_image"
+  />
+  <p>
+    Jane Doe
+  </p>
+</div>
+`;
+
+exports[`containers/OrgAdmins/components/AdminForm/AdminForm when props.showForm is false renders null 1`] = `null`;
+
+exports[`containers/OrgAdmins/components/AdminForm/AdminForm when props.showForm is true renders correctly 1`] = `
+<form
+  className="admin"
+>
+  <div
+    id="notification-wrapper"
+  />
+  <div
+    className="col-md-3"
+  >
+    <div
+      className="form-group"
+    >
+      <label>
+        Users
+      </label>
+      <div
+        className="Select has-value is-clearable is-searchable Select--single"
+        style={undefined}
+      >
+        <div
+          className="Select-control"
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          style={undefined}
+        >
+          <span
+            className="Select-multi-value-wrapper"
+            id="react-select-2--value"
+          >
+            <div
+              className="Select-value"
+              style={undefined}
+              title={undefined}
+            >
+              <span
+                aria-selected="true"
+                className="Select-value-label"
+                id="react-select-2--value-item"
+                role="option"
+              >
+                Select...
+              </span>
+            </div>
+            <div
+              className="Select-input"
+              style={
+                Object {
+                  "display": "inline-block",
+                }
+              }
+            >
+              <input
+                aria-activedescendant="react-select-2--value"
+                aria-describedby={undefined}
+                aria-expanded="false"
+                aria-haspopup="false"
+                aria-label={undefined}
+                aria-labelledby={undefined}
+                aria-owns=""
+                className={undefined}
+                id={undefined}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                required={false}
+                role="combobox"
+                style={
+                  Object {
+                    "boxSizing": "content-box",
+                    "width": "5px",
+                  }
+                }
+                tabIndex={undefined}
+                value=""
+              />
+              <div
+                style={
+                  Object {
+                    "height": 0,
+                    "left": 0,
+                    "overflow": "scroll",
+                    "position": "absolute",
+                    "top": 0,
+                    "visibility": "hidden",
+                    "whiteSpace": "pre",
+                  }
+                }
+              >
+                
+              </div>
+            </div>
+          </span>
+          <span
+            aria-label="Clear value"
+            className="Select-clear-zone"
+            onMouseDown={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            title="Clear value"
+          >
+            <span
+              className="Select-clear"
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "&times;",
+                }
+              }
+            />
+          </span>
+          <span
+            className="Select-arrow-zone"
+            onMouseDown={[Function]}
+          >
+            <span
+              className="Select-arrow"
+              onMouseDown={[Function]}
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="col-md-3"
+  >
+    <div
+      className="form-group"
+    >
+      <label>
+        Primary Contact
+      </label>
+      <div
+        className="Select has-value is-clearable is-disabled is-searchable Select--single"
+        style={undefined}
+      >
+        <div
+          className="Select-control"
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          style={undefined}
+        >
+          <span
+            className="Select-multi-value-wrapper"
+            id="react-select-3--value"
+          >
+            <div
+              className="Select-value"
+              style={undefined}
+              title={undefined}
+            >
+              <span
+                aria-selected="true"
+                className="Select-value-label"
+                id="react-select-3--value-item"
+                role="option"
+              >
+                Select...
+              </span>
+            </div>
+            <div
+              aria-activedescendant="react-select-3--value"
+              aria-disabled="true"
+              aria-expanded={false}
+              aria-label={undefined}
+              aria-labelledby={undefined}
+              aria-owns=""
+              className="Select-input"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+              style={
+                Object {
+                  "border": 0,
+                  "display": "inline-block",
+                  "width": 1,
+                }
+              }
+              tabIndex={0}
+            />
+          </span>
+          <span
+            className="Select-arrow-zone"
+            onMouseDown={[Function]}
+          >
+            <span
+              className="Select-arrow"
+              onMouseDown={[Function]}
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="col-md-6"
+  >
+    <button
+      className="btn green-btn admin-form-btn"
+      onClick={[Function]}
+    >
+      Confirm
+    </button>
+    <button
+      className="btn grey-btn admin-form-btn admin-form-btn"
+      onClick={[Function]}
+    >
+      Cancel
+    </button>
+  </div>
+</form>
+`;

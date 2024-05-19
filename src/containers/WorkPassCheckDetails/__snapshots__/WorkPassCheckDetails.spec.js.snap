@@ -1,0 +1,2769 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WorkPassCheckDetails /> Rendering renders correctly 1`] = `
+<div>
+  <div
+    className="Layout"
+  >
+    <header
+      className="Header"
+    >
+      <a
+        className="Header__appii"
+        href="/https://appii.io"
+        onClick={[Function]}
+      >
+        <svg
+          className=""
+          viewBox="0 0 56 56"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M44,156 C28.536027,156 16,143.463973 16,128 C16,112.536027 28.536027,100 44,100 C59.463973,100 72,112.536027 72,128 L72,156 L44,156 Z M44,150.105263 L66.1052632,150.105263 L66.1052632,128 C66.1052632,115.7916 56.2083997,105.894737 44,105.894737 C31.7916003,105.894737 21.8947368,115.7916 21.8947368,128 C21.8947368,140.2084 31.7916003,150.105263 44,150.105263 Z M26.3665673,127.071057 L32.1597485,125.981574 C33.7125958,134.238633 37.761277,138.092554 44.8273599,138.309665 C49.2897633,138.446777 52.4883032,136.287156 54.8218027,132.382701 C55.6587806,130.982254 56.3133349,129.459714 56.7981447,127.935549 C57.0857817,127.031264 57.2482618,126.349163 57.3089183,126.008965 L63.1121343,127.043666 C63.0085691,127.624521 62.7870996,128.554263 62.4155532,129.722346 C61.8017242,131.652128 60.9713937,133.583535 59.8817351,135.406772 C56.5383203,141.001036 51.4867554,144.4118 44.6463244,144.201622 C34.6757726,143.895268 28.4086643,137.929637 26.3665673,127.071057 Z"
+            fill="#fff"
+            transform="translate(-16 -100)"
+          />
+        </svg>
+      </a>
+    </header>
+    <aside
+      className="SideMenu"
+    >
+      <div
+        className="SideMenu__button"
+      >
+        <a
+          className="Button Button--green"
+          href="/organisations/1/candidates/new"
+          onClick={[Function]}
+        >
+          <span
+            className="Button__icon"
+          >
+            <svg
+              className=""
+              viewBox="0 0 17 17"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                fill="none"
+                fillRule="evenodd"
+                id="Work-Pass-for-Orgs"
+              >
+                <g
+                  fill="#fff"
+                  fillRule="nonzero"
+                  id="Candidates-/-Candidate-/-Reassign"
+                  transform="translate(-48 -112)"
+                >
+                  <g
+                    id="Group-2"
+                    transform="translate(26 95)"
+                  >
+                    <path
+                      d="M38.8647083,32.3325833 L34.4695,27.937375 C35.296125,26.8005 35.784875,25.40225 35.784875,23.8920833 C35.784875,20.091875 32.693,17 28.8920833,17 C25.091875,17 22,20.091875 22,23.8920833 C22,27.693 25.091875,30.7841667 28.8920833,30.7841667 C30.3328333,30.7841667 31.670875,30.3400417 32.7787083,29.5814167 L37.1972917,34 L38.8647083,32.3325833 Z M24.0215833,23.8920833 C24.0215833,21.2060833 26.2067917,19.020875 28.8927917,19.020875 C31.5787917,19.020875 33.764,21.2060833 33.764,23.8920833 C33.764,26.5780833 31.5787917,28.7632917 28.8927917,28.7632917 C26.2060833,28.7632917 24.0215833,26.5780833 24.0215833,23.8920833 Z"
+                      id="Shape"
+                    />
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </span>
+          Add Candidate
+        </a>
+      </div>
+      <ul
+        className="SideMenu__link-list-wrap"
+      >
+        <li>
+          <a
+            aria-current={null}
+            className="SideMenu__link"
+            href="/organisations/1/candidates"
+            onClick={[Function]}
+          >
+            Candidates
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="SideMenu__link"
+            href="/organisations/1/workpassAdmin/persona"
+            onClick={[Function]}
+          >
+            Work Pass Administration
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="nestedMenu"
+            href="/organisations/1/workpassAdmin"
+            onClick={[Function]}
+          >
+            Organisations
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="nestedMenu"
+            href="/organisations/1/workpassAdmin/persona"
+            onClick={[Function]}
+          >
+            Persona
+          </a>
+        </li>
+      </ul>
+      <div
+        className="SideMenu__balance"
+      >
+        <span>
+          Balance
+        </span>
+        <span
+          className="SideMenu__balance-amount"
+        >
+          
+        </span>
+      </div>
+    </aside>
+    <main
+      className="WorkPassMain"
+    >
+      <main>
+        <div
+          className=""
+        >
+          <ul
+            className="Breadcrumb Candidate__breadcrumb"
+          >
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item"
+                href="/organisations/1/candidates"
+              >
+                All Candidates
+              </a>
+            </li>
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item"
+                href="/organisations/1/candidates/10"
+              >
+                undefined undefined
+              </a>
+            </li>
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item is-active"
+                href="#"
+              >
+                Request 25
+              </a>
+            </li>
+          </ul>
+          <header
+            className="CandidateHeader Candidate__header"
+          >
+            <section
+              className="CandidateInfo"
+            >
+              <img
+                alt="undefined undefined"
+                className="$Avatar CandidateInfo__avatar has-shadow"
+                src="https://collaborativecbt.com/wp-content/uploads/2016/12/default-avatar-768x768.png"
+              />
+              <div
+                className="CandidateInfo__info-wrap"
+              >
+                <h1
+                  className="CandidateInfo__name"
+                >
+                  undefined undefined
+                </h1>
+                <div>
+                  <a
+                    className="CandidateInfo__link"
+                    href="/profile/undefined"
+                  >
+                    View Profile
+                  </a>
+                  <span
+                    className="CandidateInfo__link-separator"
+                  >
+                    |
+                  </span>
+                  <a
+                    className="CandidateInfo__link"
+                    href="mailto:undefined"
+                  />
+                </div>
+              </div>
+            </section>
+            <a
+              className="Button Button--blue CandidateNewRequestsHeader__btn"
+              href="/organisations/1/candidates/10"
+              onClick={[Function]}
+            >
+              Return to 
+              25
+            </a>
+          </header>
+        </div>
+        <div
+          className="container-fluid"
+        >
+          <div
+            className="row "
+          >
+            <div
+              className="col-md-12 col-sm-12 card-row"
+            >
+              <div
+                className="card mb-3"
+              >
+                <div
+                  className="card-header-red"
+                >
+                  <div
+                    className="col-md-6 checkTitle"
+                  >
+                    Sanctions and PEPS
+                  </div>
+                  <div
+                    className="col-md-6 noPadding"
+                  >
+                    <a
+                      className="Button Button--red border-btn checkButton"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Manage
+                    </a>
+                  </div>
+                </div>
+                <div
+                  className="card-body"
+                >
+                  <h4
+                    className="card-title"
+                  >
+                    DETAILS
+                  </h4>
+                  <div
+                    className="row "
+                  >
+                    <div
+                      className="col-md-12 noPadding"
+                    >
+                      <div
+                        className="col-md-8 col-sm-12"
+                      >
+                        <p
+                          className="card-text"
+                        >
+                          GBG Group Plc - Check Result :
+                          <span
+                            className="statusText"
+                          >
+                            No Match
+                          </span>
+                        </p>
+                      </div>
+                      <div
+                        className="col-md-4 col-sm-12"
+                      >
+                        <a
+                          className="reportLink"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          ATTACH REPORT
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <p
+                    className="card-text"
+                  >
+                    COMPLIANCE OFFICER
+                  </p>
+                  <ul>
+                    <li>
+                      <div
+                        className="form-group text-center"
+                      >
+                        <div
+                          className="form-checkbox pull-left"
+                        >
+                          <input
+                            id="waiver"
+                            name="waiver"
+                            onChange={null}
+                            type="checkbox"
+                          />
+                          <label
+                            htmlFor="waiver"
+                          >
+                            Waiver
+                          </label>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        className="form-group text-center"
+                      >
+                        <div
+                          className="form-checkbox pull-left"
+                        >
+                          <input
+                            id="noProgress"
+                            name="noProgress"
+                            onChange={null}
+                            type="checkbox"
+                          />
+                          <label
+                            htmlFor="noProgress"
+                          >
+                            Not Progress
+                          </label>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`<WorkPassCheckDetails /> Rendering renders correctly 2`] = `
+<div>
+  <div
+    className="Layout"
+  >
+    <header
+      className="Header"
+    >
+      <a
+        className="Header__appii"
+        href="/https://appii.io"
+        onClick={[Function]}
+      >
+        <svg
+          className=""
+          viewBox="0 0 56 56"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M44,156 C28.536027,156 16,143.463973 16,128 C16,112.536027 28.536027,100 44,100 C59.463973,100 72,112.536027 72,128 L72,156 L44,156 Z M44,150.105263 L66.1052632,150.105263 L66.1052632,128 C66.1052632,115.7916 56.2083997,105.894737 44,105.894737 C31.7916003,105.894737 21.8947368,115.7916 21.8947368,128 C21.8947368,140.2084 31.7916003,150.105263 44,150.105263 Z M26.3665673,127.071057 L32.1597485,125.981574 C33.7125958,134.238633 37.761277,138.092554 44.8273599,138.309665 C49.2897633,138.446777 52.4883032,136.287156 54.8218027,132.382701 C55.6587806,130.982254 56.3133349,129.459714 56.7981447,127.935549 C57.0857817,127.031264 57.2482618,126.349163 57.3089183,126.008965 L63.1121343,127.043666 C63.0085691,127.624521 62.7870996,128.554263 62.4155532,129.722346 C61.8017242,131.652128 60.9713937,133.583535 59.8817351,135.406772 C56.5383203,141.001036 51.4867554,144.4118 44.6463244,144.201622 C34.6757726,143.895268 28.4086643,137.929637 26.3665673,127.071057 Z"
+            fill="#fff"
+            transform="translate(-16 -100)"
+          />
+        </svg>
+      </a>
+    </header>
+    <aside
+      className="SideMenu"
+    >
+      <div
+        className="SideMenu__button"
+      >
+        <a
+          className="Button Button--green"
+          href="/organisations/1/candidates/new"
+          onClick={[Function]}
+        >
+          <span
+            className="Button__icon"
+          >
+            <svg
+              className=""
+              viewBox="0 0 17 17"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                fill="none"
+                fillRule="evenodd"
+                id="Work-Pass-for-Orgs"
+              >
+                <g
+                  fill="#fff"
+                  fillRule="nonzero"
+                  id="Candidates-/-Candidate-/-Reassign"
+                  transform="translate(-48 -112)"
+                >
+                  <g
+                    id="Group-2"
+                    transform="translate(26 95)"
+                  >
+                    <path
+                      d="M38.8647083,32.3325833 L34.4695,27.937375 C35.296125,26.8005 35.784875,25.40225 35.784875,23.8920833 C35.784875,20.091875 32.693,17 28.8920833,17 C25.091875,17 22,20.091875 22,23.8920833 C22,27.693 25.091875,30.7841667 28.8920833,30.7841667 C30.3328333,30.7841667 31.670875,30.3400417 32.7787083,29.5814167 L37.1972917,34 L38.8647083,32.3325833 Z M24.0215833,23.8920833 C24.0215833,21.2060833 26.2067917,19.020875 28.8927917,19.020875 C31.5787917,19.020875 33.764,21.2060833 33.764,23.8920833 C33.764,26.5780833 31.5787917,28.7632917 28.8927917,28.7632917 C26.2060833,28.7632917 24.0215833,26.5780833 24.0215833,23.8920833 Z"
+                      id="Shape"
+                    />
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </span>
+          Add Candidate
+        </a>
+      </div>
+      <ul
+        className="SideMenu__link-list-wrap"
+      >
+        <li>
+          <a
+            aria-current={null}
+            className="SideMenu__link"
+            href="/organisations/1/candidates"
+            onClick={[Function]}
+          >
+            Candidates
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="SideMenu__link"
+            href="/organisations/1/workpassAdmin/persona"
+            onClick={[Function]}
+          >
+            Work Pass Administration
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="nestedMenu"
+            href="/organisations/1/workpassAdmin"
+            onClick={[Function]}
+          >
+            Organisations
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="nestedMenu"
+            href="/organisations/1/workpassAdmin/persona"
+            onClick={[Function]}
+          >
+            Persona
+          </a>
+        </li>
+      </ul>
+      <div
+        className="SideMenu__balance"
+      >
+        <span>
+          Balance
+        </span>
+        <span
+          className="SideMenu__balance-amount"
+        >
+          
+        </span>
+      </div>
+    </aside>
+    <main
+      className="WorkPassMain"
+    >
+      <main>
+        <div
+          className=""
+        >
+          <ul
+            className="Breadcrumb Candidate__breadcrumb"
+          >
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item"
+                href="/organisations/1/candidates"
+              >
+                All Candidates
+              </a>
+            </li>
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item"
+                href="/organisations/1/candidates/10"
+              >
+                undefined undefined
+              </a>
+            </li>
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item is-active"
+                href="#"
+              >
+                Request 25
+              </a>
+            </li>
+          </ul>
+          <header
+            className="CandidateHeader Candidate__header"
+          >
+            <section
+              className="CandidateInfo"
+            >
+              <img
+                alt="undefined undefined"
+                className="$Avatar CandidateInfo__avatar has-shadow"
+                src="https://collaborativecbt.com/wp-content/uploads/2016/12/default-avatar-768x768.png"
+              />
+              <div
+                className="CandidateInfo__info-wrap"
+              >
+                <h1
+                  className="CandidateInfo__name"
+                >
+                  undefined undefined
+                </h1>
+                <div>
+                  <a
+                    className="CandidateInfo__link"
+                    href="/profile/undefined"
+                  >
+                    View Profile
+                  </a>
+                  <span
+                    className="CandidateInfo__link-separator"
+                  >
+                    |
+                  </span>
+                  <a
+                    className="CandidateInfo__link"
+                    href="mailto:undefined"
+                  />
+                </div>
+              </div>
+            </section>
+            <a
+              className="Button Button--blue CandidateNewRequestsHeader__btn"
+              href="/organisations/1/candidates/10"
+              onClick={[Function]}
+            >
+              Return to 
+              25
+            </a>
+          </header>
+        </div>
+        <div
+          className="container-fluid"
+        >
+          <div
+            className="row "
+          >
+            <div
+              className="col-md-12 col-sm-12 card-row"
+            >
+              <div
+                className="card mb-3"
+              >
+                <div
+                  className="card-header"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    Drivers License Check
+                  </div>
+                  <div
+                    className="col-md-6 noPadding"
+                  >
+                    <a
+                      className="Button Button--green border-btn checkButton"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Clear
+                    </a>
+                  </div>
+                </div>
+                <div
+                  className="card-body"
+                >
+                  <div
+                    className="row mb-3"
+                  >
+                    <div
+                      className="col-md-12"
+                    >
+                      <h4>
+                        DETAILS
+                      </h4>
+                    </div>
+                  </div>
+                  <div
+                    className="row mb-3"
+                  >
+                    <div
+                      className="col-md-4"
+                    >
+                      <p>
+                        GBG Group Plc - Check result :
+                        <span
+                          className="statusText-green"
+                        >
+                          No Match
+                        </span>
+                      </p>
+                    </div>
+                    <div
+                      className="col-md-8"
+                    >
+                      <a
+                        className="report"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        <u>
+                          DRIVERS LICENCE
+                        </u>
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    className="row mb-3"
+                  >
+                    <div
+                      className="col-md-12"
+                    >
+                      <h4>
+                        DETAILS
+                      </h4>
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      className="row mb-3"
+                    >
+                      <div
+                        className="col-md-3 mb-3"
+                      >
+                        <ul>
+                          <li>
+                            Licence Number
+                          </li>
+                          <li>
+                            Type
+                          </li>
+                          <li>
+                            Date of Birth
+                          </li>
+                          <li>
+                            Issuing Country
+                          </li>
+                          <li>
+                            Issue Date
+                          </li>
+                          <li>
+                            Check Code
+                          </li>
+                        </ul>
+                      </div>
+                      <div
+                        className="col-md-9 mb-3"
+                      >
+                        <ul>
+                          <li>
+                            MCKAY705244GS9RE
+                          </li>
+                          <li>
+                            photo
+                          </li>
+                          <li>
+                            2020-06-01
+                          </li>
+                          <li>
+                            GB
+                          </li>
+                          <li>
+                            2020-06-02
+                          </li>
+                          <li>
+                            123
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div
+                      className="row mb-3 pt-3"
+                    >
+                      <div
+                        className="col-md-12"
+                      >
+                        <h4>
+                          ENDORSEMENTS
+                        </h4>
+                      </div>
+                    </div>
+                    <div
+                      className="row mb-3"
+                    >
+                      <div
+                        className="col-md-3 mb-3"
+                      >
+                        <ul>
+                          <li>
+                            Endorsement Type
+                          </li>
+                          <li>
+                            Offence Code
+                          </li>
+                          <li>
+                            Offence
+                          </li>
+                          <li>
+                            Date of Offence
+                          </li>
+                          <li>
+                            Expiry Date
+                          </li>
+                        </ul>
+                      </div>
+                      <div
+                        className="col-md-9 mb-3"
+                      >
+                        <ul>
+                          <li>
+                            Accident Offences
+                          </li>
+                          <li>
+                            AC30
+                          </li>
+                          <li>
+                            Undefined accident offences
+                          </li>
+                          <li>
+                            2020-06-17
+                          </li>
+                          <li>
+                            2020-06-27
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="row mb-3 pt-3"
+                  >
+                    <div
+                      className="col-md-3"
+                    >
+                      <p>
+                        COMPLIANCE OFFICER
+                      </p>
+                      <div
+                        className="mb-3"
+                      >
+                        <input
+                          id="ch3"
+                          name="ch3"
+                          type="checkbox"
+                        />
+                        <label
+                          htmlFor="ch3"
+                        >
+                          Progress
+                        </label>
+                      </div>
+                      <div
+                        className="mb-3"
+                      >
+                        <input
+                          id="ch4"
+                          name="ch4"
+                          type="checkbox"
+                        />
+                        <label
+                          htmlFor="ch4"
+                        >
+                          Not Progress
+                        </label>
+                      </div>
+                    </div>
+                    <div
+                      className="col-md-9"
+                    >
+                      <p>
+                        NOTES
+                      </p>
+                      <textarea
+                        className="fullBox"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="row"
+                  >
+                    <div
+                      className="col-md-12 "
+                    >
+                      <a
+                        className="Button Button--blue align-center"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Submit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`<WorkPassCheckDetails /> Rendering renders correctly 3`] = `
+<div>
+  <div
+    className="Layout"
+  >
+    <header
+      className="Header"
+    >
+      <a
+        className="Header__appii"
+        href="/https://appii.io"
+        onClick={[Function]}
+      >
+        <svg
+          className=""
+          viewBox="0 0 56 56"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M44,156 C28.536027,156 16,143.463973 16,128 C16,112.536027 28.536027,100 44,100 C59.463973,100 72,112.536027 72,128 L72,156 L44,156 Z M44,150.105263 L66.1052632,150.105263 L66.1052632,128 C66.1052632,115.7916 56.2083997,105.894737 44,105.894737 C31.7916003,105.894737 21.8947368,115.7916 21.8947368,128 C21.8947368,140.2084 31.7916003,150.105263 44,150.105263 Z M26.3665673,127.071057 L32.1597485,125.981574 C33.7125958,134.238633 37.761277,138.092554 44.8273599,138.309665 C49.2897633,138.446777 52.4883032,136.287156 54.8218027,132.382701 C55.6587806,130.982254 56.3133349,129.459714 56.7981447,127.935549 C57.0857817,127.031264 57.2482618,126.349163 57.3089183,126.008965 L63.1121343,127.043666 C63.0085691,127.624521 62.7870996,128.554263 62.4155532,129.722346 C61.8017242,131.652128 60.9713937,133.583535 59.8817351,135.406772 C56.5383203,141.001036 51.4867554,144.4118 44.6463244,144.201622 C34.6757726,143.895268 28.4086643,137.929637 26.3665673,127.071057 Z"
+            fill="#fff"
+            transform="translate(-16 -100)"
+          />
+        </svg>
+      </a>
+    </header>
+    <aside
+      className="SideMenu"
+    >
+      <div
+        className="SideMenu__button"
+      >
+        <a
+          className="Button Button--green"
+          href="/organisations/1/candidates/new"
+          onClick={[Function]}
+        >
+          <span
+            className="Button__icon"
+          >
+            <svg
+              className=""
+              viewBox="0 0 17 17"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                fill="none"
+                fillRule="evenodd"
+                id="Work-Pass-for-Orgs"
+              >
+                <g
+                  fill="#fff"
+                  fillRule="nonzero"
+                  id="Candidates-/-Candidate-/-Reassign"
+                  transform="translate(-48 -112)"
+                >
+                  <g
+                    id="Group-2"
+                    transform="translate(26 95)"
+                  >
+                    <path
+                      d="M38.8647083,32.3325833 L34.4695,27.937375 C35.296125,26.8005 35.784875,25.40225 35.784875,23.8920833 C35.784875,20.091875 32.693,17 28.8920833,17 C25.091875,17 22,20.091875 22,23.8920833 C22,27.693 25.091875,30.7841667 28.8920833,30.7841667 C30.3328333,30.7841667 31.670875,30.3400417 32.7787083,29.5814167 L37.1972917,34 L38.8647083,32.3325833 Z M24.0215833,23.8920833 C24.0215833,21.2060833 26.2067917,19.020875 28.8927917,19.020875 C31.5787917,19.020875 33.764,21.2060833 33.764,23.8920833 C33.764,26.5780833 31.5787917,28.7632917 28.8927917,28.7632917 C26.2060833,28.7632917 24.0215833,26.5780833 24.0215833,23.8920833 Z"
+                      id="Shape"
+                    />
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </span>
+          Add Candidate
+        </a>
+      </div>
+      <ul
+        className="SideMenu__link-list-wrap"
+      >
+        <li>
+          <a
+            aria-current={null}
+            className="SideMenu__link"
+            href="/organisations/1/candidates"
+            onClick={[Function]}
+          >
+            Candidates
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="SideMenu__link"
+            href="/organisations/1/workpassAdmin/persona"
+            onClick={[Function]}
+          >
+            Work Pass Administration
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="nestedMenu"
+            href="/organisations/1/workpassAdmin"
+            onClick={[Function]}
+          >
+            Organisations
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="nestedMenu"
+            href="/organisations/1/workpassAdmin/persona"
+            onClick={[Function]}
+          >
+            Persona
+          </a>
+        </li>
+      </ul>
+      <div
+        className="SideMenu__balance"
+      >
+        <span>
+          Balance
+        </span>
+        <span
+          className="SideMenu__balance-amount"
+        >
+          
+        </span>
+      </div>
+    </aside>
+    <main
+      className="WorkPassMain"
+    >
+      <main>
+        <div
+          className=""
+        >
+          <ul
+            className="Breadcrumb Candidate__breadcrumb"
+          >
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item"
+                href="/organisations/1/candidates"
+              >
+                All Candidates
+              </a>
+            </li>
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item"
+                href="/organisations/1/candidates/10"
+              >
+                undefined undefined
+              </a>
+            </li>
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item is-active"
+                href="#"
+              >
+                Request 25
+              </a>
+            </li>
+          </ul>
+          <header
+            className="CandidateHeader Candidate__header"
+          >
+            <section
+              className="CandidateInfo"
+            >
+              <img
+                alt="undefined undefined"
+                className="$Avatar CandidateInfo__avatar has-shadow"
+                src="https://collaborativecbt.com/wp-content/uploads/2016/12/default-avatar-768x768.png"
+              />
+              <div
+                className="CandidateInfo__info-wrap"
+              >
+                <h1
+                  className="CandidateInfo__name"
+                >
+                  undefined undefined
+                </h1>
+                <div>
+                  <a
+                    className="CandidateInfo__link"
+                    href="/profile/undefined"
+                  >
+                    View Profile
+                  </a>
+                  <span
+                    className="CandidateInfo__link-separator"
+                  >
+                    |
+                  </span>
+                  <a
+                    className="CandidateInfo__link"
+                    href="mailto:undefined"
+                  />
+                </div>
+              </div>
+            </section>
+            <a
+              className="Button Button--blue CandidateNewRequestsHeader__btn"
+              href="/organisations/1/candidates/10"
+              onClick={[Function]}
+            >
+              Return to 
+              25
+            </a>
+          </header>
+        </div>
+        <div
+          className="container-fluid"
+        >
+          <form>
+            <div
+              className="row "
+            >
+              <div
+                className="col-md-12 col-sm-12 card-row"
+              >
+                <div
+                  className="card"
+                >
+                  <div
+                    className="card-header-gray"
+                  >
+                    <div
+                      className="col-md-6"
+                    >
+                      Impellam GDPR Declaration
+                    </div>
+                    <div
+                      className="col-md-6 noPadding"
+                    >
+                      <a
+                        className="Button Button--blue border-btn checkButton"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Complete
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    className="card-body"
+                  >
+                    <div
+                      className="row"
+                    >
+                      <div
+                        className="col-md-6"
+                      >
+                        <ul>
+                          <li>
+                            Name
+                          </li>
+                          <li>
+                            Date
+                          </li>
+                        </ul>
+                      </div>
+                      <div
+                        className="col-md-6"
+                      >
+                        <ul>
+                          <li>
+                            undefined undefined
+                          </li>
+                          <li>
+                            01 Jan 2016
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <hr />
+                    <div
+                      className="row"
+                    >
+                      <div
+                        className="col-md-6"
+                      >
+                        <h4
+                          className="mb-3"
+                        >
+                          Sensitive Personal Data Collection Consent
+                        </h4>
+                        <div
+                          className="mb-3"
+                        >
+                          <p
+                            className="card-text"
+                          >
+                            Medical history as requested :
+                            <span
+                              className="statusText"
+                            >
+                               
+                              FALSE
+                            </span>
+                          </p>
+                        </div>
+                        <div
+                          className="mb-3"
+                        >
+                          <p
+                            className="card-text"
+                          >
+                            Any other relevant health-related data :
+                            <span
+                              className="statusText"
+                            >
+                               
+                              TRUE
+                            </span>
+                          </p>
+                        </div>
+                        <div
+                          className="mb-3"
+                        >
+                          <p
+                            className="card-text"
+                          >
+                            Data relating to equal opportunities :
+                            <span
+                              className="statusText"
+                            >
+                               
+                              TRUE
+                            </span>
+                          </p>
+                        </div>
+                        <div
+                          className="mb-3"
+                        >
+                          <p
+                            className="card-text"
+                          >
+                            Data relating to DBS check results or criminal convictions :
+                            <span
+                              className="statusText"
+                            >
+                               
+                              FALSE
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        className="col-md-6"
+                      >
+                        <h4
+                          className="mb-3"
+                        >
+                          Future Contact Consent
+                        </h4>
+                        <div
+                          className="mb-3"
+                        >
+                          <p
+                            className="card-text"
+                          >
+                            Phone :
+                            <span
+                              className="statusText"
+                            >
+                               
+                              TRUE
+                            </span>
+                          </p>
+                        </div>
+                        <div
+                          className="mb-3"
+                        >
+                          <p
+                            className="card-text"
+                          >
+                            By SMS :
+                            <span
+                              className="statusText"
+                            >
+                               
+                              TRUE
+                            </span>
+                          </p>
+                        </div>
+                        <div
+                          className="mb-3"
+                        >
+                          <p
+                            className="card-text"
+                          >
+                            By Email :
+                            <span
+                              className="statusText"
+                            >
+                               
+                              FALSE
+                            </span>
+                          </p>
+                        </div>
+                        <div
+                          className="mb-3"
+                        >
+                          <p
+                            className="card-text"
+                          >
+                            By Post :
+                            <span
+                              className="statusText"
+                            >
+                               
+                              FALSE
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </main>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`<WorkPassCheckDetails /> Rendering renders correctly 4`] = `
+<div>
+  <div
+    className="Layout"
+  >
+    <header
+      className="Header"
+    >
+      <a
+        className="Header__appii"
+        href="/https://appii.io"
+        onClick={[Function]}
+      >
+        <svg
+          className=""
+          viewBox="0 0 56 56"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M44,156 C28.536027,156 16,143.463973 16,128 C16,112.536027 28.536027,100 44,100 C59.463973,100 72,112.536027 72,128 L72,156 L44,156 Z M44,150.105263 L66.1052632,150.105263 L66.1052632,128 C66.1052632,115.7916 56.2083997,105.894737 44,105.894737 C31.7916003,105.894737 21.8947368,115.7916 21.8947368,128 C21.8947368,140.2084 31.7916003,150.105263 44,150.105263 Z M26.3665673,127.071057 L32.1597485,125.981574 C33.7125958,134.238633 37.761277,138.092554 44.8273599,138.309665 C49.2897633,138.446777 52.4883032,136.287156 54.8218027,132.382701 C55.6587806,130.982254 56.3133349,129.459714 56.7981447,127.935549 C57.0857817,127.031264 57.2482618,126.349163 57.3089183,126.008965 L63.1121343,127.043666 C63.0085691,127.624521 62.7870996,128.554263 62.4155532,129.722346 C61.8017242,131.652128 60.9713937,133.583535 59.8817351,135.406772 C56.5383203,141.001036 51.4867554,144.4118 44.6463244,144.201622 C34.6757726,143.895268 28.4086643,137.929637 26.3665673,127.071057 Z"
+            fill="#fff"
+            transform="translate(-16 -100)"
+          />
+        </svg>
+      </a>
+    </header>
+    <aside
+      className="SideMenu"
+    >
+      <div
+        className="SideMenu__button"
+      >
+        <a
+          className="Button Button--green"
+          href="/organisations/1/candidates/new"
+          onClick={[Function]}
+        >
+          <span
+            className="Button__icon"
+          >
+            <svg
+              className=""
+              viewBox="0 0 17 17"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                fill="none"
+                fillRule="evenodd"
+                id="Work-Pass-for-Orgs"
+              >
+                <g
+                  fill="#fff"
+                  fillRule="nonzero"
+                  id="Candidates-/-Candidate-/-Reassign"
+                  transform="translate(-48 -112)"
+                >
+                  <g
+                    id="Group-2"
+                    transform="translate(26 95)"
+                  >
+                    <path
+                      d="M38.8647083,32.3325833 L34.4695,27.937375 C35.296125,26.8005 35.784875,25.40225 35.784875,23.8920833 C35.784875,20.091875 32.693,17 28.8920833,17 C25.091875,17 22,20.091875 22,23.8920833 C22,27.693 25.091875,30.7841667 28.8920833,30.7841667 C30.3328333,30.7841667 31.670875,30.3400417 32.7787083,29.5814167 L37.1972917,34 L38.8647083,32.3325833 Z M24.0215833,23.8920833 C24.0215833,21.2060833 26.2067917,19.020875 28.8927917,19.020875 C31.5787917,19.020875 33.764,21.2060833 33.764,23.8920833 C33.764,26.5780833 31.5787917,28.7632917 28.8927917,28.7632917 C26.2060833,28.7632917 24.0215833,26.5780833 24.0215833,23.8920833 Z"
+                      id="Shape"
+                    />
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </span>
+          Add Candidate
+        </a>
+      </div>
+      <ul
+        className="SideMenu__link-list-wrap"
+      >
+        <li>
+          <a
+            aria-current={null}
+            className="SideMenu__link"
+            href="/organisations/1/candidates"
+            onClick={[Function]}
+          >
+            Candidates
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="SideMenu__link"
+            href="/organisations/1/workpassAdmin/persona"
+            onClick={[Function]}
+          >
+            Work Pass Administration
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="nestedMenu"
+            href="/organisations/1/workpassAdmin"
+            onClick={[Function]}
+          >
+            Organisations
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="nestedMenu"
+            href="/organisations/1/workpassAdmin/persona"
+            onClick={[Function]}
+          >
+            Persona
+          </a>
+        </li>
+      </ul>
+      <div
+        className="SideMenu__balance"
+      >
+        <span>
+          Balance
+        </span>
+        <span
+          className="SideMenu__balance-amount"
+        >
+          
+        </span>
+      </div>
+    </aside>
+    <main
+      className="WorkPassMain"
+    >
+      <main>
+        <div
+          className=""
+        >
+          <ul
+            className="Breadcrumb Candidate__breadcrumb"
+          >
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item"
+                href="/organisations/1/candidates"
+              >
+                All Candidates
+              </a>
+            </li>
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item"
+                href="/organisations/1/candidates/10"
+              >
+                undefined undefined
+              </a>
+            </li>
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item is-active"
+                href="#"
+              >
+                Request 25
+              </a>
+            </li>
+          </ul>
+          <header
+            className="CandidateHeader Candidate__header"
+          >
+            <section
+              className="CandidateInfo"
+            >
+              <img
+                alt="undefined undefined"
+                className="$Avatar CandidateInfo__avatar has-shadow"
+                src="https://collaborativecbt.com/wp-content/uploads/2016/12/default-avatar-768x768.png"
+              />
+              <div
+                className="CandidateInfo__info-wrap"
+              >
+                <h1
+                  className="CandidateInfo__name"
+                >
+                  undefined undefined
+                </h1>
+                <div>
+                  <a
+                    className="CandidateInfo__link"
+                    href="/profile/undefined"
+                  >
+                    View Profile
+                  </a>
+                  <span
+                    className="CandidateInfo__link-separator"
+                  >
+                    |
+                  </span>
+                  <a
+                    className="CandidateInfo__link"
+                    href="mailto:undefined"
+                  />
+                </div>
+              </div>
+            </section>
+            <a
+              className="Button Button--blue CandidateNewRequestsHeader__btn"
+              href="/organisations/1/candidates/10"
+              onClick={[Function]}
+            >
+              Return to 
+              25
+            </a>
+          </header>
+        </div>
+        <div
+          className="container-fluid"
+        >
+          <div
+            className="row "
+          >
+            <div
+              className="col-md-12 col-sm-12 card-row"
+            >
+              <div
+                className="card mb-3"
+              >
+                <div
+                  className="card-header"
+                >
+                  <div
+                    className="col-md-6 checkTitle"
+                  >
+                    CIFAS
+                  </div>
+                  <div
+                    className="col-md-6 noPadding"
+                  >
+                    <a
+                      className="Button Button--green border-btn checkButton"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      CLEAR
+                    </a>
+                  </div>
+                </div>
+                <div
+                  className="card-body"
+                >
+                  <h4
+                    className="card-title"
+                  >
+                    DETAILS
+                  </h4>
+                  <div
+                    className="row "
+                  >
+                    <div
+                      className="col-md-12 noPadding"
+                    >
+                      <div
+                        className="col-md-8 col-sm-12"
+                      >
+                        <p
+                          className="card-text"
+                        >
+                          GBG Group Plc - Check Result : 
+                          <span
+                            className="statusText-green"
+                          >
+                            No Match
+                          </span>
+                        </p>
+                      </div>
+                      <div
+                        className="col-md-4 col-sm-12"
+                      >
+                        <a
+                          className="reportLink"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          ATTACH REPORT
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <p
+                    className="card-text"
+                  >
+                    COMPLIANCE OFFICER
+                  </p>
+                  <ul>
+                    <li>
+                      <div
+                        className="form-group text-center"
+                      >
+                        <div
+                          className="form-checkbox pull-left"
+                        >
+                          <input
+                            id="cifas_waiver"
+                            name="cifas_waiver"
+                            type="checkbox"
+                          />
+                          <label
+                            htmlFor="cifas_waiver"
+                          >
+                            Waiver
+                          </label>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        className="form-group text-center"
+                      >
+                        <div
+                          className="form-checkbox pull-left"
+                        >
+                          <input
+                            id="cifas_noProgress"
+                            name="cifas_noProgress"
+                            type="checkbox"
+                          />
+                          <label
+                            htmlFor="cifas_noProgress"
+                          >
+                            Not Progress
+                          </label>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`<WorkPassCheckDetails /> Rendering renders correctly 5`] = `
+<div>
+  <div
+    className="Layout"
+  >
+    <header
+      className="Header"
+    >
+      <a
+        className="Header__appii"
+        href="/https://appii.io"
+        onClick={[Function]}
+      >
+        <svg
+          className=""
+          viewBox="0 0 56 56"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M44,156 C28.536027,156 16,143.463973 16,128 C16,112.536027 28.536027,100 44,100 C59.463973,100 72,112.536027 72,128 L72,156 L44,156 Z M44,150.105263 L66.1052632,150.105263 L66.1052632,128 C66.1052632,115.7916 56.2083997,105.894737 44,105.894737 C31.7916003,105.894737 21.8947368,115.7916 21.8947368,128 C21.8947368,140.2084 31.7916003,150.105263 44,150.105263 Z M26.3665673,127.071057 L32.1597485,125.981574 C33.7125958,134.238633 37.761277,138.092554 44.8273599,138.309665 C49.2897633,138.446777 52.4883032,136.287156 54.8218027,132.382701 C55.6587806,130.982254 56.3133349,129.459714 56.7981447,127.935549 C57.0857817,127.031264 57.2482618,126.349163 57.3089183,126.008965 L63.1121343,127.043666 C63.0085691,127.624521 62.7870996,128.554263 62.4155532,129.722346 C61.8017242,131.652128 60.9713937,133.583535 59.8817351,135.406772 C56.5383203,141.001036 51.4867554,144.4118 44.6463244,144.201622 C34.6757726,143.895268 28.4086643,137.929637 26.3665673,127.071057 Z"
+            fill="#fff"
+            transform="translate(-16 -100)"
+          />
+        </svg>
+      </a>
+    </header>
+    <aside
+      className="SideMenu"
+    >
+      <div
+        className="SideMenu__button"
+      >
+        <a
+          className="Button Button--green"
+          href="/organisations/1/candidates/new"
+          onClick={[Function]}
+        >
+          <span
+            className="Button__icon"
+          >
+            <svg
+              className=""
+              viewBox="0 0 17 17"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                fill="none"
+                fillRule="evenodd"
+                id="Work-Pass-for-Orgs"
+              >
+                <g
+                  fill="#fff"
+                  fillRule="nonzero"
+                  id="Candidates-/-Candidate-/-Reassign"
+                  transform="translate(-48 -112)"
+                >
+                  <g
+                    id="Group-2"
+                    transform="translate(26 95)"
+                  >
+                    <path
+                      d="M38.8647083,32.3325833 L34.4695,27.937375 C35.296125,26.8005 35.784875,25.40225 35.784875,23.8920833 C35.784875,20.091875 32.693,17 28.8920833,17 C25.091875,17 22,20.091875 22,23.8920833 C22,27.693 25.091875,30.7841667 28.8920833,30.7841667 C30.3328333,30.7841667 31.670875,30.3400417 32.7787083,29.5814167 L37.1972917,34 L38.8647083,32.3325833 Z M24.0215833,23.8920833 C24.0215833,21.2060833 26.2067917,19.020875 28.8927917,19.020875 C31.5787917,19.020875 33.764,21.2060833 33.764,23.8920833 C33.764,26.5780833 31.5787917,28.7632917 28.8927917,28.7632917 C26.2060833,28.7632917 24.0215833,26.5780833 24.0215833,23.8920833 Z"
+                      id="Shape"
+                    />
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </span>
+          Add Candidate
+        </a>
+      </div>
+      <ul
+        className="SideMenu__link-list-wrap"
+      >
+        <li>
+          <a
+            aria-current={null}
+            className="SideMenu__link"
+            href="/organisations/1/candidates"
+            onClick={[Function]}
+          >
+            Candidates
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="SideMenu__link"
+            href="/organisations/1/workpassAdmin/persona"
+            onClick={[Function]}
+          >
+            Work Pass Administration
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="nestedMenu"
+            href="/organisations/1/workpassAdmin"
+            onClick={[Function]}
+          >
+            Organisations
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="nestedMenu"
+            href="/organisations/1/workpassAdmin/persona"
+            onClick={[Function]}
+          >
+            Persona
+          </a>
+        </li>
+      </ul>
+      <div
+        className="SideMenu__balance"
+      >
+        <span>
+          Balance
+        </span>
+        <span
+          className="SideMenu__balance-amount"
+        >
+          
+        </span>
+      </div>
+    </aside>
+    <main
+      className="WorkPassMain"
+    >
+      <main>
+        <div
+          className=""
+        >
+          <ul
+            className="Breadcrumb Candidate__breadcrumb"
+          >
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item"
+                href="/organisations/1/candidates"
+              >
+                All Candidates
+              </a>
+            </li>
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item"
+                href="/organisations/1/candidates/10"
+              >
+                undefined undefined
+              </a>
+            </li>
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item is-active"
+                href="#"
+              >
+                Request 25
+              </a>
+            </li>
+          </ul>
+          <header
+            className="CandidateHeader Candidate__header"
+          >
+            <section
+              className="CandidateInfo"
+            >
+              <img
+                alt="undefined undefined"
+                className="$Avatar CandidateInfo__avatar has-shadow"
+                src="https://collaborativecbt.com/wp-content/uploads/2016/12/default-avatar-768x768.png"
+              />
+              <div
+                className="CandidateInfo__info-wrap"
+              >
+                <h1
+                  className="CandidateInfo__name"
+                >
+                  undefined undefined
+                </h1>
+                <div>
+                  <a
+                    className="CandidateInfo__link"
+                    href="/profile/undefined"
+                  >
+                    View Profile
+                  </a>
+                  <span
+                    className="CandidateInfo__link-separator"
+                  >
+                    |
+                  </span>
+                  <a
+                    className="CandidateInfo__link"
+                    href="mailto:undefined"
+                  />
+                </div>
+              </div>
+            </section>
+            <a
+              className="Button Button--blue CandidateNewRequestsHeader__btn"
+              href="/organisations/1/candidates/10"
+              onClick={[Function]}
+            >
+              Return to 
+              25
+            </a>
+          </header>
+        </div>
+        <div
+          className="container-fluid"
+        >
+          <div
+            className="row "
+          >
+            <div
+              className="col-md-12 col-sm-12 card-row"
+            >
+              <div
+                className="card mb-3"
+              >
+                <div
+                  className="card-header-gray"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    Employment References
+                  </div>
+                  <div
+                    className="col-md-6 noPadding"
+                  >
+                    <a
+                      className="Button Button--blue border-btn checkButton"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Complete
+                    </a>
+                  </div>
+                </div>
+                <div
+                  className="card-body"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`<WorkPassCheckDetails /> Rendering renders correctly 6`] = `
+<div>
+  <div
+    className="Layout"
+  >
+    <header
+      className="Header"
+    >
+      <a
+        className="Header__appii"
+        href="/https://appii.io"
+        onClick={[Function]}
+      >
+        <svg
+          className=""
+          viewBox="0 0 56 56"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M44,156 C28.536027,156 16,143.463973 16,128 C16,112.536027 28.536027,100 44,100 C59.463973,100 72,112.536027 72,128 L72,156 L44,156 Z M44,150.105263 L66.1052632,150.105263 L66.1052632,128 C66.1052632,115.7916 56.2083997,105.894737 44,105.894737 C31.7916003,105.894737 21.8947368,115.7916 21.8947368,128 C21.8947368,140.2084 31.7916003,150.105263 44,150.105263 Z M26.3665673,127.071057 L32.1597485,125.981574 C33.7125958,134.238633 37.761277,138.092554 44.8273599,138.309665 C49.2897633,138.446777 52.4883032,136.287156 54.8218027,132.382701 C55.6587806,130.982254 56.3133349,129.459714 56.7981447,127.935549 C57.0857817,127.031264 57.2482618,126.349163 57.3089183,126.008965 L63.1121343,127.043666 C63.0085691,127.624521 62.7870996,128.554263 62.4155532,129.722346 C61.8017242,131.652128 60.9713937,133.583535 59.8817351,135.406772 C56.5383203,141.001036 51.4867554,144.4118 44.6463244,144.201622 C34.6757726,143.895268 28.4086643,137.929637 26.3665673,127.071057 Z"
+            fill="#fff"
+            transform="translate(-16 -100)"
+          />
+        </svg>
+      </a>
+    </header>
+    <aside
+      className="SideMenu"
+    >
+      <div
+        className="SideMenu__button"
+      >
+        <a
+          className="Button Button--green"
+          href="/organisations/1/candidates/new"
+          onClick={[Function]}
+        >
+          <span
+            className="Button__icon"
+          >
+            <svg
+              className=""
+              viewBox="0 0 17 17"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                fill="none"
+                fillRule="evenodd"
+                id="Work-Pass-for-Orgs"
+              >
+                <g
+                  fill="#fff"
+                  fillRule="nonzero"
+                  id="Candidates-/-Candidate-/-Reassign"
+                  transform="translate(-48 -112)"
+                >
+                  <g
+                    id="Group-2"
+                    transform="translate(26 95)"
+                  >
+                    <path
+                      d="M38.8647083,32.3325833 L34.4695,27.937375 C35.296125,26.8005 35.784875,25.40225 35.784875,23.8920833 C35.784875,20.091875 32.693,17 28.8920833,17 C25.091875,17 22,20.091875 22,23.8920833 C22,27.693 25.091875,30.7841667 28.8920833,30.7841667 C30.3328333,30.7841667 31.670875,30.3400417 32.7787083,29.5814167 L37.1972917,34 L38.8647083,32.3325833 Z M24.0215833,23.8920833 C24.0215833,21.2060833 26.2067917,19.020875 28.8927917,19.020875 C31.5787917,19.020875 33.764,21.2060833 33.764,23.8920833 C33.764,26.5780833 31.5787917,28.7632917 28.8927917,28.7632917 C26.2060833,28.7632917 24.0215833,26.5780833 24.0215833,23.8920833 Z"
+                      id="Shape"
+                    />
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </span>
+          Add Candidate
+        </a>
+      </div>
+      <ul
+        className="SideMenu__link-list-wrap"
+      >
+        <li>
+          <a
+            aria-current={null}
+            className="SideMenu__link"
+            href="/organisations/1/candidates"
+            onClick={[Function]}
+          >
+            Candidates
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="SideMenu__link"
+            href="/organisations/1/workpassAdmin/persona"
+            onClick={[Function]}
+          >
+            Work Pass Administration
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="nestedMenu"
+            href="/organisations/1/workpassAdmin"
+            onClick={[Function]}
+          >
+            Organisations
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="nestedMenu"
+            href="/organisations/1/workpassAdmin/persona"
+            onClick={[Function]}
+          >
+            Persona
+          </a>
+        </li>
+      </ul>
+      <div
+        className="SideMenu__balance"
+      >
+        <span>
+          Balance
+        </span>
+        <span
+          className="SideMenu__balance-amount"
+        >
+          
+        </span>
+      </div>
+    </aside>
+    <main
+      className="WorkPassMain"
+    >
+      <main>
+        <div
+          className=""
+        >
+          <ul
+            className="Breadcrumb Candidate__breadcrumb"
+          >
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item"
+                href="/organisations/1/candidates"
+              >
+                All Candidates
+              </a>
+            </li>
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item"
+                href="/organisations/1/candidates/10"
+              >
+                undefined undefined
+              </a>
+            </li>
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item is-active"
+                href="#"
+              >
+                Request 25
+              </a>
+            </li>
+          </ul>
+          <header
+            className="CandidateHeader Candidate__header"
+          >
+            <section
+              className="CandidateInfo"
+            >
+              <img
+                alt="undefined undefined"
+                className="$Avatar CandidateInfo__avatar has-shadow"
+                src="https://collaborativecbt.com/wp-content/uploads/2016/12/default-avatar-768x768.png"
+              />
+              <div
+                className="CandidateInfo__info-wrap"
+              >
+                <h1
+                  className="CandidateInfo__name"
+                >
+                  undefined undefined
+                </h1>
+                <div>
+                  <a
+                    className="CandidateInfo__link"
+                    href="/profile/undefined"
+                  >
+                    View Profile
+                  </a>
+                  <span
+                    className="CandidateInfo__link-separator"
+                  >
+                    |
+                  </span>
+                  <a
+                    className="CandidateInfo__link"
+                    href="mailto:undefined"
+                  />
+                </div>
+              </div>
+            </section>
+            <a
+              className="Button Button--blue CandidateNewRequestsHeader__btn"
+              href="/organisations/1/candidates/10"
+              onClick={[Function]}
+            >
+              Return to 
+              25
+            </a>
+          </header>
+        </div>
+        <div
+          className="container-fluid"
+        >
+          <form>
+            <div
+              className="row"
+            >
+              <div
+                className="col-md-12 col-sm-12 card-row"
+              >
+                <div
+                  className="card mb-3"
+                >
+                  <div
+                    className="card-header-gray"
+                  >
+                    <div
+                      className="col-md-6"
+                    >
+                      Bank Account Check
+                    </div>
+                    <div
+                      className="col-md-6 noPadding"
+                    >
+                      <a
+                        className="Button Button--blue border-btn checkButton"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Complete
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="row"
+            >
+              <div
+                className="col-md-12 col-sm-12 card-row"
+              >
+                <div
+                  className="card-body"
+                >
+                  <div
+                    className="row"
+                  >
+                    <div
+                      className="col-md-12"
+                    >
+                      <h4
+                        className="card-title form-group"
+                      >
+                        DETAILS
+                      </h4>
+                      <ul>
+                        <li>
+                          <div
+                            className="form-group"
+                          >
+                            <span
+                              className="card-text pull-left"
+                            >
+                              GBG Group Plc - Check Result 
+                            </span>
+                            <div
+                              className="pull-right col-md-9"
+                            >
+                              <span
+                                className="statusText"
+                              >
+                                 
+                                Not Matched
+                                 
+                              </span>
+                              <span>
+                                <a
+                                  className="report"
+                                  href="/"
+                                  onClick={[Function]}
+                                >
+                                  REPORT
+                                </a>
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                        <h4
+                          className="card-title form-group"
+                        >
+                          BANK ACCOUNT DETAILS
+                        </h4>
+                        <li>
+                          <div
+                            className="form-group"
+                          >
+                            <span
+                              className="card-text pull-left"
+                            >
+                              Bank Country 
+                            </span>
+                            <div
+                              className="pull-right col-md-9"
+                            >
+                              <span
+                                className="card-text"
+                              >
+                                 
+                                GB
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div
+                            className="form-group"
+                          >
+                            <span
+                              className="card-text pull-left"
+                            >
+                              Bank or Building Society Name 
+                            </span>
+                            <div
+                              className="pull-right col-md-9"
+                            >
+                              <span
+                                className="card-text"
+                              >
+                                 
+                                Building
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div
+                            className="form-group"
+                          >
+                            <span
+                              className="card-text pull-left"
+                            >
+                              Sort Code 
+                            </span>
+                            <div
+                              className="pull-right col-md-9"
+                            >
+                              <span
+                                className="card-text"
+                              >
+                                 
+                                12-34-56
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div
+                            className="form-group"
+                          >
+                            <span
+                              className="card-text pull-left"
+                            >
+                              Account Number 
+                            </span>
+                            <div
+                              className="pull-right col-md-9"
+                            >
+                              <span
+                                className="card-text"
+                              >
+                                U2FsdGVkX1/VYwbnoBXt4x9s/g7WCzVIPhRwKk0s4T8=
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div
+                            className="form-group"
+                          >
+                            <span
+                              className="card-text pull-left"
+                            >
+                              Account Name 
+                            </span>
+                            <div
+                              className="pull-right col-md-9"
+                            >
+                              <span
+                                className="card-text"
+                              >
+                                 
+                                Name
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div
+                            className="form-group"
+                          >
+                            <span
+                              className="card-text pull-left"
+                            >
+                              Address 
+                            </span>
+                            <div
+                              className="pull-right col-md-9"
+                            >
+                              <span
+                                className="card-text"
+                              >
+                                 
+                                Add
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div
+                    className="row form-group card-row"
+                  >
+                    <div
+                      className="col-md-3"
+                    >
+                      <h4
+                        className="card-title form-group"
+                      >
+                        COMPLIANCE OFFICER
+                      </h4>
+                      <div
+                        className="margin form-checkbox"
+                      >
+                        <input
+                          id="ch3"
+                          name="ch3"
+                          onChange={null}
+                          type="checkbox"
+                        />
+                        <label
+                          htmlFor="ch3"
+                        >
+                          Progress
+                        </label>
+                      </div>
+                      <div
+                        className="margin form-checkbox"
+                      >
+                        <input
+                          id="ch4"
+                          name="ch4"
+                          onChange={null}
+                          type="checkbox"
+                        />
+                        <label
+                          htmlFor="ch4"
+                        >
+                          Not Progress
+                        </label>
+                      </div>
+                    </div>
+                    <div
+                      className="col-md-9"
+                    >
+                      <h4
+                        className="card-title form-group"
+                      >
+                        NOTES
+                      </h4>
+                      <textarea
+                        className="fullBox"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </main>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`<WorkPassCheckDetails /> Rendering renders correctly 7`] = `
+<div>
+  <div
+    className="Layout"
+  >
+    <header
+      className="Header"
+    >
+      <a
+        className="Header__appii"
+        href="/https://appii.io"
+        onClick={[Function]}
+      >
+        <svg
+          className=""
+          viewBox="0 0 56 56"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M44,156 C28.536027,156 16,143.463973 16,128 C16,112.536027 28.536027,100 44,100 C59.463973,100 72,112.536027 72,128 L72,156 L44,156 Z M44,150.105263 L66.1052632,150.105263 L66.1052632,128 C66.1052632,115.7916 56.2083997,105.894737 44,105.894737 C31.7916003,105.894737 21.8947368,115.7916 21.8947368,128 C21.8947368,140.2084 31.7916003,150.105263 44,150.105263 Z M26.3665673,127.071057 L32.1597485,125.981574 C33.7125958,134.238633 37.761277,138.092554 44.8273599,138.309665 C49.2897633,138.446777 52.4883032,136.287156 54.8218027,132.382701 C55.6587806,130.982254 56.3133349,129.459714 56.7981447,127.935549 C57.0857817,127.031264 57.2482618,126.349163 57.3089183,126.008965 L63.1121343,127.043666 C63.0085691,127.624521 62.7870996,128.554263 62.4155532,129.722346 C61.8017242,131.652128 60.9713937,133.583535 59.8817351,135.406772 C56.5383203,141.001036 51.4867554,144.4118 44.6463244,144.201622 C34.6757726,143.895268 28.4086643,137.929637 26.3665673,127.071057 Z"
+            fill="#fff"
+            transform="translate(-16 -100)"
+          />
+        </svg>
+      </a>
+    </header>
+    <aside
+      className="SideMenu"
+    >
+      <div
+        className="SideMenu__button"
+      >
+        <a
+          className="Button Button--green"
+          href="/organisations/1/candidates/new"
+          onClick={[Function]}
+        >
+          <span
+            className="Button__icon"
+          >
+            <svg
+              className=""
+              viewBox="0 0 17 17"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                fill="none"
+                fillRule="evenodd"
+                id="Work-Pass-for-Orgs"
+              >
+                <g
+                  fill="#fff"
+                  fillRule="nonzero"
+                  id="Candidates-/-Candidate-/-Reassign"
+                  transform="translate(-48 -112)"
+                >
+                  <g
+                    id="Group-2"
+                    transform="translate(26 95)"
+                  >
+                    <path
+                      d="M38.8647083,32.3325833 L34.4695,27.937375 C35.296125,26.8005 35.784875,25.40225 35.784875,23.8920833 C35.784875,20.091875 32.693,17 28.8920833,17 C25.091875,17 22,20.091875 22,23.8920833 C22,27.693 25.091875,30.7841667 28.8920833,30.7841667 C30.3328333,30.7841667 31.670875,30.3400417 32.7787083,29.5814167 L37.1972917,34 L38.8647083,32.3325833 Z M24.0215833,23.8920833 C24.0215833,21.2060833 26.2067917,19.020875 28.8927917,19.020875 C31.5787917,19.020875 33.764,21.2060833 33.764,23.8920833 C33.764,26.5780833 31.5787917,28.7632917 28.8927917,28.7632917 C26.2060833,28.7632917 24.0215833,26.5780833 24.0215833,23.8920833 Z"
+                      id="Shape"
+                    />
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </span>
+          Add Candidate
+        </a>
+      </div>
+      <ul
+        className="SideMenu__link-list-wrap"
+      >
+        <li>
+          <a
+            aria-current={null}
+            className="SideMenu__link"
+            href="/organisations/1/candidates"
+            onClick={[Function]}
+          >
+            Candidates
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="SideMenu__link"
+            href="/organisations/1/workpassAdmin/persona"
+            onClick={[Function]}
+          >
+            Work Pass Administration
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="nestedMenu"
+            href="/organisations/1/workpassAdmin"
+            onClick={[Function]}
+          >
+            Organisations
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="nestedMenu"
+            href="/organisations/1/workpassAdmin/persona"
+            onClick={[Function]}
+          >
+            Persona
+          </a>
+        </li>
+      </ul>
+      <div
+        className="SideMenu__balance"
+      >
+        <span>
+          Balance
+        </span>
+        <span
+          className="SideMenu__balance-amount"
+        >
+          
+        </span>
+      </div>
+    </aside>
+    <main
+      className="WorkPassMain"
+    >
+      <main>
+        <div
+          className=""
+        >
+          <ul
+            className="Breadcrumb Candidate__breadcrumb"
+          >
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item"
+                href="/organisations/1/candidates"
+              >
+                All Candidates
+              </a>
+            </li>
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item"
+                href="/organisations/1/candidates/10"
+              >
+                undefined undefined
+              </a>
+            </li>
+            <li
+              className="Breadcrumb__list"
+            >
+              <a
+                className="Breadcrumb__item is-active"
+                href="#"
+              >
+                Request 25
+              </a>
+            </li>
+          </ul>
+          <header
+            className="CandidateHeader Candidate__header"
+          >
+            <section
+              className="CandidateInfo"
+            >
+              <img
+                alt="undefined undefined"
+                className="$Avatar CandidateInfo__avatar has-shadow"
+                src="https://collaborativecbt.com/wp-content/uploads/2016/12/default-avatar-768x768.png"
+              />
+              <div
+                className="CandidateInfo__info-wrap"
+              >
+                <h1
+                  className="CandidateInfo__name"
+                >
+                  undefined undefined
+                </h1>
+                <div>
+                  <a
+                    className="CandidateInfo__link"
+                    href="/profile/undefined"
+                  >
+                    View Profile
+                  </a>
+                  <span
+                    className="CandidateInfo__link-separator"
+                  >
+                    |
+                  </span>
+                  <a
+                    className="CandidateInfo__link"
+                    href="mailto:undefined"
+                  />
+                </div>
+              </div>
+            </section>
+            <a
+              className="Button Button--blue CandidateNewRequestsHeader__btn"
+              href="/organisations/1/candidates/10"
+              onClick={[Function]}
+            >
+              Return to 
+              25
+            </a>
+          </header>
+        </div>
+        <div
+          className="container-fluid"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-12 col-sm-12 card-row"
+            >
+              <div
+                className="card mb-3"
+              >
+                <div
+                  className="card-header-gray"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    Address History
+                  </div>
+                  <div
+                    className="col-md-6 noPadding"
+                  >
+                    <a
+                      className="Button Button--blue border-btn checkButton"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Complete
+                    </a>
+                  </div>
+                </div>
+                <div
+                  className="card-body"
+                >
+                  <div>
+                    <div
+                      className="row "
+                    >
+                      <div
+                        className="col-md-4"
+                      >
+                        <h4
+                          className="mb-3"
+                        >
+                          ADDRESS 
+                          1
+                        </h4>
+                      </div>
+                      <div
+                        className="col-md-8 mb-3"
+                      >
+                        <a
+                          className="mb-3"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          <strong>
+                            <u>
+                              PROOF OF CURRENT ADDRESS
+                            </u>
+                          </strong>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      className="row mb-3"
+                    >
+                      <div
+                        className="col-md-12"
+                      >
+                        <table
+                          className="table-data"
+                        >
+                          <tbody>
+                            <tr>
+                              <td>
+                                Line 1
+                              </td>
+                              <td>
+                                Sector 33
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Line 2
+                              </td>
+                              <td>
+                                Block-C
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Town
+                              </td>
+                              <td>
+                                Delhi
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Country
+                              </td>
+                              <td>
+                                IN
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Postcode
+                              </td>
+                              <td>
+                                Poastcod
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                County
+                              </td>
+                              <td>
+                                Noida
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Resident From
+                              </td>
+                              <td>
+                                01/01/2016
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Resident To
+                              </td>
+                              <td>
+                                Present
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </main>
+  </div>
+</div>
+`;

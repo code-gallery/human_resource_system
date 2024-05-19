@@ -1,0 +1,45 @@
+.RequestsBanner {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  height: 45px;
+  overflow: hidden;
+  padding: 0 15px;
+  background-color: #72d371;
+}
+
+.RequestsBannerMobile {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  height: 50px;
+  overflow: hidden;
+  padding: 4px 15px;
+  background-color: #f54f4f;
+
+}
+.RequestsBanner__msg {
+  margin: 0;
+  font-family: 'Graphik-Regular', sans-serif;
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .RequestsBanner__msg {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/ProfileOrganisation/components/Employees when there are no employees when editMode is false renders correctly 1`] = `
+<div
+  className="ContentCard col-xs-12 "
+>
+  <div
+    className="ContentCard-wrapper"
+  >
+    <h3
+      className="ContentCard-title"
+    >
+      Verified Employees
+    </h3>
+    <p>
+      There are no employees at the moment.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`containers/ProfileOrganisation/components/Employees when there are no employees when editMode is true renders correctly 1`] = `
+<div
+  className="ContentCard col-xs-12 edit-mode"
+>
+  <div
+    className="ContentCard-wrapper"
+  >
+    <h3
+      className="ContentCard-title"
+    >
+      Verified Employees
+    </h3>
+    <p>
+      There are no employees at the moment.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`containers/ProfileOrganisation/components/Employees when there are some employees when editMode is true renders correctly 1`] = `
+<div
+  className="ContentCard col-xs-12 edit-mode"
+>
+  <div
+    className="ContentCard-wrapper"
+  >
+    <h3
+      className="ContentCard-title"
+    >
+      Verified Employees
+    </h3>
+    <div
+      className="row"
+    >
+      <div
+        className="col-xs-6 col-sm-4"
+      >
+        <div
+          className="AvatarBig"
+        >
+          <img
+            alt="jane doe"
+            src="appii-placeholder.png"
+          />
+          <p>
+            <a
+              href="/profile/jane"
+              onClick={[Function]}
+              title="jane doe"
+            >
+              jane doe
+            </a>
+            <span
+              title="hello"
+            >
+              hello
+            </span>
+          </p>
+        </div>
+      </div>
+      <div
+        className="col-xs-6 col-sm-4"
+      >
+        <div
+          className="AvatarBig"
+        >
+          <img
+            alt="john doe"
+            src="https://profile_image"
+          />
+          <p>
+            <a
+              href="/profile/21"
+              onClick={[Function]}
+              title="john doe"
+            >
+              john doe
+            </a>
+            <span
+              title="hello"
+            >
+              hello
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

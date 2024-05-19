@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile/components/WorkExperienceAchievement when achievements is not empty renders correctly 1`] = `
+<div
+  className="WorkExperienceAchievement"
+>
+  <div
+    className="form-group"
+  >
+    <p
+      className="help-text"
+    >
+      You can add 5 achievements
+    </p>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-8 col-xs-12"
+    >
+      <div
+        className="form-group"
+      >
+        <input
+          onChange={[Function]}
+          type="text"
+          value="hello world"
+        />
+      </div>
+    </div>
+    <div
+      className="col-xs-12 col-md-1"
+    >
+      <div
+        className="form-group"
+      >
+        <button
+          className="remove-row-btn"
+          onClick={[Function]}
+        >
+           
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-8 col-xs-12"
+    >
+      <div
+        className="form-group"
+      >
+        <input
+          onChange={[Function]}
+          type="text"
+          value="lorem ipsum"
+        />
+      </div>
+    </div>
+    <div
+      className="col-xs-12 col-md-1"
+    >
+      <div
+        className="form-group"
+      >
+        <button
+          className="remove-row-btn"
+          onClick={[Function]}
+        >
+           
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="form-group"
+  >
+    <button
+      className="add-row-btn"
+      onClick={[Function]}
+    >
+      Add achievement
+    </button>
+  </div>
+</div>
+`;
+
+exports[`containers/Profile/components/WorkExperienceAchievement when achievements is null renders correctly 1`] = `
+<div
+  className="WorkExperienceAchievement"
+>
+  <div
+    className="form-group"
+  >
+    <p
+      className="help-text"
+    >
+      You can add 5 achievements
+    </p>
+  </div>
+  <div
+    className="form-group"
+  >
+    <button
+      className="add-row-btn"
+      onClick={[Function]}
+    >
+      Add achievement
+    </button>
+  </div>
+</div>
+`;

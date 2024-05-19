@@ -1,0 +1,51 @@
+.SearchBox {
+  position: relative;
+  display: block;
+}
+
+.SearchBox__input {
+  all: initial;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 1.21875rem;
+  padding-left: 3.5rem;
+  font-family: 'Graphik-Regular';
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1;
+  border: 1px solid #e8e5ee;
+  border-radius: 2px;
+  color: #212224;
+  background-color: #fff;
+}
+
+.SearchBox__input::placeholder {
+  color: #7F8DAA;
+}
+
+.SearchBox__input:focus {
+  border-color: #7F8DAA;
+}
+
+.SearchBox__icon {
+  position: absolute;
+  top: calc(1.21875rem);
+  left: 1.375rem;
+  display: inline-block;
+  width:  1.0625rem;
+  height: 1.0625rem;
+  cursor: pointer;
+}
+
+.Close__icon{
+  position: absolute;
+  top: calc(0.8rem);
+  right: 1.375rem;
+  display: inline-block;
+  width:  1.0625rem;
+  height: 1.0625rem;
+  cursor: pointer;
+  font-size: 10px;
+}                                                          

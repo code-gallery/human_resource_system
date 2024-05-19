@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/LinkedinImport/OptionRenderer Renders correctly 1`] = `
+<div
+  className="institution-select"
+>
+  <img
+    alt="Test name"
+    src="test.jpg"
+  />
+  <p>
+    Test name
+  </p>
+  <span>
+    Test country
+  </span>
+</div>
+`;

@@ -1,0 +1,16 @@
+.WorkPassInviteAccept {
+  box-sizing: border-box;
+  display: block;
+  min-height: 100vh;
+}
+
+.WorkPassInviteAccept__wrap {
+  max-width: 775px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.WorkPassInviteAccept__btn {
+  width: 350px;
+  margin: auto;
+}

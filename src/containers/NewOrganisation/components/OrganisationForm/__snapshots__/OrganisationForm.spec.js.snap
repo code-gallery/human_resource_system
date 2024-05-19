@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/NewOrganisation/components/OrganisationForm when name and websiteUrl have errors renders correctly 1`] = `
+<div>
+  <h2
+    className="form-group"
+  >
+    Tell us about an organisation
+  </h2>
+  <p
+    className="form-group"
+  >
+    APPII team will use the information below to onboard an organisation on our system.
+    <br />
+    The fields with * are mandatory.
+  </p>
+  <form>
+    <div
+      className="form-group has-error"
+    >
+      <label>
+        Organisation name *
+      </label>
+      <input
+        name="name"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label>
+        Contact name *
+      </label>
+      <input
+        name="contactName"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label>
+        Contact email *
+      </label>
+      <input
+        name="contactEmail"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group has-error"
+    >
+      <label>
+        Website url *
+      </label>
+      <input
+        name="websiteUrl"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label>
+        LinkedIn profile url
+      </label>
+      <input
+        name="linkedInUrl"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <button
+        className="form-btn save"
+        onClick={[Function]}
+      >
+        Send
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`containers/NewOrganisation/components/OrganisationForm when success is true renders correctly 1`] = `
+<div>
+  <h2
+    className="form-group"
+  >
+    Tell us about an organisation
+  </h2>
+  <p
+    className="form-group"
+  >
+    APPII team will use the information below to onboard an organisation on our system.
+    <br />
+    The fields with * are mandatory.
+  </p>
+  <form>
+    <div
+      className="form-group"
+    >
+      <label>
+        Organisation name *
+      </label>
+      <input
+        name="name"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label>
+        Contact name *
+      </label>
+      <input
+        name="contactName"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label>
+        Contact email *
+      </label>
+      <input
+        name="contactEmail"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label>
+        Website url *
+      </label>
+      <input
+        name="websiteUrl"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label>
+        LinkedIn profile url
+      </label>
+      <input
+        name="linkedInUrl"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <button
+        className="form-btn save"
+        onClick={[Function]}
+      >
+        Send
+      </button>
+    </div>
+  </form>
+  <p
+    className="form-group"
+  >
+    Thanks, we will create a profile for 
+    Applied
+     and seek a verification administrator as quickly as we can
+  </p>
+</div>
+`;
+
+exports[`containers/NewOrganisation/components/OrganisationForm when there no errors renders correctly 1`] = `
+<div>
+  <h2
+    className="form-group"
+  >
+    Tell us about an organisation
+  </h2>
+  <p
+    className="form-group"
+  >
+    APPII team will use the information below to onboard an organisation on our system.
+    <br />
+    The fields with * are mandatory.
+  </p>
+  <form>
+    <div
+      className="form-group"
+    >
+      <label>
+        Organisation name *
+      </label>
+      <input
+        name="name"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label>
+        Contact name *
+      </label>
+      <input
+        name="contactName"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label>
+        Contact email *
+      </label>
+      <input
+        name="contactEmail"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label>
+        Website url *
+      </label>
+      <input
+        name="websiteUrl"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label>
+        LinkedIn profile url
+      </label>
+      <input
+        name="linkedInUrl"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <button
+        className="form-btn save"
+        onClick={[Function]}
+      >
+        Send
+      </button>
+    </div>
+  </form>
+</div>
+`;

@@ -1,0 +1,365 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CandidateNewRequest /> Rendering renders from crashing 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <section
+    className="CandidateNewRequests "
+  >
+    <h1
+      className="CandidateNewRequests__header"
+    >
+      New Request
+    </h1>
+    <p
+      className="CandidateNewRequests__sub-heading"
+    >
+      Tell us basic job details and add the checks you want the candidate to complete.
+    </p>
+    <div
+      className="CandidateNewRequests__input-area"
+    >
+      <label
+        className="LabeledTextInput CandidateNewRequests__input"
+      >
+        <span
+          className="LabeledTextInput__txt"
+        >
+          Job Role
+        </span>
+        <input
+          className="LabeledTextInput__input"
+          onChange={[Function]}
+          placeholder="What role are you hiring for?"
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        className="LabeledSelectInput CandidateNewRequests__input"
+      >
+        <span
+          className="LabeledSelectInput__txt"
+        >
+          Country/State/Region
+        </span>
+        <svg
+          className="LabeledSelectInput__icon"
+          viewBox="0 0 8 8"
+        >
+          <path
+            d="M0 2l4 4 4-4h-8z"
+            fill="44484c"
+          />
+        </svg>
+        <select
+          className="LabeledSelectInput__select"
+          onChange={[Function]}
+          value="England"
+        >
+          <option
+            value="England"
+          >
+            UK – England
+          </option>
+          <option
+            value="Wales"
+          >
+            UK – Wales
+          </option>
+        </select>
+      </label>
+    </div>
+    <ul
+      className="CandidateNewRequests__request-list"
+    >
+      <li
+        className="CandidateNewRequests__request-item"
+      >
+        <article
+          className="CheckCard "
+        >
+          <div
+            className="CheckCard__basics"
+          >
+            <div>
+              <h1
+                className="CheckCard__header"
+              >
+                Right To Work Check
+              </h1>
+              <p
+                className="CheckCard__sub-heading"
+              >
+                Verified by 
+                APPII
+              </p>
+            </div>
+            <div
+              className="CheckCard__right-area"
+            >
+              <span
+                className="CheckCard__price"
+              >
+                £1.00
+              </span>
+              <div
+                className="CheckCard__btn"
+              >
+                <button
+                  className="OutlineButton is-blue "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  ADD
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </li>
+      <li
+        className="CandidateNewRequests__request-item"
+      >
+        <article
+          className="CheckCard "
+        >
+          <div
+            className="CheckCard__basics"
+          >
+            <div>
+              <h1
+                className="CheckCard__header"
+              >
+                Standard DBS Check
+              </h1>
+              <p
+                className="CheckCard__sub-heading"
+              >
+                Verified by 
+                UK Gov
+              </p>
+            </div>
+            <div
+              className="CheckCard__right-area"
+            >
+              <span
+                className="CheckCard__price"
+              >
+                £2.00
+              </span>
+              <div
+                className="CheckCard__btn"
+              >
+                <button
+                  className="OutlineButton is-blue "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  ADD
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            className="CheckCard__selects"
+          >
+            <label
+              className="LabeledSelectInput CheckCard__select"
+            >
+              <span
+                className="LabeledSelectInput__txt"
+              >
+                DBS Check Type
+              </span>
+              <svg
+                className="LabeledSelectInput__icon"
+                viewBox="0 0 8 8"
+              >
+                <path
+                  d="M0 2l4 4 4-4h-8z"
+                  fill="44484c"
+                />
+              </svg>
+              <select
+                className="LabeledSelectInput__select"
+                onChange={[Function]}
+                value="standard"
+              >
+                <option
+                  value="basic"
+                >
+                  Basic
+                </option>
+                <option
+                  value="standard"
+                >
+                  Standard
+                </option>
+                <option
+                  value="enhanced"
+                >
+                  Enhanced
+                </option>
+              </select>
+            </label>
+            <label
+              className="LabeledSelectInput CheckCard__select"
+            >
+              <span
+                className="LabeledSelectInput__txt"
+              >
+                Workforce Type
+              </span>
+              <svg
+                className="LabeledSelectInput__icon"
+                viewBox="0 0 8 8"
+              >
+                <path
+                  d="M0 2l4 4 4-4h-8z"
+                  fill="44484c"
+                />
+              </svg>
+              <select
+                className="LabeledSelectInput__select"
+                onChange={[Function]}
+                value="adult"
+              >
+                <option
+                  value="adult"
+                >
+                  Adult Workforce
+                </option>
+                <option
+                  value="child"
+                >
+                  Child Workforce
+                </option>
+                <option
+                  value="child_adult"
+                >
+                  Child and Adult Workforce
+                </option>
+                <option
+                  value="other"
+                >
+                  Other Workforce
+                </option>
+              </select>
+            </label>
+          </div>
+          <div
+            className="CheckCard__options"
+          >
+            <div
+              className="CheckboxOption CheckCard__opt"
+            >
+              <div
+                className="Checkbox CheckboxOption__input"
+              >
+                <label
+                  className="Checkbox__label"
+                >
+                  <input
+                    checked={false}
+                    className="Checkbox__input"
+                    onChange={[Function]}
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+              <p
+                className="CheckboxOption__text"
+              >
+                Does this position involve working with children or adults at the applicant's home address?
+              </p>
+            </div>
+            <div
+              className="CheckboxOption CheckCard__opt is-last"
+            >
+              <div
+                className="Checkbox CheckboxOption__input"
+              >
+                <label
+                  className="Checkbox__label"
+                >
+                  <input
+                    checked={false}
+                    className="Checkbox__input"
+                    onChange={[Function]}
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+              <p
+                className="CheckboxOption__text"
+              >
+                Does this position involve volunteering?
+              </p>
+            </div>
+          </div>
+        </article>
+      </li>
+      <li
+        className="CandidateNewRequests__request-item"
+      >
+        <article
+          className="CheckCard "
+        >
+          <div
+            className="CheckCard__basics"
+          >
+            <div>
+              <h1
+                className="CheckCard__header"
+              >
+                Company Check
+              </h1>
+              <p
+                className="CheckCard__sub-heading"
+              >
+                Verified by 
+                HMRC & Companies House
+              </p>
+            </div>
+            <div
+              className="CheckCard__right-area"
+            >
+              <span
+                className="CheckCard__price"
+              >
+                £10.00
+              </span>
+              <div
+                className="CheckCard__btn"
+              >
+                <button
+                  className="OutlineButton is-blue "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  ADD
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </li>
+    </ul>
+    <div
+      className="CandidateNewRequests__btn-wrap"
+    >
+      <button
+        className="Button Button--green is-disabled CandidateNewRequests__btn"
+        disabled={true}
+        onClick={null}
+        type="button"
+      >
+        £0.00
+         | Send Request
+      </button>
+    </div>
+  </section>
+</form>
+`;

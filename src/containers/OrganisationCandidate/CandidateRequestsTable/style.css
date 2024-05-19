@@ -1,0 +1,406 @@
+.CandidateRequestsTable {
+  box-sizing: border-box;
+  display: block;
+  padding: 1.875rem;
+  font-family: 'Graphik-Regular', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  border: 1px solid #e8e5ee;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.CandidateRequestsTable__table {
+  margin-bottom: 1.875rem;
+}
+.CandidateRequestsTable__header {
+  font-size: 1.3125rem;
+  line-height: 1;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 1.875rem;
+}
+
+.CandidateRequestsTable__table-data {
+  border-bottom: 1px solid #edf4fc;
+  cursor: pointer;
+  max-width: 120px;
+  white-space: break-spaces;
+  overflow: hidden;
+}
+
+.CandidateRequestsTable__table-data.isDropdown {
+  padding: 0;
+  cursor: initial;
+}
+
+.CandidateRequestsTable__chevron {
+  all: initial;
+  box-sizing: border-box;
+  display: block;
+  width: 15px;
+  height: auto;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.CandidateRequestsTable__empty {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.CandidateRequestsTable__empty-header {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 0.6em;
+}
+
+.candidateRequestNew .TableHeading{ vertical-align: top; }
+
+#nudge-container{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 5555;
+}
+#nudge-container:after{
+  position: fixed;
+  left:0;
+  right:0;
+  top:0;
+  bottom: 0;
+  margin: auto;
+  content: "";
+  background-color: rgba(0,0,0,0.5);
+}
+
+#nudge-container > .inner{
+  width: 500px;
+  position: fixed;
+  top: 35%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 5px;
+  z-index: 2;
+  background-color: white;
+}
+
+.nudge-header{
+  padding: 20px 15px 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+}
+
+.nudge-success-text{
+  padding: 15px 25px 40px 25px;
+}
+
+.nudge-success-heading{
+  text-align: center;
+  padding: 25px 0;
+  color: #000;
+  font-size: 24px;
+}
+
+.nudge-success-msg{
+  text-align: center;
+  font-size: 20px;
+  line-height: 28px;
+  width: 300px;
+  margin: 0 auto;
+  color: #000;
+  font-weight: 500;
+}
+.nudge-success-heading img{ width: 34px; margin-right: 5px; display: inline-block; 
+  vertical-align: top;
+  padding-top: 0px;
+}
+.nudge-header h3{ font-size: 20px; padding-top: 2px; }
+.add-reference-form .form-group input {
+  height: 34px
+}
+.add-reference-form .form-group {
+  padding-bottom: 10px;
+}
+.add-reference-form p.split {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  float: left;
+  width: 100%;
+}
+
+/* .switch-container {
+	position: absolute;
+	top: 50%; left: 50%;
+	-webkit-transform: translate3d( -50%, -50%, 0 );
+	transform: translate3d( -50%, -50%, 0 );
+} */
+
+input[type="checkbox"].switch  {
+	position: absolute;
+	opacity: 0;
+}
+
+input[type="checkbox"].switch + div {
+	vertical-align: middle;
+	width: 40px;
+	height: 30px;
+	border-radius: 999px;
+	background-color: gray;
+	-webkit-transition-duration: .4s;
+	transition-duration: .4s;
+	-webkit-transition-property: background-color, box-shadow;
+	transition-property: background-color, box-shadow;
+	cursor: pointer;
+}
+
+input[type="checkbox"].switch + div span {
+	position: absolute;
+    font-size: 1.6rem;
+    color: white;
+    margin-top: 12px;
+}
+
+input[type="checkbox"].switch + div span:nth-child( 1 ) {
+    margin-left: 15px;
+}
+
+input[type="checkbox"].switch + div span:nth-child( 2 ) {
+    margin-left: 55px;
+}
+
+input[type="checkbox"].switch:checked + div {
+	width: 55px;
+	background-position: 0 0;
+	background-color: #3b89ec;
+}
+
+input[type="checkbox"].switch + div {
+	width: 55px;
+	height: 30px;
+}
+
+input[type="checkbox"].switch:checked + div {
+	background-color: #57BB00;
+}
+
+input[type="checkbox"].switch + div > div {
+	float: left;
+	width: 30px;
+  height: 28px;
+	border-radius: inherit;
+	background: #ffffff;
+	-webkit-transition-timing-function: cubic-bezier(1,0,0,1);
+	transition-timing-function: cubic-bezier(1,0,0,1);
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	-webkit-transition-property: transform, background-color;
+	transition-property: transform, background-color;
+	pointer-events: none;
+	margin-top: 1px;
+	margin-left: 1px;
+}
+
+input[type="checkbox"].switch:checked + div > div {
+	-webkit-transform: translate3d(20px, 0, 0);
+	transform: translate3d(20px, 0, 0);
+	background-color: #ffffff;
+}
+
+input[type="checkbox"].bigswitch.switch + div > div {
+	width: 44px;
+	height: 44px;
+	margin-top: 1px;
+}
+
+input[type="checkbox"].switch:checked + div > div {
+	-webkit-transform: translate3d(23px, 0, 0);
+	transform: translate3d(23px, 0, 0);
+}
+.add-reference-form .reference-label {
+    margin-top: 10px
+}
+.add-reference-form .required-error {
+    float: left
+}
+.save-reference-btn {
+  width: auto;
+  min-width: 80px;
+  float: right;
+  padding: 10px;
+  font-size: small;
+  margin-left: 2px;
+  background-color: #72d371;
+}
+.close-reference-btn {
+  width: 80px;
+  padding: 10px;
+  float: right;
+  font-size: small;
+  margin-left: 2px;
+  background-color: #FB7C7C;
+}
+.wp-heading {
+  margin-right: 50px;
+  cursor: pointer;
+}
+.CandidateHeader__button.new-note {
+  margin-left: 6px;
+  display: inline-block;
+  width: 125px;
+  padding: 0;
+  line-height: 45px;
+  font-size: 15px;
+}
+
+.notes-heading {
+  cursor: pointer;
+}
+.wp-heading.active, .notes-heading.active {
+  padding-bottom: 4px;
+  border-bottom: 5px solid #498df0;
+}
+.wpr-container {
+  display: flex;
+  flex-direction: row;
+}
+.wpr-container .CandidateRequestsTable {
+  flex: 1;
+}
+.notes-section .CandidatesTable__table-data {
+  vertical-align: 'middle'
+}
+.notes-section input[type=checkbox] {
+  position: relative;
+  left: auto;
+}
+.notes-section .TableHeading.checkbox {
+  width: 5%;
+}
+.notes-section .TableHeading, .notes-form .TableHeading {
+  border-bottom: 1px solid #000;
+}
+.notes-form .close-note.closeButtonContainer {
+  position: relative;
+  top: 0;
+  font-size: 20px;
+}
+.notes-form .TableHeading.left-align {
+  text-align: left;
+  padding-left: 5px;
+  border-bottom: 1px solid #edf4fc;
+  font-weight: 700;
+}
+.notes-form .CandidatesTable__table-data.left-align {
+  text-align: left;
+  padding-left: 5px;
+  border-bottom: 1px solid #edf4fc;
+  color: #4789eb;
+  text-decoration: underline;
+}
+.notes-form .TableHeading.right-align {
+  text-align: right;
+  padding-right: 10px;
+  border-bottom: 1px solid #edf4fc;
+  font-weight: 700;
+}
+.notes-form .CandidatesTable__table-data.right-align {
+  text-align: right;
+  padding-right: 10px;
+  border-bottom: 1px solid #edf4fc;
+}
+.notes-section .CandidatesTable__table-data.date {
+  color: #4789eb;
+  text-decoration: underline;
+}
+.delete-attachment {
+  width: 80px;
+  padding: 10px;
+  font-size: small;
+  float: right;
+  margin-bottom: 5px;
+}
+.notes-form .btn {
+  width: 80px;
+  padding: 10px;
+  font-size: small;
+  margin: 0 5px;
+}
+.notes-form .red-btn {
+  float: left;
+  background-color: #FB7C7C;
+}
+.notes-form .green-btn {
+  float: right;
+  background-color: #72d371;
+}
+.notes-form .blue-btn {
+  float: right;
+  background-color: #4789eb;
+}
+.notes-form .white-btn {
+  float: right;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+.notes-form .gray-btn {
+  float: right;
+  color: #fff;
+  background-color: #7f7f7f;
+}
+.notes-form .btn-placeholder {
+  font-size: 13px;
+  text-align: center;
+  font-size: 13px;
+  padding: 0;
+  float: left;
+  width: 100%;
+}
+.notes-form .btn[disabled], .notes-form .btn-placeholder.disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.notes-form .btn-custom-file-upload, .notes-form .btn-custom-file-upload label {
+  height: 33px;
+  color: #fff;
+  line-height: 35px;
+  font-style: normal;
+  width: 80px;
+  padding: 0px;
+  text-align: center;
+}
+.notes-form .attachment-list {
+  margin-top: 40px;
+}
+.notes-form .action-list {
+  margin-top: 80px;
+}
+.notes-form .form-group textarea{
+  border-radius: 10px;
+  font-size: 14px;
+}
+.notes-form .form-group select {
+  text-align-last:center;
+}
+.notes-form .required-error {
+  color: red !important;
+  font-weight: bold !important;
+}
+.notes-form .Select-placeholder,
+.notes-form .Select--single > .Select-control .Select-value,
+.notes-form .Select-input,
+.notes-form .Select-input > input {
+  height: 34px;
+  line-height: 34px;
+  font-size: 14px;
+}
+.note-modal.modal-div {
+  padding: 0 30px;
+}

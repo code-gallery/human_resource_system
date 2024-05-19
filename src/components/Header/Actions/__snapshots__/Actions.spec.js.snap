@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Header/Actions when canEdit is true renders correctly 1`] = `
+<ul
+  className="changes-btns"
+>
+  <li>
+    <button
+      className="border-btn"
+      onClick={[Function]}
+    >
+      Edit
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`components/Header/Actions when editMode and canEdit are true renders correctly 1`] = `
+<ul
+  className="changes-btns"
+>
+  <li>
+    <button
+      className="border-btn"
+      data-header-cancel="true"
+      onClick={[Function]}
+    >
+      Cancel
+    </button>
+  </li>
+  <li>
+    <button
+      className="border-btn"
+      data-header-save="true"
+      onClick={[Function]}
+    >
+      Save Changes
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`components/Header/Actions when loading is true renders correctly 1`] = `
+<ul
+  className="changes-btns"
+>
+  <li>
+    <img
+      alt="loading"
+      src="/assets/loading.gif"
+    />
+  </li>
+</ul>
+`;
+
+exports[`components/Header/Actions with defaultProps renders correctly 1`] = `null`;

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/ProfileOrganisation/components/About when about_us is null renders correctly 1`] = `
+<div
+  className="ContentCard col-xs-12 "
+>
+  <div
+    className="ContentCard-wrapper"
+  >
+    <h3
+      className="ContentCard-title"
+    >
+      About
+    </h3>
+  </div>
+</div>
+`;
+
+exports[`containers/ProfileOrganisation/components/About when about_us is valid renders correctly 1`] = `
+<div
+  className="ContentCard col-xs-12 "
+>
+  <div
+    className="ContentCard-wrapper"
+  >
+    <h3
+      className="ContentCard-title"
+    >
+      About
+    </h3>
+    <p
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Hello world<br />Lorem ipsum dolor<br /> sit amet
+         blah blah",
+        }
+      }
+    />
+  </div>
+</div>
+`;

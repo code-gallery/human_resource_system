@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile/components/.../SkillForm when all inputs have no values renders correctly 1`] = `
+<div>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+    >
+      Name
+    </label>
+    <input
+      defaultValue={undefined}
+      name="name"
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+    >
+      Description
+    </label>
+    <input
+      defaultValue={undefined}
+      name="description"
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+    >
+      Skill Level
+    </label>
+    <div
+      className="col-xs-12 col-md-6"
+    >
+      <div
+        aria-disabled={false}
+        className="input-range"
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onTouchStart={[Function]}
+      >
+        <span
+          className="input-range__label input-range__label--min"
+        >
+          <span
+            className="input-range__label-container"
+          >
+            1
+          </span>
+        </span>
+        <div
+          className="input-range__track input-range__track--background"
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+        >
+          <div
+            className="input-range__track input-range__track--active"
+            style={
+              Object {
+                "left": "0%",
+                "width": "0%",
+              }
+            }
+          />
+          <span
+            className="input-range__slider-container"
+            style={
+              Object {
+                "left": "0%",
+                "position": "absolute",
+              }
+            }
+          >
+            <span
+              className="input-range__label input-range__label--value"
+            >
+              <span
+                className="input-range__label-container"
+              >
+                NaN
+              </span>
+            </span>
+            <div
+              aria-controls={undefined}
+              aria-labelledby={undefined}
+              aria-valuemax={5}
+              aria-valuemin={1}
+              aria-valuenow={NaN}
+              className="input-range__slider"
+              draggable="false"
+              onKeyDown={[Function]}
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+              role="slider"
+              tabIndex="0"
+            />
+          </span>
+        </div>
+        <span
+          className="input-range__label input-range__label--max"
+        >
+          <span
+            className="input-range__label-container"
+          >
+            5
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-12 col-md-6"
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          className=""
+        >
+          Date
+        </label>
+        <div
+          className="select double-select active"
+          onClick={[Function]}
+        >
+          <span>
+            April 2018
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`containers/Profile/components/.../SkillForm when all inputs have values renders correctly 1`] = `
+<div>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+    >
+      Name
+    </label>
+    <input
+      defaultValue="Skill 1"
+      name="name"
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+    >
+      Description
+    </label>
+    <input
+      defaultValue="Lorem ipsum"
+      name="description"
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+    >
+      Skill Level
+    </label>
+    <div
+      className="col-xs-12 col-md-6"
+    >
+      <div
+        aria-disabled={false}
+        className="input-range"
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onTouchStart={[Function]}
+      >
+        <span
+          className="input-range__label input-range__label--min"
+        >
+          <span
+            className="input-range__label-container"
+          >
+            1
+          </span>
+        </span>
+        <div
+          className="input-range__track input-range__track--background"
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+        >
+          <div
+            className="input-range__track input-range__track--active"
+            style={
+              Object {
+                "left": "0%",
+                "width": "100%",
+              }
+            }
+          />
+          <span
+            className="input-range__slider-container"
+            style={
+              Object {
+                "left": "100%",
+                "position": "absolute",
+              }
+            }
+          >
+            <span
+              className="input-range__label input-range__label--value"
+            >
+              <span
+                className="input-range__label-container"
+              >
+                5
+              </span>
+            </span>
+            <div
+              aria-controls={undefined}
+              aria-labelledby={undefined}
+              aria-valuemax={5}
+              aria-valuemin={1}
+              aria-valuenow={5}
+              className="input-range__slider"
+              draggable="false"
+              onKeyDown={[Function]}
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+              role="slider"
+              tabIndex="0"
+            />
+          </span>
+        </div>
+        <span
+          className="input-range__label input-range__label--max"
+        >
+          <span
+            className="input-range__label-container"
+          >
+            5
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-12 col-md-6"
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          className=""
+        >
+          Date
+        </label>
+        <div
+          className="select double-select active"
+          onClick={[Function]}
+        >
+          <span>
+            April 2014
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table /> renders correctly 1`] = `
+<table
+  className="Table "
+>
+  <thead>
+    <tr>
+      <th>
+        Foo
+      </th>
+      <th>
+        Bar
+      </th>
+      <th>
+        Baz
+      </th>
+    </tr>
+  </thead>
+</table>
+`;

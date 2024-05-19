@@ -1,0 +1,24 @@
+.AccreditationsForm .btn-cancel {
+  margin-right: 10px;
+}
+
+.AccreditationsForm input[type="file"] {
+  padding-top: 12px;
+}
+
+.AccreditationsForm .separator {
+  border-top: 1px solid #e7e5ee;
+  margin-top: 20px;
+  padding-top: 25px;
+}
+
+.AccreditationsForm h4 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0.8em;
+}
+
+.AccreditationsForm #accr-location-map {
+  height: 400px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,438 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/TermsUse when hasLayout is false renders correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="PageTitle container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-xs-12"
+      >
+        <p
+          className="PageTitle-type2"
+        >
+          Terms of Use
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ContentCard col-xs-12 static-page"
+  >
+    <div
+      className="ContentCard-wrapper"
+    >
+      <h3
+        className="content-title"
+      >
+        1. Acceptance of Terms
+      </h3>
+      <p>
+        Your access to and use of APPII (“the Website”) is subject exclusively to these Terms and Conditions. You will not use the Website for any purpose that is unlawful or prohibited by these Terms and Conditions. By using the Website you are fully accepting the terms, conditions and disclaimers contained in this notice. If you do not accept these Terms and Conditions you must immediately stop using the Website.
+      </p>
+      <h3
+        className="content-title"
+      >
+        2. Advice
+      </h3>
+      <p>
+        The contents of the Website do not constitute advice and should not be relied upon in making or refraining from making, any decision.
+      </p>
+      <h3
+        className="content-title"
+      >
+        3. Changes to Website
+      </h3>
+      <p>
+        APPII reserves the right to:
+      </p>
+      <p>
+        <strong>
+          3.1
+        </strong>
+         change or remove (temporarily or permanently) the Website or any part of it without notice and you confirm that APPII shall not be liable to you for any such change or removal; and
+      </p>
+      <p>
+        <strong>
+          3.2
+        </strong>
+         change these Terms and Conditions at any time, and your continued use of the Website following any changes shall be deemed to be your acceptance of such change.
+      </p>
+      <h3
+        className="content-title"
+      >
+        4. Links to Third Party Websites
+      </h3>
+      <p>
+        The Website may include links to third party websites that are controlled and maintained by others. Any link to other websites is not an endorsement of such websites and you acknowledge and agree that we are not responsible for the content or availability of any such sites.
+      </p>
+      <h3
+        className="content-title"
+      >
+        5. Copyright
+      </h3>
+      <p>
+        <strong>
+          5.1
+        </strong>
+         All copyright, trademarks and all other intellectual property rights in the Website and its content (including without limitation the Website design, text, graphics and all software and source codes connected with the Website) are owned by or licensed to APPII or otherwise used by APPII as permitted by law.
+      </p>
+      <p>
+        <strong>
+          5.2
+        </strong>
+         In accessing the Website you agree that none of the articles or Website text may be downloaded, copied, reproduced, transmitted, stored, sold or distributed without the prior written consent of the copyright holder.
+      </p>
+      <h3
+        className="content-title"
+      >
+        6. Privacy Policy
+      </h3>
+      <p>
+        We take data protection seriously and we have recently updated our Privacy Policy and Terms of Service to support changes in European data law; GDPR. Here is the link to our new Privacy Policy: https://appii.io/privacy-policy
+      </p>
+      <h3
+        className="content-title"
+      >
+        7. Account Creation
+      </h3>
+      <p>
+        On registering on the site, you may be subscribed to our newsletter system where we will update you with available jobs, our own newsletters and sometimes emails from third parties. All of these subscriptions can be cancelled either via the website, via specific removal links in the newsletters / job alerts or by emailing us via addresses contained in the newsletters.
+      </p>
+      <h3
+        className="content-title"
+      >
+        8. Disclaimers and Limitation of Liability
+      </h3>
+      <p>
+        <strong>
+          8.1
+        </strong>
+         The Website is provided on an “AS IS” and “AS AVAILABLE” basis without any representation or endorsement made and without warranty of any kind whether express or implied, including but not limited to the implied warranties of satisfactory quality, fitness for a particular purpose, non-infringement, compatibility, security and accuracy.
+      </p>
+      <p>
+        <strong>
+          8.2
+        </strong>
+         To the extent permitted by law, APPII will not be liable for any indirect or consequential loss or damage whatever (including without limitation loss of business, opportunity, data, profits) arising out of or in connection with the use of the Website.
+      </p>
+      <p>
+        <strong>
+          8.3
+        </strong>
+         APPII makes no warranty that the functionality of the Website will be uninterrupted or error free, that defects will be corrected or that the Website or the server that makes it available are free of viruses or anything else which may be harmful or destructive.
+      </p>
+      <p>
+        <strong>
+          8.4
+        </strong>
+         Nothing in these Terms and Conditions shall be construed so as to exclude or limit the liability of APPII for death or personal injury because of the negligence of APPII or that of its employees or agents.
+      </p>
+      <h3
+        className="content-title"
+      >
+        9. Indemnity
+      </h3>
+      <p>
+        You agree to indemnify and hold APPII and its employees and agents harmless from and against all liabilities, legal fees, damages, losses, costs and other expenses in relation to any claims or actions brought against APPII arising out of any breach by you of these Terms and Conditions or other liabilities arising out of your use of this Website.
+      </p>
+      <h3
+        className="content-title"
+      >
+        10. Severance
+      </h3>
+      <p>
+        If any of these Terms and Conditions should be determined to be invalid, illegal or unenforceable for any reason by any court of competent jurisdiction then such Term or Condition shall be severed, and the remaining Terms and Conditions shall survive and remain in full force and effect and continue to be binding and enforceable.
+      </p>
+      <h3
+        className="content-title"
+      >
+        11. Governing Law
+      </h3>
+      <p>
+        These Terms and Conditions shall be governed by and construed in accordance with the law of England and you hereby submit to the exclusive jurisdiction of the English courts.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`containers/TermsUse when hasLayout is true renders correctly 1`] = `
+<div>
+  <div
+    className="Layout"
+  >
+    <header
+      className="Header"
+    >
+      <a
+        className="Header__appii"
+        href="https://appii.io"
+        onClick={[Function]}
+      >
+        <svg
+          className=""
+          viewBox="0 0 56 56"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M44,156 C28.536027,156 16,143.463973 16,128 C16,112.536027 28.536027,100 44,100 C59.463973,100 72,112.536027 72,128 L72,156 L44,156 Z M44,150.105263 L66.1052632,150.105263 L66.1052632,128 C66.1052632,115.7916 56.2083997,105.894737 44,105.894737 C31.7916003,105.894737 21.8947368,115.7916 21.8947368,128 C21.8947368,140.2084 31.7916003,150.105263 44,150.105263 Z M26.3665673,127.071057 L32.1597485,125.981574 C33.7125958,134.238633 37.761277,138.092554 44.8273599,138.309665 C49.2897633,138.446777 52.4883032,136.287156 54.8218027,132.382701 C55.6587806,130.982254 56.3133349,129.459714 56.7981447,127.935549 C57.0857817,127.031264 57.2482618,126.349163 57.3089183,126.008965 L63.1121343,127.043666 C63.0085691,127.624521 62.7870996,128.554263 62.4155532,129.722346 C61.8017242,131.652128 60.9713937,133.583535 59.8817351,135.406772 C56.5383203,141.001036 51.4867554,144.4118 44.6463244,144.201622 C34.6757726,143.895268 28.4086643,137.929637 26.3665673,127.071057 Z"
+            fill="#fff"
+            transform="translate(-16 -100)"
+          />
+        </svg>
+      </a>
+    </header>
+    <div
+      className="container"
+    >
+      <div
+        className="PageTitle container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-xs-12"
+          >
+            <p
+              className="PageTitle-type2"
+            >
+              Terms of Use
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ContentCard col-xs-12 static-page"
+      >
+        <div
+          className="ContentCard-wrapper"
+        >
+          <h3
+            className="content-title"
+          >
+            1. Acceptance of Terms
+          </h3>
+          <p>
+            Your access to and use of APPII (“the Website”) is subject exclusively to these Terms and Conditions. You will not use the Website for any purpose that is unlawful or prohibited by these Terms and Conditions. By using the Website you are fully accepting the terms, conditions and disclaimers contained in this notice. If you do not accept these Terms and Conditions you must immediately stop using the Website.
+          </p>
+          <h3
+            className="content-title"
+          >
+            2. Advice
+          </h3>
+          <p>
+            The contents of the Website do not constitute advice and should not be relied upon in making or refraining from making, any decision.
+          </p>
+          <h3
+            className="content-title"
+          >
+            3. Changes to Website
+          </h3>
+          <p>
+            APPII reserves the right to:
+          </p>
+          <p>
+            <strong>
+              3.1
+            </strong>
+             change or remove (temporarily or permanently) the Website or any part of it without notice and you confirm that APPII shall not be liable to you for any such change or removal; and
+          </p>
+          <p>
+            <strong>
+              3.2
+            </strong>
+             change these Terms and Conditions at any time, and your continued use of the Website following any changes shall be deemed to be your acceptance of such change.
+          </p>
+          <h3
+            className="content-title"
+          >
+            4. Links to Third Party Websites
+          </h3>
+          <p>
+            The Website may include links to third party websites that are controlled and maintained by others. Any link to other websites is not an endorsement of such websites and you acknowledge and agree that we are not responsible for the content or availability of any such sites.
+          </p>
+          <h3
+            className="content-title"
+          >
+            5. Copyright
+          </h3>
+          <p>
+            <strong>
+              5.1
+            </strong>
+             All copyright, trademarks and all other intellectual property rights in the Website and its content (including without limitation the Website design, text, graphics and all software and source codes connected with the Website) are owned by or licensed to APPII or otherwise used by APPII as permitted by law.
+          </p>
+          <p>
+            <strong>
+              5.2
+            </strong>
+             In accessing the Website you agree that none of the articles or Website text may be downloaded, copied, reproduced, transmitted, stored, sold or distributed without the prior written consent of the copyright holder.
+          </p>
+          <h3
+            className="content-title"
+          >
+            6. Privacy Policy
+          </h3>
+          <p>
+            We take data protection seriously and we have recently updated our Privacy Policy and Terms of Service to support changes in European data law; GDPR. Here is the link to our new Privacy Policy: https://appii.io/privacy-policy
+          </p>
+          <h3
+            className="content-title"
+          >
+            7. Account Creation
+          </h3>
+          <p>
+            On registering on the site, you may be subscribed to our newsletter system where we will update you with available jobs, our own newsletters and sometimes emails from third parties. All of these subscriptions can be cancelled either via the website, via specific removal links in the newsletters / job alerts or by emailing us via addresses contained in the newsletters.
+          </p>
+          <h3
+            className="content-title"
+          >
+            8. Disclaimers and Limitation of Liability
+          </h3>
+          <p>
+            <strong>
+              8.1
+            </strong>
+             The Website is provided on an “AS IS” and “AS AVAILABLE” basis without any representation or endorsement made and without warranty of any kind whether express or implied, including but not limited to the implied warranties of satisfactory quality, fitness for a particular purpose, non-infringement, compatibility, security and accuracy.
+          </p>
+          <p>
+            <strong>
+              8.2
+            </strong>
+             To the extent permitted by law, APPII will not be liable for any indirect or consequential loss or damage whatever (including without limitation loss of business, opportunity, data, profits) arising out of or in connection with the use of the Website.
+          </p>
+          <p>
+            <strong>
+              8.3
+            </strong>
+             APPII makes no warranty that the functionality of the Website will be uninterrupted or error free, that defects will be corrected or that the Website or the server that makes it available are free of viruses or anything else which may be harmful or destructive.
+          </p>
+          <p>
+            <strong>
+              8.4
+            </strong>
+             Nothing in these Terms and Conditions shall be construed so as to exclude or limit the liability of APPII for death or personal injury because of the negligence of APPII or that of its employees or agents.
+          </p>
+          <h3
+            className="content-title"
+          >
+            9. Indemnity
+          </h3>
+          <p>
+            You agree to indemnify and hold APPII and its employees and agents harmless from and against all liabilities, legal fees, damages, losses, costs and other expenses in relation to any claims or actions brought against APPII arising out of any breach by you of these Terms and Conditions or other liabilities arising out of your use of this Website.
+          </p>
+          <h3
+            className="content-title"
+          >
+            10. Severance
+          </h3>
+          <p>
+            If any of these Terms and Conditions should be determined to be invalid, illegal or unenforceable for any reason by any court of competent jurisdiction then such Term or Condition shall be severed, and the remaining Terms and Conditions shall survive and remain in full force and effect and continue to be binding and enforceable.
+          </p>
+          <h3
+            className="content-title"
+          >
+            11. Governing Law
+          </h3>
+          <p>
+            These Terms and Conditions shall be governed by and construed in accordance with the law of England and you hereby submit to the exclusive jurisdiction of the English courts.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer
+    className="Footer"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-xs-12 col-md-4"
+        >
+          APPII Ltd © 
+          2019
+        </div>
+        <div
+          className="col-xs-12 col-md-8"
+        >
+          <ul
+            className="Footer-nav"
+          >
+            <li>
+              <a
+                href="/privacy-policy"
+                onClick={[Function]}
+              >
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a
+                href="/terms-of-use"
+                onClick={[Function]}
+              >
+                Terms & Conditions of Use
+              </a>
+            </li>
+            <li>
+              <a
+                href="/cookies"
+                onClick={[Function]}
+              >
+                Cookies
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://www.linkedin.com/company/10535440/"
+              >
+                <img
+                  alt="linkedin"
+                  src="linkedin_logo.svg"
+                />
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://www.facebook.com/appii.io"
+              >
+                <img
+                  alt="facebook"
+                  src="facebook_logo.svg"
+                />
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://twitter.com/appii_io"
+              >
+                <img
+                  alt="twitter"
+                  src="twitter_logo.svg"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

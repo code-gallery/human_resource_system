@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Organisations/OrgVerifications/components/RequestItem/RequestItem when props is valid renders correctly 1`] = `
+<tr
+  className="VerificationItem"
+>
+  <td
+    className="col-xs-12 col-md-3"
+  >
+    <div
+      className="Avatar Avatar-blue Avatar-size-45 Avatar-withLabel"
+    >
+      <img
+        alt="Jane Doe"
+        src="appii-placeholder.png"
+      />
+      <span>
+        Jane Doe
+      </span>
+    </div>
+  </td>
+  <td
+    className="col-xs-12 col-md-2 text-center"
+  >
+    <p
+      className="VerificationItem-type"
+    >
+      type
+    </p>
+  </td>
+  <td
+    className="col-xs-12 col-md-4"
+  >
+    <ul
+      className="table-list"
+    >
+      <li
+        className="details"
+      >
+        <span>
+          July 1994
+        </span>
+      </li>
+      <li
+        className="details"
+      >
+        <span>
+          July 1994
+        </span>
+      </li>
+    </ul>
+  </td>
+  <td
+    className="col-xs-12 col-md-3"
+  >
+    <div
+      className="Action"
+    >
+      <button
+        className="btn green-btn"
+        data-verify="true"
+        onClick={[Function]}
+      >
+        Verify this claim
+      </button>
+      <button
+        className="btn red-btn"
+        data-reject="true"
+        onClick={[Function]}
+      >
+        Reject this claim
+      </button>
+    </div>
+  </td>
+</tr>
+`;

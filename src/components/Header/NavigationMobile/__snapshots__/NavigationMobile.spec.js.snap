@@ -1,0 +1,554 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Header/NavigationMobile when active is false renders correctly 1`] = `
+<div
+  className="mobile-nav"
+>
+  <div
+    className="mobile-user-info"
+  >
+    <div
+      className="Avatar Avatar-white Avatar-size-45"
+    >
+      <img
+        alt="logo"
+        src="https://appii.s3.eu-west-2.amazonaws.com/profile_images/1510235964102.jpg"
+      />
+    </div>
+    <p>
+      <strong>
+        Jane
+         
+        Doe
+      </strong>
+      <a
+        href="/profile"
+        onClick={[Function]}
+      >
+        View Profile
+      </a>
+    </p>
+  </div>
+  <ul
+    className="first"
+  >
+    <li>
+      <a
+        href="/personal-verification"
+        onClick={[Function]}
+      >
+        My Verifications
+      </a>
+    </li>
+    <li>
+      <a
+        className="h-verifications"
+        href="/organisations/12/verifications"
+        onClick={[Function]}
+      >
+        Applied Blockhain Ltd
+      </a>
+    </li>
+    <li>
+      <a
+        href="/settings/account"
+        onClick={[Function]}
+      >
+        Settings
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://appii.io/faqs/"
+      >
+        Help
+      </a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      Organisation Profile
+    </li>
+    <li>
+      <a
+        href="/organisations/12"
+        onClick={[Function]}
+      >
+        Applied Blockhain Ltd
+      </a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a
+        href="/people"
+        onClick={[Function]}
+      >
+        People
+      </a>
+    </li>
+    <li>
+      <a
+        href="/organisations"
+        onClick={[Function]}
+      >
+        Organisations
+      </a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a
+        href="/logout"
+        onClick={[Function]}
+      >
+        Log Out
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`components/Header/NavigationMobile when biometrics_status failed renders correctly 1`] = `
+<div
+  className="mobile-nav active"
+>
+  <div
+    className="mobile-user-info"
+  >
+    <div
+      className="Avatar Avatar-white Avatar-size-45"
+    >
+      <img
+        alt="logo"
+        src="https://appii.s3.eu-west-2.amazonaws.com/profile_images/1510235964102.jpg"
+      />
+      <span
+        className="Avatar-icon-danger"
+      >
+         
+      </span>
+    </div>
+    <p>
+      <strong>
+        Jane
+         
+        Doe
+      </strong>
+      <a
+        href="/profile"
+        onClick={[Function]}
+      >
+        View Profile
+      </a>
+    </p>
+  </div>
+  <ul
+    className="first"
+  >
+    <li
+      className="profile-nav-bioID"
+    >
+      <span>
+        <a
+          href="/help/biometric"
+          onClick={[Function]}
+        >
+          Identity Not Verified
+        </a>
+        <img
+          alt="icon warning"
+          src="icon-danger.png"
+        />
+      </span>
+    </li>
+    <li>
+      <a
+        href="/personal-verification"
+        onClick={[Function]}
+      >
+        My Verifications
+      </a>
+    </li>
+    <li>
+      <a
+        className="h-verifications"
+        href="/organisations/12/verifications"
+        onClick={[Function]}
+      >
+        Applied Blockhain Ltd
+      </a>
+    </li>
+    <li>
+      <a
+        href="/settings/account"
+        onClick={[Function]}
+      >
+        Settings
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://appii.io/faqs/"
+      >
+        Help
+      </a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      Organisation Profile
+    </li>
+    <li>
+      <a
+        href="/organisations/12"
+        onClick={[Function]}
+      >
+        Applied Blockhain Ltd
+      </a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a
+        href="/people"
+        onClick={[Function]}
+      >
+        People
+      </a>
+    </li>
+    <li>
+      <a
+        href="/organisations"
+        onClick={[Function]}
+      >
+        Organisations
+      </a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a
+        href="/logout"
+        onClick={[Function]}
+      >
+        Log Out
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`components/Header/NavigationMobile when intelligentLink is false renders correctly 1`] = `
+<div
+  className="mobile-nav active"
+>
+  <div
+    className="mobile-user-info"
+  >
+    <div
+      className="Avatar Avatar-white Avatar-size-45"
+    >
+      <img
+        alt="logo"
+        src="https://appii.s3.eu-west-2.amazonaws.com/profile_images/1510235964102.jpg"
+      />
+    </div>
+    <p>
+      <strong>
+        Jane
+         
+        Doe
+      </strong>
+      <a
+        href="/profile"
+        onClick={[Function]}
+      >
+        View Profile
+      </a>
+    </p>
+  </div>
+  <ul
+    className="first"
+  >
+    <li>
+      <a
+        href="/personal-verification"
+        onClick={[Function]}
+      >
+        My Verifications
+      </a>
+    </li>
+    <li>
+      <a
+        className="h-verifications"
+        href="/organisations/12/verifications"
+        onClick={[Function]}
+      >
+        Applied Blockhain Ltd
+      </a>
+    </li>
+    <li>
+      <a
+        href="/settings/account"
+        onClick={[Function]}
+      >
+        Settings
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://appii.io/faqs/"
+      >
+        Help
+      </a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      Organisation Profile
+    </li>
+    <li>
+      <a
+        href="/organisations/12"
+        onClick={[Function]}
+      >
+        Applied Blockhain Ltd
+      </a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a
+        href="/people"
+        onClick={[Function]}
+      >
+        People
+      </a>
+    </li>
+    <li>
+      <a
+        href="/organisations"
+        onClick={[Function]}
+      >
+        Organisations
+      </a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a
+        href="/logout"
+        onClick={[Function]}
+      >
+        Log Out
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`components/Header/NavigationMobile when intelligentLink is valid renders correctly 1`] = `
+<div
+  className="mobile-nav active"
+>
+  <div
+    className="mobile-user-info"
+  >
+    <div
+      className="Avatar Avatar-white Avatar-size-45"
+    >
+      <img
+        alt="logo"
+        src="https://appii.s3.eu-west-2.amazonaws.com/profile_images/1510235964102.jpg"
+      />
+    </div>
+    <p>
+      <strong>
+        Jane
+         
+        Doe
+      </strong>
+      <a
+        href="/profile"
+        onClick={[Function]}
+      >
+        View Profile
+      </a>
+    </p>
+  </div>
+  <ul
+    className="first"
+  >
+    <li>
+      <a
+        href="/personal-verification"
+        onClick={[Function]}
+      >
+        My Verifications
+      </a>
+    </li>
+    <li>
+      <a
+        className="h-verifications"
+        href="/organisations/12/verifications"
+        onClick={[Function]}
+      >
+        Applied Blockhain Ltd
+      </a>
+    </li>
+    <li>
+      <a
+        href="/settings/account"
+        onClick={[Function]}
+      >
+        Settings
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://appii.io/faqs/"
+      >
+        Help
+      </a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      Organisation Profile
+    </li>
+    <li>
+      <a
+        href="/organisations/12"
+        onClick={[Function]}
+      >
+        Applied Blockhain Ltd
+      </a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a
+        href="/people"
+        onClick={[Function]}
+      >
+        People
+      </a>
+    </li>
+    <li>
+      <a
+        href="/organisations"
+        onClick={[Function]}
+      >
+        Organisations
+      </a>
+    </li>
+    <li
+      className="hidden-xs"
+    >
+      <a
+        href="http://google.co.uk"
+      >
+        CV Builder
+      </a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a
+        href="/logout"
+        onClick={[Function]}
+      >
+        Log Out
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`components/Header/NavigationMobile when user has no organisations renders correctly 1`] = `
+<div
+  className="mobile-nav active"
+>
+  <div
+    className="mobile-user-info"
+  >
+    <div
+      className="Avatar Avatar-white Avatar-size-45"
+    >
+      <img
+        alt="logo"
+        src="https://appii.s3.eu-west-2.amazonaws.com/profile_images/1510235964102.jpg"
+      />
+    </div>
+    <p>
+      <strong>
+        Jane
+         
+        Doe
+      </strong>
+      <a
+        href="/profile"
+        onClick={[Function]}
+      >
+        View Profile
+      </a>
+    </p>
+  </div>
+  <ul
+    className="first"
+  >
+    <li>
+      <a
+        href="/personal-verification"
+        onClick={[Function]}
+      >
+        My Verifications
+      </a>
+    </li>
+    <li>
+      <a
+        href="/settings/account"
+        onClick={[Function]}
+      >
+        Settings
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://appii.io/faqs/"
+      >
+        Help
+      </a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a
+        href="/people"
+        onClick={[Function]}
+      >
+        People
+      </a>
+    </li>
+    <li>
+      <a
+        href="/organisations"
+        onClick={[Function]}
+      >
+        Organisations
+      </a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a
+        href="/logout"
+        onClick={[Function]}
+      >
+        Log Out
+      </a>
+    </li>
+  </ul>
+</div>
+`;

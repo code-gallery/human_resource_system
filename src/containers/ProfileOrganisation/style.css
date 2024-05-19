@@ -1,0 +1,10 @@
+.ProfileOrganisation-Edit .edit-mode {
+  pointer-events: none;
+  opacity: .5;
+}
+
+.ProfileOrganisation-Edit .aside a.btn {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}

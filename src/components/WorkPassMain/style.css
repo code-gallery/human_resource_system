@@ -1,0 +1,19 @@
+.WorkPassMain {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  width: 100%;
+  min-width: 1160px;
+  height: calc(100vh - 65px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-left: 298px;
+  padding-right: 34px;
+  padding-top: 34px;
+  padding-bottom: 71px;
+  background: #edf4fc;
+}
+
+.WorkPassMain.hasNotification {
+  height: calc(100vh - 110px)
+}

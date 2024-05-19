@@ -1,0 +1,31 @@
+.CandidateHeader {
+  box-sizing: border-box;
+  position: static;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0;
+  background-color: transparent;
+}
+
+/**
+  @FIX: This is required before there is a element style in the global css
+  stylesheet that breaks the flexbox styles
+ */
+.CandidateHeader::before, .CandidateHeader::after {
+  display: none;
+}
+
+/* @TODO: Find a better way of setting a width */
+.CandidateHeader__button {
+  width: 180px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.buttons_section{
+  display: flex;
+  justify-content: space-between;
+}
+.buttons_section a{ margin-left: 6px; display: inline-block; width: 125px; padding: 0; line-height: 45px; font-size:15px;}
+

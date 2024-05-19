@@ -1,0 +1,78 @@
+.HelpBiometric {
+  padding: 0;
+  font-size: 16px;
+}
+
+.HelpBiometric h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.HelpBiometric p {
+  margin-bottom: 20px;
+}
+
+.HelpBiometric img {
+  width: 290px;
+  display: inline-block;
+}
+
+.HelpBiometric ol {
+  margin: 20px 0;
+}
+
+.HelpBiometric .visible-xs img {
+  margin-bottom: 20px;
+}
+
+.HelpBiometric-box1 {
+  background-color: #fff;
+  padding: 0 10px
+}
+
+.HelpBiometric-box2 {
+  background-color: #b9e1fd;
+  padding: 40px 10px;
+}
+
+.HelpBiometric-box2 .img-container {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.HelpBiometric-download img.apple {
+  width: 150px;
+}
+
+.HelpBiometric-download img.play {
+  width: 188px;
+}
+
+@media (max-width: 768px) {
+  .HelpBiometric h2 {
+    font-size: 18px;
+  }
+
+  .HelpBiometric-box2 {
+    background-color: #fff;
+    padding-top: 0px;
+  }
+
+  .HelpBiometric-box2 img {
+    margin-top: 20px;
+  }
+
+  .HelpBiometric-download {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1092px) {
+  .HelpBiometric-download img {
+    display: block;
+  }
+
+  .HelpBiometric-download img.play {
+    margin-left: -11px;
+  }
+}

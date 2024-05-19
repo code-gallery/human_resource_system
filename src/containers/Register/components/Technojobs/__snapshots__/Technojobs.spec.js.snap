@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Technojobs /> renders correctly 1`] = `
+<div
+  className="Technojobs form-group text-center"
+>
+  <p>
+    In partnership with
+  </p>
+  <img
+    alt="Technojobs logo"
+    src="technojobs-logo.jpg"
+  />
+</div>
+`;

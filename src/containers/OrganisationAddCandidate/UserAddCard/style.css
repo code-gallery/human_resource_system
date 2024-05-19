@@ -1,0 +1,73 @@
+.UserAddCard {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 11px 30px 11px 19px;
+  font-family: "Graphik-Regular", sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  border: 1px solid #E7E5EE;
+  border-top: none;
+  background-color: #fff;
+}
+
+.UserAddCard__text {
+  overflow: hidden;
+  margin-right: 40px;
+}
+
+.UserAddCard.is-top {
+  border-top: 1px solid #E7E5EE;
+}
+
+.UserAddCard__name {
+  margin-bottom: 2px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #212224;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.UserAddCard__location {
+  font-size: 13px;
+  line-height: 16px;
+  color: #7F8DAA;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.UserAddCard__btn {
+  all: initial;
+  box-sizing: border-box;
+  display: block;
+  margin-left: auto;
+  font-family: "Graphik-Medium";
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  color: #498DF0;
+  cursor: pointer;
+}
+
+.UserAddCard__btn.is-disabled {
+  color: #E7E5EE;
+  cursor: not-allowed;
+}
+
+.UserAddCard__avatar {
+  display: block;
+  margin-right: 17px;
+  width: 50px;
+  min-width: 50px;
+  height: 50px;
+  overflow: hidden;
+}

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/ProfileOrganisation/components/AboutEdit when about_us failed validation renders correctly 1`] = `
+<div
+  className="ContentCard col-xs-12 "
+>
+  <div
+    className="ContentCard-wrapper"
+  >
+    <h3
+      className="ContentCard-title"
+    >
+      About
+    </h3>
+    <form>
+      <div
+        className="form-group has-error"
+      >
+        <textarea
+          className="edit-text-area"
+          defaultValue={null}
+          name="about_us"
+          onChange={[Function]}
+        />
+      </div>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`containers/ProfileOrganisation/components/AboutEdit when there are no errors renders correctly 1`] = `
+<div
+  className="ContentCard col-xs-12 "
+>
+  <div
+    className="ContentCard-wrapper"
+  >
+    <h3
+      className="ContentCard-title"
+    >
+      About
+    </h3>
+    <form>
+      <div
+        className="form-group"
+      >
+        <textarea
+          className="edit-text-area"
+          defaultValue="hello"
+          name="about_us"
+          onChange={[Function]}
+        />
+      </div>
+    </form>
+  </div>
+</div>
+`;

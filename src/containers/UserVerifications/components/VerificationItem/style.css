@@ -1,0 +1,34 @@
+.VerificationItem .table-list {
+  font-size: 14px;
+  line-height: 1.64;
+  text-align: left;
+  color: #44474c;
+}
+
+.VerificationItem .table-list li.details {
+  margin-bottom: 8px;
+}
+
+.VerificationItem .table-list li.details > span {
+  width: 225px;
+  display: inline-block;
+}
+
+.VerificationItem .table-list li.details > input {
+  width: 65%;
+  padding: 5px;
+}
+
+.VerificationItem-type {
+  text-transform: capitalize;
+}
+
+.VerificationItem-reason-none {
+  color: #bfcae3;
+}
+
+@media (max-width: 768px) {
+  .VerificationItem td.text-center {
+    text-align: left;
+  }
+}

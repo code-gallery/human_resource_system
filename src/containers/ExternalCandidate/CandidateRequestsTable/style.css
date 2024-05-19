@@ -1,0 +1,59 @@
+.CandidateRequestsTable {
+  box-sizing: border-box;
+  display: block;
+  padding: 1.875rem;
+  font-family: 'Graphik-Regular', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  border: 1px solid #e8e5ee;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.CandidateRequestsTable__table {
+  margin-bottom: 1.875rem;
+}
+
+.CandidateRequestsTable__header {
+  font-size: 1.3125rem;
+  line-height: 1;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 1.875rem;
+}
+
+.CandidateRequestsTable__table-data {
+  border-bottom: 1px solid #edf4fc;
+  cursor: pointer;
+  max-width: 120px;
+  white-space: break-spaces;
+  overflow: hidden;
+}
+
+.CandidateRequestsTable__table-data.isDropdown {
+  padding: 0;
+  cursor: initial;
+}
+
+.CandidateRequestsTable__chevron {
+  all: initial;
+  box-sizing: border-box;
+  display: block;
+  width: 15px;
+  height: auto;
+  overflow: hidden;
+  cursor: pointer;
+  float: right
+}
+
+.CandidateRequestsTable__empty {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.CandidateRequestsTable__empty-header {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 0.6em;
+}
+

@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/OrgAccreditations/components/List when props.awards is empty renders correctly 1`] = `
+<div
+  className="ContentCard col-xs-12 "
+>
+  <div
+    className="ContentCard-wrapper"
+  >
+    <h3
+      className="ContentCard-title"
+    >
+      Current
+    </h3>
+    <p>
+      There are no accreditations at the moment
+    </p>
+  </div>
+</div>
+`;
+
+exports[`containers/OrgAccreditations/components/List when props.awards is not empty renders correctly 1`] = `
+<div
+  className="ContentCard col-xs-12 "
+>
+  <div
+    className="ContentCard-wrapper"
+  >
+    <h3
+      className="ContentCard-title"
+    >
+      Current
+    </h3>
+    <table
+      className="VerificationList"
+    >
+      <thead
+        className="hidden-sm hidden-xs"
+      >
+        <tr
+          className="row"
+        >
+          <th
+            className="col-xs-12 col-md-2"
+          >
+            Name
+          </th>
+          <th
+            className="col-xs-12 col-md-2"
+          >
+            Type
+          </th>
+          <th
+            className="col-xs-12 col-md-2"
+          >
+            Delivery Type
+          </th>
+          <th
+            className="col-xs-12 col-md-2"
+          >
+            Created
+          </th>
+          <th
+            className="col-xs-12 col-md-2"
+          >
+            Status
+          </th>
+          <th
+            className="col-xs-12 col-md-2"
+          >
+            Actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          className="row ListItem"
+        >
+          <td
+            className="col-xs-12 col-md-2"
+          >
+            <p>
+              Blockchain
+            </p>
+          </td>
+          <td
+            className="col-xs-12 col-md-2"
+          >
+            <p />
+          </td>
+          <td
+            className="col-xs-12 col-md-2"
+          >
+            <p>
+              In a classroom
+            </p>
+          </td>
+          <td
+            className="col-xs-12 col-md-2"
+          >
+            <p>
+              April 21st 2018
+            </p>
+          </td>
+          <td
+            className="col-xs-12 col-md-2"
+          >
+            <p>
+              Active
+            </p>
+          </td>
+          <td
+            className="col-xs-12 col-md-2"
+          >
+            <p
+              className="table-btn-holder"
+            >
+              <a
+                className="btn yellow-btn action-btn"
+                href="/organisations/100/accreditations/1/qrcode"
+                onClick={[Function]}
+              >
+                QR code
+              </a>
+            </p>
+            <p
+              className="table-btn-holder"
+            >
+              <a
+                className="btn blue-btn action-btn text-center"
+                href="/organisations/100/accreditations/1/edit"
+                onClick={[Function]}
+              >
+                Edit
+              </a>
+            </p>
+            <p
+              className="table-btn-holder"
+            >
+              <a
+                className="btn green-btn action-btn text-center"
+                href="/organisations/100/accreditations/1/members"
+                onClick={[Function]}
+              >
+                Verified Users
+              </a>
+            </p>
+            <p
+              className="table-btn-holder"
+            >
+              <button
+                className="btn red-btn action-btn"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </p>
+          </td>
+        </tr>
+        <tr
+          className="row ListItem"
+        >
+          <td
+            className="col-xs-12 col-md-2"
+          >
+            <p>
+              Award 1
+            </p>
+          </td>
+          <td
+            className="col-xs-12 col-md-2"
+          >
+            <p />
+          </td>
+          <td
+            className="col-xs-12 col-md-2"
+          >
+            <p>
+              Online
+            </p>
+          </td>
+          <td
+            className="col-xs-12 col-md-2"
+          >
+            <p>
+              April 21st 2018
+            </p>
+          </td>
+          <td
+            className="col-xs-12 col-md-2"
+          >
+            <p>
+              Inactive
+            </p>
+          </td>
+          <td
+            className="col-xs-12 col-md-2"
+          >
+            <p
+              className="table-btn-holder"
+            >
+              <a
+                className="btn yellow-btn action-btn"
+                href="/organisations/200/accreditations/2/qrcode"
+                onClick={[Function]}
+              >
+                QR code
+              </a>
+            </p>
+            <p
+              className="table-btn-holder"
+            >
+              <a
+                className="btn blue-btn action-btn text-center"
+                href="/organisations/200/accreditations/2/edit"
+                onClick={[Function]}
+              >
+                Edit
+              </a>
+            </p>
+            <p
+              className="table-btn-holder"
+            >
+              <a
+                className="btn green-btn action-btn text-center"
+                href="/organisations/200/accreditations/2/members"
+                onClick={[Function]}
+              >
+                Verified Users
+              </a>
+            </p>
+            <p
+              className="table-btn-holder"
+            >
+              <button
+                className="btn red-btn action-btn"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`containers/OrgAccreditations/components/List when props.pending is "fetching" renders correctly 1`] = `
+<div
+  className="ContentCard col-xs-12 "
+>
+  <div
+    className="ContentCard-wrapper"
+  >
+    <h3
+      className="ContentCard-title"
+    >
+      Current
+    </h3>
+    <div
+      className="LoadingIndicator LoadingIndicator-inline"
+    >
+      <svg
+        className=""
+        height="40px"
+        version="1.1"
+        viewBox="0 0 50 50"
+        width="40px"
+        x="0px"
+        xmlSpace="preserve"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+        y="0px"
+      >
+        <path
+          d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z"
+          fill="#FF6700"
+        >
+          <animateTransform
+            attributeName="transform"
+            attributeType="xml"
+            dur="0.6s"
+            from="0 25 25"
+            repeatCount="indefinite"
+            to="360 25 25"
+            type="rotate"
+          />
+        </path>
+      </svg>
+    </div>
+  </div>
+</div>
+`;

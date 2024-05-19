@@ -1,0 +1,29 @@
+.StatusBadge {
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.StatusBadge img {
+  display: inline-block;
+  padding: 0 5px 0 0;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 20px 20px;
+}
+
+.StatusBadge-accepted {
+  color: #72d471;
+}
+
+.StatusBadge-pending,
+.StatusBadge-awaiting_signature {
+  color: #e1d65a;
+}
+
+.StatusBadge-declined {
+  color: #fb7c7c;
+}
+
+.StatusBadge-unverified {
+  color: #bfcae3;
+}

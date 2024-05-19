@@ -1,0 +1,2211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile/components/.../PageContent when props.pageOrder exists renders correctly with custom order 1`] = `
+<div
+  className="container PageContent"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-12 col-md-8"
+    >
+      <div
+        className="List"
+        id="List31"
+      >
+        <div
+          className=" skill"
+          data-id="32"
+          data-rank={0}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <p
+              className="profile-block-title"
+            >
+              Skills
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" language"
+          data-id="33"
+          data-rank={1}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <p
+              className="profile-block-title"
+            >
+              Languages
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" award"
+          data-id="34"
+          data-rank={2}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <p
+              className="profile-block-title"
+            >
+              Awards
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" project"
+          data-id="35"
+          data-rank={3}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <p
+              className="profile-block-title"
+            >
+              Projects
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" certificate"
+          data-id="36"
+          data-rank={4}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <p
+              className="profile-block-title"
+            >
+              Certificates
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" achievement"
+          data-id="37"
+          data-rank={5}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <p
+              className="profile-block-title"
+            >
+              Achievements
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" cpd"
+          data-id="38"
+          data-rank={6}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <p
+              className="profile-block-title"
+            >
+              Professional Development (CPD)
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" education"
+          data-id="39"
+          data-rank={7}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <p
+              className="profile-block-title"
+            >
+              Education
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" jobs"
+          data-id="40"
+          data-rank={8}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <p
+              className="profile-block-title"
+            >
+              Work Experience
+            </p>
+            <div />
+          </section>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-xs-12 col-md-4"
+    >
+      <div
+        className="hidden-sm hidden-xs"
+      />
+      <div
+        className="profile-overview "
+      >
+        <p
+          className="profile-block-title"
+        >
+          Overview
+        </p>
+        <ul
+          className="overview-info"
+        >
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              Education
+            </span>
+          </li>
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              Work Experience
+            </span>
+          </li>
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              Awards
+            </span>
+          </li>
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              CPD
+            </span>
+          </li>
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              Project
+            </span>
+          </li>
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              Certificate
+            </span>
+          </li>
+        </ul>
+        <div
+          className="profile-verified-block"
+        >
+          <p>
+            <span>
+              0% verified
+            </span>
+            <i
+              className="tooltip-position-top tooltip-movable tooltip-dark"
+              data-tooltip="0/0 claims verified"
+            />
+          </p>
+          <div
+            className="profile-verified-holder"
+          >
+            <div
+              className="profile-verified-bar"
+              style={
+                Object {
+                  "width": "0%",
+                }
+              }
+            >
+               
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="Activity "
+      >
+        <p
+          className="Activity-title"
+        >
+          Activity
+        </p>
+        <ul>
+          <p>
+            No activities yet
+          </p>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`containers/Profile/components/.../PageContent when props.pageOrder is undefined when props.editMode is false renders correctly with defaultOrder 1`] = `
+<div
+  className="container PageContent"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-12 col-md-8"
+    >
+      <div
+        className="List"
+        id="List21"
+      >
+        <div
+          className=" education"
+          data-id="22"
+          data-rank={0}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <p
+              className="profile-block-title"
+            >
+              Education
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" jobs"
+          data-id="23"
+          data-rank={1}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <p
+              className="profile-block-title"
+            >
+              Work Experience
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" award"
+          data-id="24"
+          data-rank={2}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <p
+              className="profile-block-title"
+            >
+              Awards
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" cpd"
+          data-id="25"
+          data-rank={3}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <p
+              className="profile-block-title"
+            >
+              Professional Development (CPD)
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" certificate"
+          data-id="26"
+          data-rank={4}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <p
+              className="profile-block-title"
+            >
+              Certificates
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" achievement"
+          data-id="27"
+          data-rank={5}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <p
+              className="profile-block-title"
+            >
+              Achievements
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" project"
+          data-id="28"
+          data-rank={6}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <p
+              className="profile-block-title"
+            >
+              Projects
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" skill"
+          data-id="29"
+          data-rank={7}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <p
+              className="profile-block-title"
+            >
+              Skills
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" language"
+          data-id="30"
+          data-rank={8}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <p
+              className="profile-block-title"
+            >
+              Languages
+            </p>
+            <div />
+          </section>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-xs-12 col-md-4"
+    >
+      <div
+        className="hidden-sm hidden-xs"
+      />
+      <div
+        className="profile-overview "
+      >
+        <p
+          className="profile-block-title"
+        >
+          Overview
+        </p>
+        <ul
+          className="overview-info"
+        >
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              Education
+            </span>
+          </li>
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              Work Experience
+            </span>
+          </li>
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              Awards
+            </span>
+          </li>
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              CPD
+            </span>
+          </li>
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              Project
+            </span>
+          </li>
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              Certificate
+            </span>
+          </li>
+        </ul>
+        <div
+          className="profile-verified-block"
+        >
+          <p>
+            <span>
+              0% verified
+            </span>
+            <i
+              className="tooltip-position-top tooltip-movable tooltip-dark"
+              data-tooltip="0/0 claims verified"
+            />
+          </p>
+          <div
+            className="profile-verified-holder"
+          >
+            <div
+              className="profile-verified-bar"
+              style={
+                Object {
+                  "width": "0%",
+                }
+              }
+            >
+               
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="Activity "
+      >
+        <p
+          className="Activity-title"
+        >
+          Activity
+        </p>
+        <ul>
+          <p>
+            No activities yet
+          </p>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`containers/Profile/components/.../PageContent when props.pageOrder is undefined when props.editMode is true renders correctly with defaultOrder 1`] = `
+<div
+  className="container PageContent"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-12 visible-xs visible-sm"
+    >
+      <div
+        className="profile-overview-edit"
+      >
+        <p
+          className="profile-block-title"
+        >
+          Details
+        </p>
+        <div
+          className="form-group"
+        >
+          <label
+            className=""
+          >
+            First Name
+          </label>
+          <input
+            defaultValue="Jane"
+            name="first_name"
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            className=""
+          >
+            Last Name
+          </label>
+          <input
+            defaultValue="Doe"
+            name="last_name"
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label>
+            About
+          </label>
+          <textarea
+            name="tagline"
+            onChange={[Function]}
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label>
+            Location
+          </label>
+          <div>
+            <input
+              placeholder="Enter your address"
+            />
+          </div>
+        </div>
+        <div
+          className="form-group"
+        >
+          <label>
+            Twitter
+          </label>
+          <input
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label>
+            Public Email
+          </label>
+          <input
+            defaultValue={undefined}
+            name="public_email"
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label>
+            Public Telephone
+          </label>
+          <input
+            defaultValue={undefined}
+            name="mobile"
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label>
+            Date of Birth
+          </label>
+          <DateTimeMock
+            dateFormat="DD/MM/YYYY"
+            name="dob"
+            onChange={[Function]}
+            timeFormat={false}
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-xs-12 col-md-8"
+    >
+      <div
+        className="List"
+        id="List1"
+      >
+        <div
+          className=" education"
+          data-id="2"
+          data-rank={0}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <div
+              className="profile-experience-block-btns"
+            >
+              <button
+                className="reorder-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+              <button
+                className="add-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+            </div>
+            <p
+              className="profile-block-title"
+            >
+              Education
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" jobs"
+          data-id="3"
+          data-rank={1}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <div
+              className="profile-experience-block-btns"
+            >
+              <button
+                className="reorder-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+              <button
+                className="add-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+            </div>
+            <p
+              className="profile-block-title"
+            >
+              Work Experience
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" award"
+          data-id="4"
+          data-rank={2}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <div
+              className="profile-experience-block-btns"
+            >
+              <button
+                className="reorder-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+              <button
+                className="add-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+            </div>
+            <p
+              className="profile-block-title"
+            >
+              Awards
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" cpd"
+          data-id="5"
+          data-rank={3}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <div
+              className="profile-experience-block-btns"
+            >
+              <button
+                className="reorder-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+              <button
+                className="add-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+            </div>
+            <p
+              className="profile-block-title"
+            >
+              Professional Development (CPD)
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" certificate"
+          data-id="6"
+          data-rank={4}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <div
+              className="profile-experience-block-btns"
+            >
+              <button
+                className="reorder-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+              <button
+                className="add-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+            </div>
+            <p
+              className="profile-block-title"
+            >
+              Certificates
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" achievement"
+          data-id="7"
+          data-rank={5}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <div
+              className="profile-experience-block-btns"
+            >
+              <button
+                className="reorder-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+              <button
+                className="add-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+            </div>
+            <p
+              className="profile-block-title"
+            >
+              Achievements
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" project"
+          data-id="8"
+          data-rank={6}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <div
+              className="profile-experience-block-btns"
+            >
+              <button
+                className="reorder-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+              <button
+                className="add-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+            </div>
+            <p
+              className="profile-block-title"
+            >
+              Projects
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" skill"
+          data-id="9"
+          data-rank={7}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <div
+              className="profile-experience-block-btns"
+            >
+              <button
+                className="reorder-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+              <button
+                className="add-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+            </div>
+            <p
+              className="profile-block-title"
+            >
+              Skills
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" language"
+          data-id="10"
+          data-rank={8}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <div
+              className="profile-experience-block-btns"
+            >
+              <button
+                className="reorder-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+              <button
+                className="add-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+            </div>
+            <p
+              className="profile-block-title"
+            >
+              Languages
+            </p>
+            <div />
+          </section>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-xs-12 col-md-4"
+    >
+      <div
+        className="hidden-sm hidden-xs"
+      >
+        <div
+          className="profile-overview-edit"
+        >
+          <p
+            className="profile-block-title"
+          >
+            Details
+          </p>
+          <div
+            className="form-group"
+          >
+            <label
+              className=""
+            >
+              First Name
+            </label>
+            <input
+              defaultValue="Jane"
+              name="first_name"
+              onChange={[Function]}
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label
+              className=""
+            >
+              Last Name
+            </label>
+            <input
+              defaultValue="Doe"
+              name="last_name"
+              onChange={[Function]}
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              About
+            </label>
+            <textarea
+              name="tagline"
+              onChange={[Function]}
+              value=""
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              Location
+            </label>
+            <div>
+              <input
+                placeholder="Enter your address"
+              />
+            </div>
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              Twitter
+            </label>
+            <input
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              Public Email
+            </label>
+            <input
+              defaultValue={undefined}
+              name="public_email"
+              onChange={[Function]}
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              Public Telephone
+            </label>
+            <input
+              defaultValue={undefined}
+              name="mobile"
+              onChange={[Function]}
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              Date of Birth
+            </label>
+            <DateTimeMock
+              dateFormat="DD/MM/YYYY"
+              name="dob"
+              onChange={[Function]}
+              timeFormat={false}
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="profile-overview edit-mode"
+      >
+        <p
+          className="profile-block-title"
+        >
+          Overview
+        </p>
+        <ul
+          className="overview-info"
+        >
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              Education
+            </span>
+          </li>
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              Work Experience
+            </span>
+          </li>
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              Awards
+            </span>
+          </li>
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              CPD
+            </span>
+          </li>
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              Project
+            </span>
+          </li>
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              Certificate
+            </span>
+          </li>
+        </ul>
+        <div
+          className="profile-verified-block"
+        >
+          <p>
+            <span>
+              0% verified
+            </span>
+            <i
+              className="tooltip-position-top tooltip-movable tooltip-dark"
+              data-tooltip="0/0 claims verified"
+            />
+          </p>
+          <div
+            className="profile-verified-holder"
+          >
+            <div
+              className="profile-verified-bar"
+              style={
+                Object {
+                  "width": "0%",
+                }
+              }
+            >
+               
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="Activity edit-mode"
+      >
+        <p
+          className="Activity-title"
+        >
+          Activity
+        </p>
+        <ul>
+          <p>
+            No activities yet
+          </p>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`containers/Profile/components/.../PageContent when props.pageOrder is undefined when props.editMode is true when invalid fields renders correctly with defaultOrder 1`] = `
+<div
+  className="container PageContent"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-12 visible-xs visible-sm"
+    >
+      <div
+        className="profile-overview-edit"
+      >
+        <p
+          className="profile-block-title"
+        >
+          Details
+        </p>
+        <div
+          className="form-group"
+        >
+          <label
+            className="required-error"
+          >
+            First Name
+          </label>
+          <input
+            defaultValue=""
+            name="first_name"
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            className="required-error"
+          >
+            Last Name
+          </label>
+          <input
+            defaultValue=""
+            name="last_name"
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label>
+            About
+          </label>
+          <textarea
+            name="tagline"
+            onChange={[Function]}
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label>
+            Location
+          </label>
+          <div>
+            <input
+              placeholder="Enter your address"
+            />
+          </div>
+        </div>
+        <div
+          className="form-group"
+        >
+          <label>
+            Twitter
+          </label>
+          <input
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label>
+            Public Email
+          </label>
+          <input
+            defaultValue={undefined}
+            name="public_email"
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label>
+            Public Telephone
+          </label>
+          <input
+            defaultValue={undefined}
+            name="mobile"
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label>
+            Date of Birth
+          </label>
+          <DateTimeMock
+            dateFormat="DD/MM/YYYY"
+            name="dob"
+            onChange={[Function]}
+            timeFormat={false}
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-xs-12 col-md-8"
+    >
+      <div
+        className="List"
+        id="List11"
+      >
+        <div
+          className=" education"
+          data-id="12"
+          data-rank={0}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <div
+              className="profile-experience-block-btns"
+            >
+              <button
+                className="reorder-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+              <button
+                className="add-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+            </div>
+            <p
+              className="profile-block-title"
+            >
+              Education
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" jobs"
+          data-id="13"
+          data-rank={1}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <div
+              className="profile-experience-block-btns"
+            >
+              <button
+                className="reorder-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+              <button
+                className="add-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+            </div>
+            <p
+              className="profile-block-title"
+            >
+              Work Experience
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" award"
+          data-id="14"
+          data-rank={2}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <div
+              className="profile-experience-block-btns"
+            >
+              <button
+                className="reorder-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+              <button
+                className="add-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+            </div>
+            <p
+              className="profile-block-title"
+            >
+              Awards
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" cpd"
+          data-id="15"
+          data-rank={3}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <div
+              className="profile-experience-block-btns"
+            >
+              <button
+                className="reorder-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+              <button
+                className="add-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+            </div>
+            <p
+              className="profile-block-title"
+            >
+              Professional Development (CPD)
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" certificate"
+          data-id="16"
+          data-rank={4}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <div
+              className="profile-experience-block-btns"
+            >
+              <button
+                className="reorder-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+              <button
+                className="add-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+            </div>
+            <p
+              className="profile-block-title"
+            >
+              Certificates
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" achievement"
+          data-id="17"
+          data-rank={5}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <div
+              className="profile-experience-block-btns"
+            >
+              <button
+                className="reorder-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+              <button
+                className="add-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+            </div>
+            <p
+              className="profile-block-title"
+            >
+              Achievements
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" project"
+          data-id="18"
+          data-rank={6}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <div
+              className="profile-experience-block-btns"
+            >
+              <button
+                className="reorder-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+              <button
+                className="add-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+            </div>
+            <p
+              className="profile-block-title"
+            >
+              Projects
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" skill"
+          data-id="19"
+          data-rank={7}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <div
+              className="profile-experience-block-btns"
+            >
+              <button
+                className="reorder-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+              <button
+                className="add-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+            </div>
+            <p
+              className="profile-block-title"
+            >
+              Skills
+            </p>
+            <div />
+          </section>
+        </div>
+        <div
+          className=" language"
+          data-id="20"
+          data-rank={8}
+          style={
+            Object {
+              "float": "none",
+              "position": "relative",
+            }
+          }
+        >
+          <section
+            className="profile-experience-wrapper"
+          >
+            <div
+              className="profile-experience-block-btns"
+            >
+              <button
+                className="reorder-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+              <button
+                className="add-btn"
+                onClick={[Function]}
+              >
+                 
+              </button>
+            </div>
+            <p
+              className="profile-block-title"
+            >
+              Languages
+            </p>
+            <div />
+          </section>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-xs-12 col-md-4"
+    >
+      <div
+        className="hidden-sm hidden-xs"
+      >
+        <div
+          className="profile-overview-edit"
+        >
+          <p
+            className="profile-block-title"
+          >
+            Details
+          </p>
+          <div
+            className="form-group"
+          >
+            <label
+              className="required-error"
+            >
+              First Name
+            </label>
+            <input
+              defaultValue=""
+              name="first_name"
+              onChange={[Function]}
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label
+              className="required-error"
+            >
+              Last Name
+            </label>
+            <input
+              defaultValue=""
+              name="last_name"
+              onChange={[Function]}
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              About
+            </label>
+            <textarea
+              name="tagline"
+              onChange={[Function]}
+              value=""
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              Location
+            </label>
+            <div>
+              <input
+                placeholder="Enter your address"
+              />
+            </div>
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              Twitter
+            </label>
+            <input
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              Public Email
+            </label>
+            <input
+              defaultValue={undefined}
+              name="public_email"
+              onChange={[Function]}
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              Public Telephone
+            </label>
+            <input
+              defaultValue={undefined}
+              name="mobile"
+              onChange={[Function]}
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              Date of Birth
+            </label>
+            <DateTimeMock
+              dateFormat="DD/MM/YYYY"
+              name="dob"
+              onChange={[Function]}
+              timeFormat={false}
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="profile-overview edit-mode"
+      >
+        <p
+          className="profile-block-title"
+        >
+          Overview
+        </p>
+        <ul
+          className="overview-info"
+        >
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              Education
+            </span>
+          </li>
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              Work Experience
+            </span>
+          </li>
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              Awards
+            </span>
+          </li>
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              CPD
+            </span>
+          </li>
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              Project
+            </span>
+          </li>
+          <li>
+            <div
+              className="progress-item progress-0"
+            >
+              <div
+                className="radial-inner-bg"
+              >
+                0/0
+              </div>
+            </div>
+            <span>
+              Certificate
+            </span>
+          </li>
+        </ul>
+        <div
+          className="profile-verified-block"
+        >
+          <p>
+            <span>
+              0% verified
+            </span>
+            <i
+              className="tooltip-position-top tooltip-movable tooltip-dark"
+              data-tooltip="0/0 claims verified"
+            />
+          </p>
+          <div
+            className="profile-verified-holder"
+          >
+            <div
+              className="profile-verified-bar"
+              style={
+                Object {
+                  "width": "0%",
+                }
+              }
+            >
+               
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="Activity edit-mode"
+      >
+        <p
+          className="Activity-title"
+        >
+          Activity
+        </p>
+        <ul>
+          <p>
+            No activities yet
+          </p>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

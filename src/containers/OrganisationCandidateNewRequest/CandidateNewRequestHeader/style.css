@@ -1,0 +1,42 @@
+.CandidateNewRequestsHeader {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  word-wrap: initial;
+  background-color: transparent;
+}
+
+/**
+ @NOTE: This is needed to avoid conflicts with global styles on the application
+ */
+.CandidateNewRequestsHeader::before, .CandidateNewRequestsHeader::after {
+  display: none;
+}
+
+.NewRequestsHeader__btn {
+  width: 135px;
+  margin-right: 5px;
+}
+
+.NewRequestButton{
+  display: inline-flex;
+}
+.CandidateNewRequestsHeaderRow{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: static;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  padding: 0;
+  margin: 20px 10px 30px 10px;
+  background-color: transparent;
+}

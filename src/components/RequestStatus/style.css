@@ -1,0 +1,19 @@
+.RequestStatus {
+  font-family: 'Graphik-Semibold', sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.0325em;
+  text-transform: uppercase;
+}
+
+.RequestStatus--complete {
+  color: #72d371;
+}
+
+.RequestStatus--incomplete {
+  color: #212224;
+}
+
+.RequestStatus--declined {
+  color: #fb7c7c;
+}

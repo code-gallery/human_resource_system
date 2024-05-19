@@ -1,0 +1,2251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WorkPassCheckDetailsView /> Rendering : Address History renders correctly 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-12 col-sm-12 card-row"
+    >
+      <div
+        className="card mb-3"
+      >
+        <div
+          className="card-header-gray"
+        >
+          <div
+            className="col-md-6"
+          >
+            Address History
+          </div>
+          <div
+            className="col-md-6 noPadding"
+          >
+            <a
+              className="Button Button--blue border-btn checkButton"
+              href="/"
+              onClick={[Function]}
+            >
+              Complete
+            </a>
+          </div>
+        </div>
+        <div
+          className="card-body"
+        >
+          <div>
+            <div
+              className="row "
+            >
+              <div
+                className="col-md-4"
+              >
+                <h4
+                  className="mb-3"
+                >
+                  ADDRESS 
+                  1
+                </h4>
+              </div>
+              <div
+                className="col-md-8 mb-3"
+              >
+                <a
+                  className="mb-3"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  <strong>
+                    <u>
+                      PROOF OF CURRENT ADDRESS
+                    </u>
+                  </strong>
+                </a>
+              </div>
+            </div>
+            <div
+              className="row mb-3"
+            >
+              <div
+                className="col-md-12"
+              >
+                <table
+                  className="table-data"
+                >
+                  <tbody>
+                    <tr>
+                      <td>
+                        Line 1
+                      </td>
+                      <td>
+                        line1
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Line 2
+                      </td>
+                      <td>
+                        line2
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Town
+                      </td>
+                      <td>
+                        Delhi
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Country
+                      </td>
+                      <td>
+                        india
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Postcode
+                      </td>
+                      <td>
+                        1234
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        County
+                      </td>
+                      <td>
+                        noida
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Resident From
+                      </td>
+                      <td>
+                        01/05/2020
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Resident To
+                      </td>
+                      <td>
+                        NaN/NaN/NaN
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<WorkPassCheckDetailsView /> Rendering : Adverse Finance renders correctly 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-12 col-sm-12 card-row"
+    >
+      <div
+        className="card mb-3"
+      >
+        <div
+          className="card-header-red"
+        >
+          <div
+            className="col-md-6"
+          >
+            U.K. Finance Check
+          </div>
+          <div
+            className="col-md-6 noPadding"
+          >
+            <a
+              className="Button Button--red border-btn checkButton"
+              href="/"
+              onClick={[Function]}
+            >
+              Match
+            </a>
+          </div>
+        </div>
+        <div
+          className="card-body"
+        >
+          <div
+            className="row mb-3"
+          >
+            <div
+              className="col-md-6"
+            >
+              <h4
+                className="card-title"
+              >
+                DETAILS
+              </h4>
+              <span
+                className="card-text"
+              >
+                GBG Group Plc - Check Result : 
+              </span>
+              <span
+                className="statusText"
+              >
+                Not Matched
+              </span>
+            </div>
+            <div
+              className="col-md-6"
+            >
+              <a
+                className="report"
+                href="/"
+                onClick={[Function]}
+              >
+                REPORT
+              </a>
+            </div>
+          </div>
+          <div
+            className="row mt-3"
+          >
+            <div
+              className="col-md-12 mt-3"
+            >
+              <span
+                className="card-title"
+              >
+                SELF DECLARATION
+              </span>
+              <div
+                className="align mb-3"
+              >
+                <input
+                  checked="Test1"
+                  id="ch1"
+                  name="ch1"
+                  readOnly={true}
+                  type="checkbox"
+                />
+                <label
+                  className="align"
+                  htmlFor="ch1"
+                >
+                  Have you, or have you been, the subject of any voluntary arrangements, Country Court Judgements, Bankruptcy or any other formal credit relation proceedings which are 
+                  <strong>
+                    NOT
+                  </strong>
+                   satisfied. 
+                </label>
+              </div>
+              <textarea
+                className="fullBox"
+                readOnly={true}
+                value="Test1"
+              />
+            </div>
+          </div>
+          <div
+            className="row mt-3"
+          >
+            <div
+              className="col-md-12"
+            >
+              <div
+                className="align mb-3"
+              >
+                <input
+                  checked=""
+                  id="ch2"
+                  name="ch2"
+                  readOnly={true}
+                  type="checkbox"
+                />
+                <label
+                  className="align"
+                  htmlFor="ch2"
+                >
+                  Have you, or have you been, the subject of any voluntary arrangements, Country Court Judgements, Bankruptcy or any other formal credit relation proceedings which have been satisfied. 
+                </label>
+              </div>
+              <textarea
+                className="fullBox"
+                readOnly={true}
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            className="row mt-3"
+          >
+            <div
+              className="col-md-4"
+            >
+              <p>
+                COMPLIANCE OFFICER
+              </p>
+              <div
+                className="mb-3"
+              >
+                <input
+                  id="ch3"
+                  name="ch3"
+                  onChange={null}
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="ch3"
+                >
+                  Waiver
+                </label>
+              </div>
+              <div
+                className="mb-3"
+              >
+                <input
+                  id="ch4"
+                  name="ch4"
+                  onChange={null}
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="ch4"
+                >
+                  Not Progress
+                </label>
+              </div>
+            </div>
+            <div
+              className="col-md-8"
+            >
+              <p>
+                NOTES
+              </p>
+              <textarea
+                className="fullBox"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<WorkPassCheckDetailsView /> Rendering : Bank Details renders correctly 1`] = `
+<div
+  className="container-fluid"
+>
+  <form>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-12 col-sm-12 card-row"
+      >
+        <div
+          className="card mb-3"
+        >
+          <div
+            className="card-header-gray"
+          >
+            <div
+              className="col-md-6"
+            >
+              Bank Account Check
+            </div>
+            <div
+              className="col-md-6 noPadding"
+            >
+              <a
+                className="Button Button--blue border-btn checkButton"
+                href="/"
+                onClick={[Function]}
+              >
+                Complete
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-12 col-sm-12 card-row"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-12"
+            >
+              <h4
+                className="card-title form-group"
+              >
+                DETAILS
+              </h4>
+              <ul>
+                <li>
+                  <div
+                    className="form-group"
+                  >
+                    <span
+                      className="card-text pull-left"
+                    >
+                      GBG Group Plc - Check Result 
+                    </span>
+                    <div
+                      className="pull-right col-md-9"
+                    >
+                      <span
+                        className="statusText"
+                      >
+                         
+                        Not Matched
+                         
+                      </span>
+                      <span>
+                        <a
+                          className="report"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          REPORT
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <h4
+                  className="card-title form-group"
+                >
+                  BANK ACCOUNT DETAILS
+                </h4>
+                <li>
+                  <div
+                    className="form-group"
+                  >
+                    <span
+                      className="card-text pull-left"
+                    >
+                      Bank Country 
+                    </span>
+                    <div
+                      className="pull-right col-md-9"
+                    >
+                      <span
+                        className="card-text"
+                      >
+                         
+                        GB
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="form-group"
+                  >
+                    <span
+                      className="card-text pull-left"
+                    >
+                      Bank or Building Society Name 
+                    </span>
+                    <div
+                      className="pull-right col-md-9"
+                    >
+                      <span
+                        className="card-text"
+                      >
+                         
+                        building
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="form-group"
+                  >
+                    <span
+                      className="card-text pull-left"
+                    >
+                      Sort Code 
+                    </span>
+                    <div
+                      className="pull-right col-md-9"
+                    >
+                      <span
+                        className="card-text"
+                      >
+                         
+                        12-34-56
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="form-group"
+                  >
+                    <span
+                      className="card-text pull-left"
+                    >
+                      Account Number 
+                    </span>
+                    <div
+                      className="pull-right col-md-9"
+                    >
+                      <span
+                        className="card-text"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="form-group"
+                  >
+                    <span
+                      className="card-text pull-left"
+                    >
+                      Account Name 
+                    </span>
+                    <div
+                      className="pull-right col-md-9"
+                    >
+                      <span
+                        className="card-text"
+                      >
+                         
+                        U2FsdGVkX1/VYwbnoBXt4x9s/g7WCzVIPhRwKk0s4T8=
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="form-group"
+                  >
+                    <span
+                      className="card-text pull-left"
+                    >
+                      Address 
+                    </span>
+                    <div
+                      className="pull-right col-md-9"
+                    >
+                      <span
+                        className="card-text"
+                      >
+                         
+                        address
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            className="row form-group card-row"
+          >
+            <div
+              className="col-md-3"
+            >
+              <h4
+                className="card-title form-group"
+              >
+                COMPLIANCE OFFICER
+              </h4>
+              <div
+                className="margin form-checkbox"
+              >
+                <input
+                  id="ch3"
+                  name="ch3"
+                  onChange={null}
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="ch3"
+                >
+                  Progress
+                </label>
+              </div>
+              <div
+                className="margin form-checkbox"
+              >
+                <input
+                  id="ch4"
+                  name="ch4"
+                  onChange={null}
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="ch4"
+                >
+                  Not Progress
+                </label>
+              </div>
+            </div>
+            <div
+              className="col-md-9"
+            >
+              <h4
+                className="card-title form-group"
+              >
+                NOTES
+              </h4>
+              <textarea
+                className="fullBox"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<WorkPassCheckDetailsView /> Rendering : CIFAS renders correctly 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="row "
+  >
+    <div
+      className="col-md-12 col-sm-12 card-row"
+    >
+      <div
+        className="card mb-3"
+      >
+        <div
+          className="card-header"
+        >
+          <div
+            className="col-md-6 checkTitle"
+          >
+            CIFAS
+          </div>
+          <div
+            className="col-md-6 noPadding"
+          >
+            <a
+              className="Button Button--green border-btn checkButton"
+              href="/"
+              onClick={[Function]}
+            >
+              CLEAR
+            </a>
+          </div>
+        </div>
+        <div
+          className="card-body"
+        >
+          <h4
+            className="card-title"
+          >
+            DETAILS
+          </h4>
+          <div
+            className="row "
+          >
+            <div
+              className="col-md-12 noPadding"
+            >
+              <div
+                className="col-md-8 col-sm-12"
+              >
+                <p
+                  className="card-text"
+                >
+                  GBG Group Plc - Check Result : 
+                  <span
+                    className="statusText-green"
+                  >
+                    No Match
+                  </span>
+                </p>
+              </div>
+              <div
+                className="col-md-4 col-sm-12"
+              >
+                <a
+                  className="reportLink"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  ATTACH REPORT
+                </a>
+              </div>
+            </div>
+          </div>
+          <p
+            className="card-text"
+          >
+            COMPLIANCE OFFICER
+          </p>
+          <ul>
+            <li>
+              <div
+                className="form-group text-center"
+              >
+                <div
+                  className="form-checkbox pull-left"
+                >
+                  <input
+                    id="cifas_waiver"
+                    name="cifas_waiver"
+                    type="checkbox"
+                  />
+                  <label
+                    htmlFor="cifas_waiver"
+                  >
+                    Waiver
+                  </label>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                className="form-group text-center"
+              >
+                <div
+                  className="form-checkbox pull-left"
+                >
+                  <input
+                    id="cifas_noProgress"
+                    name="cifas_noProgress"
+                    type="checkbox"
+                  />
+                  <label
+                    htmlFor="cifas_noProgress"
+                  >
+                    Not Progress
+                  </label>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<WorkPassCheckDetailsView /> Rendering : Drivers License renders correctly 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="row "
+  >
+    <div
+      className="col-md-12 col-sm-12 card-row"
+    >
+      <div
+        className="card mb-3"
+      >
+        <div
+          className="card-header"
+        >
+          <div
+            className="col-md-6"
+          >
+            Drivers License Check
+          </div>
+          <div
+            className="col-md-6 noPadding"
+          >
+            <a
+              className="Button Button--green border-btn checkButton"
+              href="/"
+              onClick={[Function]}
+            >
+              Clear
+            </a>
+          </div>
+        </div>
+        <div
+          className="card-body"
+        >
+          <div
+            className="row mb-3"
+          >
+            <div
+              className="col-md-12"
+            >
+              <h4>
+                DETAILS
+              </h4>
+            </div>
+          </div>
+          <div
+            className="row mb-3"
+          >
+            <div
+              className="col-md-4"
+            >
+              <p>
+                GBG Group Plc - Check result :
+                <span
+                  className="statusText-green"
+                >
+                  No Match
+                </span>
+              </p>
+            </div>
+            <div
+              className="col-md-8"
+            >
+              <a
+                className="report"
+                href="/"
+                onClick={[Function]}
+              >
+                <u>
+                  DRIVERS LICENCE
+                </u>
+              </a>
+            </div>
+          </div>
+          <div
+            className="row mb-3"
+          >
+            <div
+              className="col-md-12"
+            >
+              <h4>
+                DETAILS
+              </h4>
+            </div>
+          </div>
+          <div>
+            <div
+              className="row mb-3"
+            >
+              <div
+                className="col-md-3 mb-3"
+              >
+                <ul>
+                  <li>
+                    Licence Number
+                  </li>
+                  <li>
+                    Type
+                  </li>
+                  <li>
+                    Date of Birth
+                  </li>
+                  <li>
+                    Issuing Country
+                  </li>
+                  <li>
+                    Issue Date
+                  </li>
+                  <li>
+                    Check Code
+                  </li>
+                </ul>
+              </div>
+              <div
+                className="col-md-9 mb-3"
+              >
+                <ul>
+                  <li>
+                    MCKAY705244GS9RE
+                  </li>
+                  <li>
+                    photo
+                  </li>
+                  <li>
+                    2020-06-01
+                  </li>
+                  <li>
+                    GB
+                  </li>
+                  <li>
+                    2020-06-02
+                  </li>
+                  <li>
+                    123
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              className="row mb-3 pt-3"
+            >
+              <div
+                className="col-md-12"
+              >
+                <h4>
+                  ENDORSEMENTS
+                </h4>
+              </div>
+            </div>
+            <div
+              className="row mb-3"
+            >
+              <div
+                className="col-md-3 mb-3"
+              >
+                <ul>
+                  <li>
+                    Endorsement Type
+                  </li>
+                  <li>
+                    Offence Code
+                  </li>
+                  <li>
+                    Offence
+                  </li>
+                  <li>
+                    Date of Offence
+                  </li>
+                  <li>
+                    Expiry Date
+                  </li>
+                </ul>
+              </div>
+              <div
+                className="col-md-9 mb-3"
+              >
+                <ul>
+                  <li>
+                    Accident Offences
+                  </li>
+                  <li>
+                    AC30
+                  </li>
+                  <li>
+                    Undefined accident offences
+                  </li>
+                  <li>
+                    2020-06-17
+                  </li>
+                  <li>
+                    2020-06-27
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div
+            className="row mb-3 pt-3"
+          >
+            <div
+              className="col-md-3"
+            >
+              <p>
+                COMPLIANCE OFFICER
+              </p>
+              <div
+                className="mb-3"
+              >
+                <input
+                  id="ch3"
+                  name="ch3"
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="ch3"
+                >
+                  Progress
+                </label>
+              </div>
+              <div
+                className="mb-3"
+              >
+                <input
+                  id="ch4"
+                  name="ch4"
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="ch4"
+                >
+                  Not Progress
+                </label>
+              </div>
+            </div>
+            <div
+              className="col-md-9"
+            >
+              <p>
+                NOTES
+              </p>
+              <textarea
+                className="fullBox"
+              />
+            </div>
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-12 "
+            >
+              <a
+                className="Button Button--blue align-center"
+                href="/"
+                onClick={[Function]}
+              >
+                Submit
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<WorkPassCheckDetailsView /> Rendering : Education Verification renders correctly 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="row "
+  >
+    <div
+      className="col-md-12 col-sm-12 card-row"
+    >
+      <div
+        className="card mb-3"
+      >
+        <div
+          className="card-header-gray"
+        >
+          <div
+            className="col-md-6"
+          >
+            Education Verification
+          </div>
+          <div
+            className="col-md-6 noPadding"
+          >
+            <a
+              className="Button Button--blue border-btn checkButton"
+              href="/"
+              onClick={[Function]}
+            >
+              Complete
+            </a>
+          </div>
+        </div>
+        <div
+          className="card-body"
+        >
+          <div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<WorkPassCheckDetailsView /> Rendering : Employment Reference renders correctly 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="row "
+  >
+    <div
+      className="col-md-12 col-sm-12 card-row"
+    >
+      <div
+        className="card mb-3"
+      >
+        <div
+          className="card-header-gray"
+        >
+          <div
+            className="col-md-6"
+          >
+            Employment References
+          </div>
+          <div
+            className="col-md-6 noPadding"
+          >
+            <a
+              className="Button Button--blue border-btn checkButton"
+              href="/"
+              onClick={[Function]}
+            >
+              Complete
+            </a>
+          </div>
+        </div>
+        <div
+          className="card-body"
+        >
+          <div>
+            <div
+              className="row mt-3"
+            >
+              <div
+                className="col-md-4"
+              >
+                <p>
+                  REFERENCE 
+                  1
+                </p>
+              </div>
+              <div
+                className="col-md-8"
+              >
+                <strong>
+                   REFEREE RESPONSE:
+                </strong>
+                <span
+                  className="ref-status-red"
+                >
+                   
+                  REFREE_EMAILED
+                </span>
+              </div>
+              <div
+                className="col-md-12 mb-3"
+              >
+                <table
+                  className="table-data"
+                >
+                  <tbody>
+                    <tr>
+                      <td>
+                        Type
+                      </td>
+                      <td>
+                        <strong>
+                          EMPLOYMENT
+                        </strong>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Reference From
+                      </td>
+                      <td>
+                        2018-01-01
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Reference To
+                      </td>
+                      <td>
+                        2020-06-26
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Referee Name
+                      </td>
+                      <td>
+                        John
+                         
+                        Smith
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Referee Email
+                      </td>
+                      <td>
+                        malay.dwivedi@niit-tech.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Organisation Name
+                      </td>
+                      <td>
+                        Bank of London
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Contact Phone No.
+                      </td>
+                      <td>
+                        9318339494
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Position Held By Applicant
+                      </td>
+                      <td>
+                        Applicant QA
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Position Held By Referee
+                      </td>
+                      <td>
+                        Referee QA
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <hr />
+            </div>
+          </div>
+          <div>
+            <div
+              className="row"
+            >
+              <div
+                className="col-md-4"
+              >
+                <p>
+                  REFERENCE 
+                  2
+                </p>
+              </div>
+              <div
+                className="col-md-8"
+              >
+                <strong>
+                   REFEREE RESPONSE:
+                </strong>
+                <span
+                  className="ref-status-red"
+                >
+                   
+                  REFREE_EMAILED
+                </span>
+              </div>
+              <div
+                className="col-md-12 mb-3"
+              >
+                <table
+                  className="table-data"
+                >
+                  <tbody>
+                    <tr>
+                      <td>
+                        Type
+                      </td>
+                      <td>
+                        <strong>
+                          EDUCATION
+                        </strong>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Reference From
+                      </td>
+                      <td>
+                        01-06-2020
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Reference To
+                      </td>
+                      <td>
+                        30-06-2020
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Referee Name
+                      </td>
+                      <td>
+                        Edu John
+                         
+                        Smith
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Referee Email
+                      </td>
+                      <td>
+                        malay.dwivedi@niit-tech.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Organisation Name
+                      </td>
+                      <td>
+                        NTL
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Contact Phone No.
+                      </td>
+                      <td>
+                        9318339494
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <hr />
+            </div>
+          </div>
+          <div>
+            <div
+              className="row"
+            >
+              <div
+                className="col-md-4"
+              >
+                <p>
+                  REFERENCE 
+                  3
+                </p>
+              </div>
+              <div
+                className="col-md-8"
+              >
+                <strong>
+                   REFEREE RESPONSE:
+                </strong>
+                <span
+                  className="ref-status-red"
+                >
+                   
+                  DISAGREE
+                </span>
+              </div>
+              <div
+                className="col-md-12 mb-3"
+              >
+                <table
+                  className="table-data"
+                >
+                  <tbody>
+                    <tr>
+                      <td>
+                        Type
+                      </td>
+                      <td>
+                        <strong>
+                          AGENCY
+                        </strong>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Reference From
+                      </td>
+                      <td>
+                        30-11-2018
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Reference To
+                      </td>
+                      <td>
+                        30-06-2020
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Referee Name
+                      </td>
+                      <td>
+                        EmpA John
+                         
+                        Smith
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Referee Email
+                      </td>
+                      <td>
+                        malay.dwivedi@niit-tech.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Organisation Name
+                      </td>
+                      <td>
+                        NIIT
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Contact Phone No.
+                      </td>
+                      <td>
+                        9318339494
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Position Held By Applicant
+                      </td>
+                      <td>
+                        AQA
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Position Held By Referee
+                      </td>
+                      <td>
+                        RQA
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <hr />
+            </div>
+          </div>
+          <div>
+            <div
+              className="row"
+            >
+              <div
+                className="col-md-4"
+              >
+                <p>
+                  REFERENCE 
+                  4
+                </p>
+              </div>
+              <div
+                className="col-md-8"
+              >
+                <strong>
+                   REFEREE RESPONSE:
+                </strong>
+                <span
+                  className="ref-status-red"
+                >
+                   
+                  DISAGREE
+                </span>
+              </div>
+              <div
+                className="col-md-12 mb-3"
+              >
+                <table
+                  className="table-data"
+                >
+                  <tbody>
+                    <tr>
+                      <td>
+                        Type
+                      </td>
+                      <td>
+                        <strong>
+                          UNEMPLOYMENT
+                        </strong>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Reference From
+                      </td>
+                      <td>
+                        01-06-2020
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Reference To
+                      </td>
+                      <td>
+                        14-06-2020
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Referee Email
+                      </td>
+                      <td>
+                        malay.dwivedi@niit-tech.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Job Centre Letter
+                      </td>
+                      <td>
+                        <a
+                          className="reportLink-left"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          LETTER
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <hr />
+            </div>
+          </div>
+          <div>
+            <div
+              className="row"
+            >
+              <div
+                className="col-md-4"
+              >
+                <p>
+                  REFERENCE 
+                  5
+                </p>
+              </div>
+              <div
+                className="col-md-8"
+              >
+                <strong>
+                   REFEREE RESPONSE:
+                </strong>
+                <span
+                  className="ref-status-green"
+                >
+                   
+                  AGREE
+                </span>
+              </div>
+              <div
+                className="col-md-12 mb-3"
+              >
+                <table
+                  className="table-data"
+                >
+                  <tbody>
+                    <tr>
+                      <td>
+                        Type
+                      </td>
+                      <td>
+                        <strong>
+                          PERSONAL REFERENCE
+                        </strong>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Reference From
+                      </td>
+                      <td>
+                        01-02-2020
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Reference To
+                      </td>
+                      <td>
+                        29-02-2020
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Referee Name
+                      </td>
+                      <td>
+                        Personal
+                         
+                        Smith
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Referee Email
+                      </td>
+                      <td>
+                        malay.dwivedi@niit-tech.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Referee Current Address
+                      </td>
+                      <td>
+                        <div>
+                          123 Lake Dr, 
+                          
+                          London, 
+                          Oxford, 
+                          GB, 
+                          W3D 1X4
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Contact Phone No.
+                      </td>
+                      <td>
+                        9318339494
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<WorkPassCheckDetailsView /> Rendering : Employment Verification renders correctly 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="row "
+  >
+    <div
+      className="col-md-12 col-sm-12 card-row"
+    >
+      <div
+        className="card mb-3"
+      >
+        <div
+          className="card-header-gray"
+        >
+          <div
+            className="col-md-6"
+          >
+            Employment Verification
+          </div>
+          <div
+            className="col-md-6 noPadding"
+          >
+            <a
+              className="Button Button--blue border-btn checkButton"
+              href="/"
+              onClick={[Function]}
+            >
+              Complete
+            </a>
+          </div>
+        </div>
+        <div
+          className="card-body"
+        >
+          <div
+            className="mb-3 mt-3"
+          >
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<WorkPassCheckDetailsView /> Rendering : GDPR renders correctly 1`] = `
+<div
+  className="container-fluid"
+>
+  <form>
+    <div
+      className="row "
+    >
+      <div
+        className="col-md-12 col-sm-12 card-row"
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-header-gray"
+          >
+            <div
+              className="col-md-6"
+            >
+              Impellam GDPR Declaration
+            </div>
+            <div
+              className="col-md-6 noPadding"
+            >
+              <a
+                className="Button Button--blue border-btn checkButton"
+                href="/"
+                onClick={[Function]}
+              >
+                Complete
+              </a>
+            </div>
+          </div>
+          <div
+            className="card-body"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-md-6"
+              >
+                <ul>
+                  <li>
+                    Name
+                  </li>
+                  <li>
+                    Date
+                  </li>
+                </ul>
+              </div>
+              <div
+                className="col-md-6"
+              >
+                <ul>
+                  <li>
+                    Candidate
+                  </li>
+                  <li>
+                    08 July 2020
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <hr />
+            <div
+              className="row"
+            >
+              <div
+                className="col-md-6"
+              >
+                <h4
+                  className="mb-3"
+                >
+                  Sensitive Personal Data Collection Consent
+                </h4>
+                <div
+                  className="mb-3"
+                >
+                  <p
+                    className="card-text"
+                  >
+                    Medical history as requested :
+                    <span
+                      className="statusText"
+                    >
+                       
+                      FALSE
+                    </span>
+                  </p>
+                </div>
+                <div
+                  className="mb-3"
+                >
+                  <p
+                    className="card-text"
+                  >
+                    Any other relevant health-related data :
+                    <span
+                      className="statusText"
+                    >
+                       
+                      TRUE
+                    </span>
+                  </p>
+                </div>
+                <div
+                  className="mb-3"
+                >
+                  <p
+                    className="card-text"
+                  >
+                    Data relating to equal opportunities :
+                    <span
+                      className="statusText"
+                    >
+                       
+                      TRUE
+                    </span>
+                  </p>
+                </div>
+                <div
+                  className="mb-3"
+                >
+                  <p
+                    className="card-text"
+                  >
+                    Data relating to DBS check results or criminal convictions :
+                    <span
+                      className="statusText"
+                    >
+                       
+                      FALSE
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div
+                className="col-md-6"
+              >
+                <h4
+                  className="mb-3"
+                >
+                  Future Contact Consent
+                </h4>
+                <div
+                  className="mb-3"
+                >
+                  <p
+                    className="card-text"
+                  >
+                    Phone :
+                    <span
+                      className="statusText"
+                    >
+                       
+                      TRUE
+                    </span>
+                  </p>
+                </div>
+                <div
+                  className="mb-3"
+                >
+                  <p
+                    className="card-text"
+                  >
+                    By SMS :
+                    <span
+                      className="statusText"
+                    >
+                       
+                      TRUE
+                    </span>
+                  </p>
+                </div>
+                <div
+                  className="mb-3"
+                >
+                  <p
+                    className="card-text"
+                  >
+                    By Email :
+                    <span
+                      className="statusText"
+                    >
+                       
+                      FALSE
+                    </span>
+                  </p>
+                </div>
+                <div
+                  className="mb-3"
+                >
+                  <p
+                    className="card-text"
+                  >
+                    By Post :
+                    <span
+                      className="statusText"
+                    >
+                       
+                      FALSE
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<WorkPassCheckDetailsView /> Rendering : National Insurance renders correctly 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="row "
+  >
+    <div
+      className="col-md-12 col-sm-12 card-row"
+    >
+      <div
+        className="card mb-3"
+      >
+        <div
+          className="card-header-gray"
+        >
+          <div
+            className="col-md-6"
+          >
+            Proof of National Insurance
+          </div>
+          <div
+            className="col-md-6 noPadding"
+          >
+            <a
+              className="Button Button--blue border-btn checkButton"
+              href="/"
+              onClick={[Function]}
+            >
+              Complete
+            </a>
+          </div>
+        </div>
+        <div
+          className="card-body"
+        >
+          <div
+            className="row mb-3"
+          >
+            <div
+              className="col-md-12"
+            >
+              <h4>
+                DETAILS
+              </h4>
+            </div>
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-4"
+            >
+              Proof Type
+            </div>
+            <div
+              className="col-md-8"
+            >
+              <span>
+                Hmrc
+              </span>
+            </div>
+          </div>
+          <div
+            className="row mb-3"
+          >
+            <div
+              className="col-md-4"
+            >
+              National Insurance Number
+            </div>
+            <div
+              className="col-md-8"
+            >
+              <span>
+                1123
+              </span>
+            </div>
+          </div>
+          <div
+            className="row mb-3"
+          >
+            <div
+              className="col-md-4"
+            >
+              <img
+                alt="Nationa Insurance Proof"
+                className="nationaInsuranceImg img-fluid"
+                src="http://example.com/img.jpg"
+              />
+            </div>
+            <div
+              className="col-md-8"
+            />
+          </div>
+          <div
+            className="row mb-3 pt-3"
+          >
+            <div
+              className="col-md-3"
+            >
+              <p>
+                COMPLIANCE OFFICER
+              </p>
+              <div
+                className="mb-3"
+              >
+                <input
+                  id="ch3"
+                  name="ch3"
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="ch3"
+                >
+                  Progress
+                </label>
+              </div>
+              <div
+                className="mb-3"
+              >
+                <input
+                  id="ch4"
+                  name="ch4"
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="ch4"
+                >
+                  Not Progress
+                </label>
+              </div>
+            </div>
+            <div
+              className="col-md-9"
+            >
+              <p>
+                NOTES
+              </p>
+              <textarea
+                className="fullBox"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<WorkPassCheckDetailsView /> Rendering : Sanctions & PEPs renders correctly 1`] = `
+<div
+  className="Candidates__loader"
+>
+  <svg
+    className=""
+    height="65px"
+    version="1.1"
+    viewBox="0 0 50 50"
+    width="65px"
+    x="0px"
+    xmlSpace="preserve"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    y="0px"
+  >
+    <path
+      d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z"
+      fill="#72d371"
+    >
+      <animateTransform
+        attributeName="transform"
+        attributeType="xml"
+        dur="0.6s"
+        from="0 25 25"
+        repeatCount="indefinite"
+        to="360 25 25"
+        type="rotate"
+      />
+    </path>
+  </svg>
+</div>
+`;
+
+exports[`<WorkPassCheckDetailsView /> Rendering : Work Gap renders correctly 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="row "
+  >
+    <div
+      className="col-md-12 col-sm-12 card-row"
+    >
+      <div
+        className="card mb-3"
+      >
+        <div
+          className="card-header-gray"
+        >
+          <div
+            className="col-md-6"
+          >
+            Work Gaps
+          </div>
+          <div
+            className="col-md-6 noPadding"
+          >
+            <a
+              className="Button Button--blue border-btn checkButton"
+              href="/"
+              onClick={[Function]}
+            >
+              Complete
+            </a>
+          </div>
+        </div>
+        <div
+          className="card-body"
+        >
+          <div
+            className="row mb-3"
+          >
+            <div
+              className="col-md-12"
+            >
+              <h4>
+                DETAILS
+              </h4>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-6"
+                >
+                  <p>
+                    June
+                     
+                    2020
+                     - 
+                    June
+                     
+                    2020
+                  </p>
+                </div>
+                <div
+                  className="col-md-6 "
+                >
+                  <a
+                    className="report"
+                    href="/"
+                    onClick={[Function]}
+                  >
+                    EVIDENCE
+                  </a>
+                </div>
+              </div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-3"
+                >
+                  REASON
+                </div>
+                <div
+                  className="col-md-9"
+                >
+                  <strong>
+                     
+                    Leave of Absence
+                     
+                  </strong>
+                </div>
+              </div>
+              <div
+                className="row mb-3"
+              >
+                <div
+                  className="col-md-3 mb-3"
+                >
+                  DETAIL
+                </div>
+                <div
+                  className="col-md-9 mb-3"
+                >
+                  absence
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="row mb-3 pt-3"
+          >
+            <div
+              className="col-md-3"
+            >
+              <p>
+                COMPLIANCE OFFICER
+              </p>
+              <div
+                className="mb-3"
+              >
+                <input
+                  id="ch3"
+                  name="ch3"
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="ch3"
+                >
+                  Waiver
+                </label>
+              </div>
+              <div
+                className="mb-3"
+              >
+                <input
+                  id="ch4"
+                  name="ch4"
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="ch4"
+                >
+                  Not Progress
+                </label>
+              </div>
+            </div>
+            <div
+              className="col-md-9"
+            >
+              <p>
+                NOTES
+              </p>
+              <textarea
+                className="fullBox"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

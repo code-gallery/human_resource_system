@@ -1,0 +1,275 @@
+.card-row{
+    background-color: white;
+    padding-top: 10px;
+}
+
+.card-header {
+    padding: 0.75rem 0.5rem;
+    margin-bottom: 0;
+    background-color: #ddfbdd;
+    font-family: "Graphik-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #212224;
+    /* background-color: rgba(2, 43, 9, 0.03); */
+   /* border-bottom: 1px solid rgba(0, 0, 0, 0.125); */
+}
+.card-header-red {
+    padding: 0.75rem 0.5rem;
+    margin-bottom: 0;
+    background-color:rgb(245, 233, 222);
+    font-family: "Graphik-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #212224;
+    border-radius: 5px;
+    /* background-color: rgba(2, 43, 9, 0.03); */
+   /* border-bottom: 1px solid rgba(0, 0, 0, 0.125); */
+}
+.card-header-gray {
+    padding: 0.75rem 0.5rem;
+    margin-bottom: 0;
+    background-color: rgb(245, 243, 243);
+    font-family: "Graphik-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #212224;
+    border-radius: 5px;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    /*border: 1px solid rgba(0, 0, 0, 0.125); */
+    border-radius: 0.25rem;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-title {
+    margin-bottom: 0.75rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+.mb-3{
+    margin-bottom: 1rem !important;
+}
+
+.checkTitle{
+    float: left;
+    clear: both;
+}
+
+.reportLink{
+    float: right;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.reportLink-left{
+    float: left;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.noPadding{
+    padding: 0px;
+}
+
+/* .NewRequestButton{
+    display: inline-flex;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    float: right;
+  } */
+
+  .statusText{
+    color: red;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+
+  .statusText-green{
+    color: green;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+
+  .report{
+      float: right;
+      padding-right: 20px;
+      text-decoration: underline;
+      font-weight: bold;
+  }
+
+  .fullBox{
+    font-size: 17px;
+    width: 100%;
+    padding: 5px 10px;
+    color: #44474c;
+    border: solid 1px #e7e5ee;
+    border-radius: 3px;
+  }
+  .margin{
+    margin: 5px;
+  }
+
+  .submitBtn{
+      float: right;
+      margin: 20px;
+  }
+
+  .align-center{
+      margin: auto;
+      width: 100px;
+  }
+
+.checkButton{
+    float: right;
+    width: auto;
+    border-radius: 6%;
+    padding: 10px 17px;
+}
+.checkButton.incomplete {
+    background-color: #ffc000;
+    color:black;
+}
+.checkTitle{
+    float: left;
+    clear: both;
+}
+
+.reportLink{
+    float: right;
+}
+.noPadding{
+    padding: 0px;
+}
+.margin{
+    margin-bottom: 10px;
+ }
+ 
+ .align{
+ width: 90%;
+ }
+ 
+ .bottomborder{
+     border-width:1px;
+     color:rgb(223, 221, 221);
+     background-color:rgb(223, 221, 221);
+ }
+
+ .mt-3{
+    margin-top: 1rem;
+}
+
+.mb-3{
+    margin-bottom: 1rem;
+}
+
+.modal{
+    max-height: 600px;
+    /*width: auto;*/
+}
+
+.modal-div{
+    padding: 30px;
+    align-content: center;
+}
+
+.modal-div p{
+    padding: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.modal-img{
+    max-width: 100%;
+    height: 500px;
+    margin: auto;
+    border: 1px solid black;
+}
+.modal-button{
+    padding: 10px 20px;
+    margin-left: 43%;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.nationaInsuranceImg {
+    max-height: 250px;
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.table-data{
+    /* width: 47% */
+    width: 69%;
+    margin-bottom: 2rem;
+}
+
+.table-data tr{
+    width: 100%
+}
+
+.table-data td{
+    width: 50%;
+    vertical-align: top;
+}
+
+hr{
+    color: darkgray;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.ref-status-red{
+    color: red;
+    font-weight: bold;
+  }
+
+.ref-status-green{
+    color: rgb(39, 155, 39);
+    font-weight: bold;
+  }
+
+.helper{
+    padding: 4px;
+    color: #969696;
+    font-size: 13px;
+}
+
+.bolder-label{
+    font-weight: 600;
+    margin-top:3px;
+}
+.buttonHeader{
+    margin-bottom: 20px;
+    margin-top: -115px;
+}
+
+.first-caps::first-letter{
+     text-transform: uppercase;
+}
+
+

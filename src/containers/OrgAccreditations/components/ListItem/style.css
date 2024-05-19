@@ -1,0 +1,13 @@
+.ListItem .btn {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.ListItem .table-btn-holder {
+  margin-bottom: 12px;
+}
+
+.ListItem .table-btn-holder:last-child {
+  margin: 0;
+}

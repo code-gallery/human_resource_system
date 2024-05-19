@@ -1,0 +1,102 @@
+/**
+ @NOTE: To make the component take the full width of its container:
+ –  Make .Breadcrumb a block element
+ –  Use flexbox instead of floats for breadcrumb items to make them align and equal width
+ */
+
+.Breadcrumb {
+  box-sizing: border-box;
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+
+  font-family: 'Graphik-Regular', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  line-height: 53px;
+
+  border: 1px solid #e8e5ee;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.Breadcrumb__list {
+  display: block;
+  float: left;
+}
+
+/* First crumb item */
+.Breadcrumb__list:first-child > .Breadcrumb__item {
+  padding-left: 1rem;
+}
+
+/* Last crumb item */
+.Breadcrumb__list:last-child > .Breadcrumb__item {
+  padding-right: 1rem;
+}
+
+.Breadcrumb__item {
+  position: relative;
+  display: block;
+  padding-left: 45px;
+  text-decoration: none;
+  color: #212224;
+  background: #fff;
+  /* Hard set line-height to nice even number to stop rendering bug */
+  line-height: 54px;
+}
+
+.Breadcrumb__item:hover, .Breadcrumb__item:focus {
+  outline: none;
+  color: #fff;
+  background-color: #498df0;
+}
+
+.Breadcrumb__item:hover::after, .Breadcrumb__item:focus::after {
+  border-left-color: #498df0;
+}
+
+/* @HACK: Triangle CSS */
+.Breadcrumb__item::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  z-index: 2;
+  display: block;
+  width: 0;
+  height: 0;
+  margin-top: -50px;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 30px solid #fff;
+}
+
+/* @HACK: Border triangle */
+.Breadcrumb__item::before {
+  content: " ";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 100%;
+  display: block;
+  width: 0;
+  height: 0;
+  margin-top: -50px;
+  margin-left: 1px;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 30px solid #e8e5ee;
+}
+
+.Breadcrumb__item.is-active {
+  color: #fff;
+  background-color: #498df0;
+}
+
+.Breadcrumb__item.is-active::after {
+  border-left-color: #498df0;
+}

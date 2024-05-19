@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckCard /> Rendering renders 1`] = `
+<article
+  className="CheckCard "
+>
+  <div
+    className="CheckCard__basics"
+  >
+    <div>
+      <h1
+        className="CheckCard__header"
+      >
+        DBS
+      </h1>
+      <p
+        className="CheckCard__sub-heading"
+      >
+        Verified by 
+        Apii
+      </p>
+    </div>
+    <div
+      className="CheckCard__right-area"
+    >
+      <span
+        className="CheckCard__price"
+      >
+        £25.00
+      </span>
+      <div
+        className="CheckCard__btn"
+      >
+        <button
+          className="OutlineButton is-blue "
+          onClick={[Function]}
+          type="button"
+        >
+          ADD
+        </button>
+      </div>
+    </div>
+  </div>
+</article>
+`;
+
+exports[`<CheckCard /> When options are used renders 1`] = `
+<article
+  className="CheckCard "
+>
+  <div
+    className="CheckCard__basics"
+  >
+    <div>
+      <h1
+        className="CheckCard__header"
+      >
+        DBS
+      </h1>
+      <p
+        className="CheckCard__sub-heading"
+      >
+        Verified by 
+        Apii
+      </p>
+    </div>
+    <div
+      className="CheckCard__right-area"
+    >
+      <span
+        className="CheckCard__price"
+      >
+        £25.00
+      </span>
+      <div
+        className="CheckCard__btn"
+      >
+        <button
+          className="OutlineButton is-blue "
+          onClick={[Function]}
+          type="button"
+        >
+          ADD
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="CheckCard__options"
+  >
+    <div
+      className="CheckboxOption CheckCard__opt is-last"
+    >
+      <div
+        className="Checkbox CheckboxOption__input"
+      >
+        <label
+          className="Checkbox__label is-checked"
+        >
+          <input
+            checked={true}
+            className="Checkbox__input"
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+      <p
+        className="CheckboxOption__text"
+      >
+        Test
+      </p>
+    </div>
+  </div>
+</article>
+`;
+
+exports[`<CheckCard /> When selects are used renders 1`] = `
+<article
+  className="CheckCard "
+>
+  <div
+    className="CheckCard__basics"
+  >
+    <div>
+      <h1
+        className="CheckCard__header"
+      >
+        DBS
+      </h1>
+      <p
+        className="CheckCard__sub-heading"
+      >
+        Verified by 
+        Apii
+      </p>
+    </div>
+    <div
+      className="CheckCard__right-area"
+    >
+      <span
+        className="CheckCard__price"
+      >
+        £25.00
+      </span>
+      <div
+        className="CheckCard__btn"
+      >
+        <button
+          className="OutlineButton is-blue "
+          onClick={[Function]}
+          type="button"
+        >
+          ADD
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="CheckCard__selects"
+  >
+    <label
+      className="LabeledSelectInput CheckCard__select"
+    >
+      <span
+        className="LabeledSelectInput__txt"
+      >
+        Test
+      </span>
+      <svg
+        className="LabeledSelectInput__icon"
+        viewBox="0 0 8 8"
+      >
+        <path
+          d="M0 2l4 4 4-4h-8z"
+          fill="44484c"
+        />
+      </svg>
+      <select
+        className="LabeledSelectInput__select"
+        onChange={[Function]}
+        value="val"
+      >
+        <option
+          value="val"
+        >
+          Value
+        </option>
+      </select>
+    </label>
+  </div>
+</article>
+`;

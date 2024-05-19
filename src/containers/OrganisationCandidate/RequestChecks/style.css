@@ -1,0 +1,200 @@
+.tr-background{
+  background-color: #edf4fc;
+}
+
+.RequestChecks {
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 19px 28px 19px 28px;
+  background-color: #edf4fc;
+}
+.candidate_btn_sec{ position: relative; }
+.candidate_check_btn{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.complete_button{
+  width: 82px;
+  padding: 10px 0px;
+  font-size: 11px;
+  margin-top: 0px;
+}
+
+.RequestChecks__link {
+  position: absolute;
+  top: 19px;
+  right: 28px;
+  font-family: "Graphik-Medium", sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 40px;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 0.115em;
+  color: #498DF0;
+}
+
+.RequestChecks__header {
+  font-family: "Graphik-Medium", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 40px;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  color: #7F8DAA;
+}
+
+.RequestChecks__list {
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.RequestChecks__list--top {
+  margin-bottom: 1rem;
+}
+
+.RequestChecks__list-item {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.RequestChecks__check {
+  font-family: "Graphik-Medium", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #212224;
+}
+
+.enableButton{
+  pointer-events: visible;
+}
+
+.disableButton{
+  pointer-events: none;
+}
+
+/* .flex-container {
+  margin: 15px;
+} */
+
+.flex-item-1 {
+  width: 55%;
+}
+
+.flex-item-2, .flex-item-3, .flex-item-4{
+  width: 15%;
+  /* text-align: end; */
+  text-align: center;
+}
+
+
+.header-container{
+  border-bottom: 1px solid rgb(49, 45, 45);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.officer_response {
+  font-family: 'Graphik-Semibold', sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.0325em;
+  text-transform: uppercase;
+ 
+}
+.gbg_response_status {
+  font-family: 'Graphik-Semibold', sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.0325em;
+  text-transform: uppercase;
+  color: rgb(224, 24, 24);
+}
+
+.addEmpBtn {
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.0325em;
+  text-transform: uppercase;
+  color:#498df0;
+  cursor: pointer;
+}
+.officer_response_approved,.Verified,.Pass,.pass, .clear {
+  color: #72d371 !important;
+}
+
+.officer_response_nostatus {
+  color: #212224;
+}
+
+.officer_response_notapproved,.Rejected,.danger, .Fail {
+  color: rgb(224, 24, 24);
+}
+
+.officer_response_waiver, .Awaiting, .INDETERMINATE,.Check, .Indeterminate,.History, .Alert {
+  color: #ffcc00 !important;
+}
+
+.delete-btn-minw{ min-width: 80px;}
+.mx-0{ margin: 0 !important; }
+.m-0{ margin: 0 !important; }
+.p-0{ padding: 0 !important; }
+.tr-background td{ padding-bottom: 8px; padding-top: 8px;}
+.lh-20{ line-height: 20px !important; }
+.m-12{ margin: 12px; }
+.tr-background td:first-child{ padding-left: 16px !important; }
+.tr-background td:last-child{ padding-right: 16px !important; }
+.mr-0{ margin-right: 0 !important; }
+.ml-12{ margin-left: 12px !important; }
+.mt-8{ margin-top: 8px !important; }
+.pl-13{ padding-left: 13px; }
+
+.candidate_heading{ width: 94px; }
+.candidate_heading2{ width: 12%; }
+.candidate_heading3{ width: 12%; }
+.candidate_heading4{ width: 12%; }
+.candidate_heading5{ width: 9%; }
+.candidate_heading9{ width: 15%; }
+.candidate_heading10{ width: 10%; }
+.candidate_role_th{ width: 12%; }
+.officer_res_mx{ display: inline-block; margin-left: -25px; margin-right: -25px;}
+.candidate_view_data{ font-size: 12px !important; }
+.text-center2
+{
+    text-align: center !important;
+}
+.pr-0{ padding-right: 0 !important;}
+.candidate_heading_delete_7{ width:150px !important; }
+.pr-13 {
+  padding-right: 13px !important;
+}
+.request_candidate_status_r{ position: relative; }
+.request_candidate_status{ text-align: center; }
+.request_candidate_status .active-link { color: #ffcc00}
+.cadidate_role_btn{ position: relative; padding-right: 10px; width: 100%; text-overflow: ellipsis; overflow: hidden; }
+.cadidate_role_btn > span {position: absolute; right: 0; top: 0; }
+
+@media only screen and (min-width:768px) and (max-width:1250px){
+  .candidate_check_item{ width:53% !important; }
+  .delete-btn-minw {
+    min-width: 100px;
+  }
+}
+
+@media only screen and (min-width:1500px){
+  .candidate_check_item{ width:54% !important; }
+  .delete-btn-minw{ min-width: 16px;}
+  .candidate_check_btn{ right: 7px; }
+}

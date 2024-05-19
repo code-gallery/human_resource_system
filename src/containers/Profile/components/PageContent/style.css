@@ -1,0 +1,28 @@
+.PageContent .profile-experience-block .Avatar {
+  float: left;
+}
+
+@media (max-width: 768px) {
+  .PageContent .profile-experience-wrapper {
+    padding: 10px;
+  }
+
+  .PageContent .profile-experience-block .Avatar {
+    padding-bottom: 38px;
+  }
+
+  .PageContent .profile-experience-block .Avatar img {
+    width: 104px;
+    height: 104px;
+    margin-right: 10px;
+  }
+
+  .PageContent .visible-xs .profile-status-ico {
+    position: absolute;
+    top: 114px;
+    width: 30px;
+    height: 30px;
+    background-size: 22px 22px;
+    left: 44px;
+  }
+}

@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/OrgAdmins/components/AdminItem/AdminItem when props.data is valid renders correctly 1`] = `
+<table
+  className="VerificationList"
+>
+  <thead
+    className="hidden-sm hidden-xs"
+  >
+    <tr
+      className="row"
+    >
+      <th
+        className="col-xs-12 col-md-4 VerificationList-org"
+      >
+        User
+      </th>
+      <th
+        className="col-xs-12 col-md-4"
+      >
+        Primary Contact?
+      </th>
+      <th
+        className="col-xs-12 col-md-4"
+      >
+        Action
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="VerificationItem"
+    >
+      <td
+        className="col-xs-12 col-md-4"
+      >
+        <div
+          className="Avatar Avatar-blue Avatar-size-45 Avatar-withLabel"
+        >
+          <img
+            alt="undefined undefined"
+            src="appii-placeholder.png"
+          />
+          <span>
+            undefined undefined
+          </span>
+        </div>
+      </td>
+      <td
+        className="col-xs-12 col-md-4"
+      >
+        <p>
+          Yes
+        </p>
+      </td>
+      <td
+        className="col-xs-12 col-md-4"
+      >
+        <button
+          className="btn red-btn"
+          data-reject="true"
+          onClick={[Function]}
+        >
+          Remove
+        </button>
+      </td>
+    </tr>
+    <tr
+      className="VerificationItem"
+    >
+      <td
+        className="col-xs-12 col-md-4"
+      >
+        <div
+          className="Avatar Avatar-blue Avatar-size-45 Avatar-withLabel"
+        >
+          <img
+            alt="undefined undefined"
+            src="appii-placeholder.png"
+          />
+          <span>
+            undefined undefined
+          </span>
+        </div>
+      </td>
+      <td
+        className="col-xs-12 col-md-4"
+      >
+        <p>
+          Yes
+        </p>
+      </td>
+      <td
+        className="col-xs-12 col-md-4"
+      >
+        <button
+          className="btn red-btn"
+          data-reject="true"
+          onClick={[Function]}
+        >
+          Remove
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`containers/OrgAdmins/components/AdminItem/AdminItem when props.data=[] renders correctly 1`] = `
+<div>
+  There are no admins at the moment.
+</div>
+`;

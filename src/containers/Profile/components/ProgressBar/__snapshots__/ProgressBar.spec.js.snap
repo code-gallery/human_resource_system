@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile/components/ProgressBar when range is 11 renders correctly 1`] = `
+<div
+  className="ProgressBar"
+>
+  <div
+    className="progress"
+    style={
+      Object {
+        "width": "72.72727272727273%",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`containers/Profile/components/ProgressBar when range uses default prop renders correctly 1`] = `
+<div
+  className="ProgressBar"
+>
+  <div
+    className="progress"
+    style={
+      Object {
+        "width": "80%",
+      }
+    }
+  />
+</div>
+`;

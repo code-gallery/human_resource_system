@@ -1,0 +1,13 @@
+.WorkPassInviteDetails__wrap {
+  max-width: 775px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.WorkPassInviteDetails {
+  margin-bottom: 3.125rem;
+}
+
+.WorkPassInviteDetails-light * {
+  color: white;
+}

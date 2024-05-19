@@ -1,0 +1,37 @@
+.VerificationList {
+  width: 100%;
+}
+
+.VerificationList th {
+  font-size: 13px;
+  font-weight: normal;
+  padding: 0 0 15px 0;
+  text-align: left;
+  word-wrap: break-word;
+  color: #9498a1;
+}
+
+th.VerificationList-org {
+  padding-left: 60px;
+}
+
+.VerificationList th.text-center {
+  text-align: center;
+}
+
+.VerificationList tr:last-child {
+  border-bottom: none;
+}
+
+.VerificationList thead tr:first-child,
+.VerificationList tr {
+  border-bottom: solid 1px #e7e5ee;
+}
+
+.VerificationList td {
+  font-size: 14px;
+  padding: 15px 10px 15px 0;
+  vertical-align: middle;
+  word-wrap: break-word;
+  color: #44474c;
+}

@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WorkPassCheckDetailsHeader /> Rendering renders correctly 1`] = `
+<div
+  className=""
+>
+  <ul
+    className="Breadcrumb Candidate__breadcrumb"
+  >
+    <li
+      className="Breadcrumb__list"
+    >
+      <a
+        className="Breadcrumb__item"
+        href="/organisations/123/candidates"
+      >
+        All Candidates
+      </a>
+    </li>
+    <li
+      className="Breadcrumb__list"
+    >
+      <a
+        className="Breadcrumb__item"
+        href="/organisations/123/candidates/2"
+      >
+        Candidate
+      </a>
+    </li>
+    <li
+      className="Breadcrumb__list"
+    >
+      <a
+        className="Breadcrumb__item is-active"
+        href="#"
+      >
+        Request 44
+      </a>
+    </li>
+  </ul>
+  <header
+    className="CandidateHeader Candidate__header"
+  >
+    <section
+      className="CandidateInfo"
+    >
+      <img
+        alt="undefined undefined"
+        className="$Avatar CandidateInfo__avatar has-shadow"
+        src="https://collaborativecbt.com/wp-content/uploads/2016/12/default-avatar-768x768.png"
+      />
+      <div
+        className="CandidateInfo__info-wrap"
+      >
+        <h1
+          className="CandidateInfo__name"
+        >
+          undefined undefined
+        </h1>
+        <div>
+          <a
+            className="CandidateInfo__link"
+            href="/profile/undefined"
+          >
+            View Profile
+          </a>
+          <span
+            className="CandidateInfo__link-separator"
+          >
+            |
+          </span>
+          <a
+            className="CandidateInfo__link"
+            href="mailto:undefined"
+          />
+        </div>
+      </div>
+    </section>
+    <a
+      className="Button Button--blue CandidateNewRequestsHeader__btn"
+      href="/organisations/123/candidates/2"
+      onClick={[Function]}
+    >
+      Return to 
+      44
+    </a>
+  </header>
+</div>
+`;

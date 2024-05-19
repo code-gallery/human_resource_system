@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile/components/.../EmploymentGapItem when editMode is false renders correctly 1`] = `
+<div>
+  <div
+    className="profile-experience-block profile-pending-status"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="Avatar Avatar-white Avatar-size-109"
+      >
+        <img
+          alt="employment gap"
+          src="employment_gap.png"
+        />
+      </div>
+      <p
+        className="visible-xs visible-sm"
+      >
+        <i
+          className="profile-status-ico tooltip-position-top tooltip-movable tooltip-warning"
+          data-tooltip="Pending verification"
+        >
+           
+        </i>
+      </p>
+    </div>
+    <div
+      className="profile-experience-info"
+    >
+      <i
+        className="profile-status-ico tooltip-position-top tooltip-movable tooltip-warning hidden-xs hidden-sm"
+        data-tooltip="Pending verification"
+      >
+         
+      </i>
+      <p>
+        <a
+          href="/organisations/25814"
+          onClick={[Function]}
+          title="Employment Gap"
+        >
+          Employment Gap
+        </a>
+      </p>
+      <h3>
+        <span
+          style={
+            Object {
+              "color": "red",
+            }
+          }
+        >
+          Please provide a reason for this employment gap 
+        </span>
+      </h3>
+      <em>
+        Aug
+         
+        2017
+         - 
+        Present
+      </em>
+      <span>
+        Please note: This will not be visible to other users of APPII.
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`containers/Profile/components/.../EmploymentGapItem when editMode is true renders correctly 1`] = `
+<div>
+  <div
+    className="profile-experience-block profile-pending-status"
+  >
+    <div
+      className="profile-experience-btns"
+    >
+      <button
+        className="edit-btn"
+        onClick={[Function]}
+      >
+         
+      </button>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="Avatar Avatar-white Avatar-size-109"
+      >
+        <img
+          alt="employment gap"
+          src="employment_gap.png"
+        />
+      </div>
+      <p
+        className="visible-xs visible-sm"
+      >
+        <i
+          className="profile-status-ico tooltip-position-top tooltip-movable tooltip-warning"
+          data-tooltip="Pending verification"
+        >
+           
+        </i>
+      </p>
+    </div>
+    <div
+      className="profile-experience-info"
+    >
+      <i
+        className="profile-status-ico tooltip-position-top tooltip-movable tooltip-warning hidden-xs hidden-sm"
+        data-tooltip="Pending verification"
+      >
+         
+      </i>
+      <p>
+        <a
+          href="/organisations/25814"
+          onClick={[Function]}
+          title="Employment Gap"
+        >
+          Employment Gap
+        </a>
+      </p>
+      <h3>
+        <span
+          style={
+            Object {
+              "color": "red",
+            }
+          }
+        >
+          Please provide a reason for this employment gap 
+        </span>
+      </h3>
+      <em>
+        Aug
+         
+        2017
+         - 
+        Present
+      </em>
+      <span>
+        Please note: This will not be visible to other users of APPII.
+      </span>
+    </div>
+  </div>
+</div>
+`;

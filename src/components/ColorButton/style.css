@@ -1,0 +1,57 @@
+.ColorButton {
+  all: initial;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 12.5px;
+  font-size: 14px;
+  line-height: 13px;
+  font-family: 'Graphik-Medium', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 500;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 155ms ease-in;
+}
+
+/** Green */
+.ColorButton.is-green {
+  color: #fff;
+  background-color: #72d371;
+}
+
+.ColorButton.is-green:hover {
+
+  color: #72d371;
+  border-color: #759674; 
+  background-color:#fff
+}
+
+/** Blue */
+.ColorButton.is-blue {
+  color: #fff;
+  background-color: #498df0;
+}
+
+.ColorButton.is-blue:hover {
+
+  color: #498df0;
+  border-color: #498df0;
+  background-color:#fff
+}
+
+/** Red */
+.ColorButton.is-red {
+
+  color: #fff;
+  background-color: #FB7C7C;
+}
+
+.ColorButton.is-red:hover {
+  color: #FB7C7C;
+  border-color: #FB7C7C;
+  background-color:#fff
+}
